@@ -1,7 +1,10 @@
 "use client";
 
 import { useState } from "react";
-import { AnimatedHero, AnimatedCategoryCard, AnimatedToolCard, Footer } from "@/components";
+import { AnimatedHero } from "@/components/ui/AnimatedHero";
+import { AnimatedCategoryCard } from "@/components/ui/AnimatedCategoryCard";
+import { AnimatedToolCard } from "@/components/ui/AnimatedToolCard";
+import { Footer } from "@/components/Footer";
 import { Category, Tool } from "@/types";
 import toolsData from "@/data/tools.json";
 

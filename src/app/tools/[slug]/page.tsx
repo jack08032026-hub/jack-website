@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { MetadataJsonLd } from "./MetadataJsonLd";
+import MetadataJsonLd from "./MetadataJsonLd";
 import toolsData from "@/data/tools.json";
 import tutorialsData from "@/data/tutorials.json";
 import { Tool, Category } from "@/types";
