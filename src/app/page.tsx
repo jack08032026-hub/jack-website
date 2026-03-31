@@ -27,17 +27,17 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-zinc-50 to-zinc-100">
+    <div className="min-h-screen bg-gradient-to-b from-zinc-50 to-zinc-100 dark:from-zinc-950 dark:to-zinc-900">
       {/* Hero Section */}
       <section className="relative px-4 py-24 text-center">
         <div className="mx-auto max-w-3xl">
-          <h1 className="mb-4 text-4xl font-bold tracking-tight text-zinc-900 sm:text-5xl lg:text-6xl">
+          <h1 className="mb-4 text-4xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50 sm:text-5xl lg:text-6xl">
             Jack Website
           </h1>
-          <p className="mb-2 text-lg text-zinc-600">
+          <p className="mb-2 text-lg text-zinc-600 dark:text-zinc-400">
             {t.heroTitle}
           </p>
-          <p className="mb-8 text-sm text-zinc-500 italic">
+          <p className="mb-8 text-sm text-zinc-500 italic dark:text-zinc-500">
             {t.heroSubtitle}
           </p>
 
@@ -48,7 +48,7 @@ export default function Home() {
               placeholder={language === "zh" ? "搜尋工具..." : "Search tools..."}
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full rounded-2xl border border-zinc-200 bg-white px-5 py-4 text-zinc-900 shadow-lg outline-none transition-shadow focus:border-zinc-400 focus:shadow-xl"
+              className="w-full rounded-2xl border border-zinc-200 bg-white px-5 py-4 text-zinc-900 shadow-lg outline-none transition-shadow focus:border-zinc-400 focus:shadow-xl dark:border-zinc-800 dark:bg-zinc-800 dark:text-zinc-50"
             />
             <svg
               className="absolute right-4 top-1/2 h-5 w-5 -translate-y-1/2 text-zinc-400"
@@ -66,7 +66,7 @@ export default function Home() {
           <svg className="absolute bottom-0 h-16 w-full" preserveAspectRatio="none" viewBox="0 0 1440 100">
             <path
               fill="currentColor"
-              className="fill-zinc-100"
+              className="fill-zinc-100 dark:fill-zinc-900"
               d="M0,50 C360,100 1080,0 1440,50 L1440,100 L0,100 Z"
             />
           </svg>
@@ -76,18 +76,18 @@ export default function Home() {
       {/* Category Cards */}
       <section className="px-4 pb-16">
         <div className="mx-auto max-w-6xl">
-          <h2 className="mb-6 text-2xl font-bold text-zinc-900">{t.categoriesTitle}</h2>
+          <h2 className="mb-6 text-2xl font-bold text-zinc-900 dark:text-zinc-50">{t.categoriesTitle}</h2>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
             {categories.map((category) => (
               <button
                 key={category.id}
                 onClick={() => setSelectedCategory(selectedCategory === category.id ? null : category.id)}
-                className={`group flex flex-col items-center rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md ${
+                className={`group flex flex-col items-center rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md dark:border-zinc-800 dark:bg-zinc-800 ${
                   selectedCategory === category.id ? "ring-2 ring-purple-500" : ""
                 }`}
               >
                 <span className="mb-3 text-4xl">{category.icon}</span>
-                <span className="font-medium text-zinc-700">{getCategoryName(category.id)}</span>
+                <span className="font-medium text-zinc-700 dark:text-zinc-300">{getCategoryName(category.id)}</span>
               </button>
             ))}
           </div>
@@ -98,19 +98,19 @@ export default function Home() {
       <section className="px-4 pb-24">
         <div className="mx-auto max-w-6xl">
           <div className="mb-6 flex items-center justify-between">
-            <h2 className="text-2xl font-bold text-zinc-900">
+            <h2 className="text-2xl font-bold text-zinc-900 dark:text-zinc-50">
               {selectedCategory
                 ? getCategoryName(selectedCategory)
                 : t.allTools}
             </h2>
-            <span className="text-sm text-zinc-500">
+            <span className="text-sm text-zinc-500 dark:text-zinc-400">
               {filteredTools.length} {t.toolsCount}
             </span>
           </div>
 
           {filteredTools.length === 0 ? (
             <div className="flex h-40 items-center justify-center">
-              <p className="text-zinc-500">{t.noResults}</p>
+              <p className="text-zinc-500 dark:text-zinc-400">{t.noResults}</p>
             </div>
           ) : (
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
@@ -120,7 +120,7 @@ export default function Home() {
                   <a
                     key={tool.id}
                     href={`/jack-website/tools/${tool.slug}/`}
-                    className="group relative flex flex-col rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg"
+                    className="group relative flex flex-col rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg dark:border-zinc-800 dark:bg-zinc-800"
                   >
                     <div className="mb-4 flex items-center justify-between">
                       <span className="text-3xl">{tool.icon}</span>
@@ -130,8 +130,8 @@ export default function Home() {
                         </span>
                       )}
                     </div>
-                    <h3 className="mb-2 text-lg font-semibold text-zinc-900">{tool.name}</h3>
-                    <p className="text-sm text-zinc-500">{tool.description}</p>
+                    <h3 className="mb-2 text-lg font-semibold text-zinc-900 dark:text-zinc-50">{tool.name}</h3>
+                    <p className="text-sm text-zinc-500 dark:text-zinc-400">{tool.description}</p>
                     <div className="absolute right-4 top-4 opacity-0 transition-opacity group-hover:opacity-100">
                       <svg className="h-5 w-5 text-zinc-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
@@ -146,8 +146,8 @@ export default function Home() {
       </section>
 
       {/* Footer */}
-      <footer className="border-t border-zinc-200 bg-white py-8">
-        <div className="mx-auto max-w-6xl px-4 text-center text-sm text-zinc-500">
+      <footer className="border-t border-zinc-200 bg-white py-8 dark:border-zinc-800 dark:bg-zinc-900">
+        <div className="mx-auto max-w-6xl px-4 text-center text-sm text-zinc-500 dark:text-zinc-400">
           <p>{t.copyright}</p>
         </div>
       </footer>
