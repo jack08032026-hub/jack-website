@@ -1,0 +1,24 @@
+{
+  "categories": [
+    { "id": "ai", "name": "AI 工具", "icon": "🤖", "color": "bg-purple-500" },
+    { "id": "dev", "name": "開發工具", "icon": "💻", "color": "bg-blue-500" },
+    { "id": "design", "name": "設計工具", "icon": "🎨", "color": "bg-pink-500" },
+    { "id": "productivity", "name": "生產力", "icon": "⚡", "color": "bg-yellow-500" },
+    { "id": "learning", "name": "學習資源", "icon": "📚", "color": "bg-green-500" },
+    { "id": "media", "name": "媒體工具", "icon": "🎬", "color": "bg-red-500" }
+  ],
+  "tools": [
+    { "id": "1", "name": "ChatGPT", "description": "AI 對話助手", "category": "ai", "url": "https://chat.openai.com", "icon": "🤖" },
+    { "id": "2", "name": "Claude", "description": "AI 編碼助手", "category": "ai", "url": "https://claude.ai", "icon": "🧠" },
+    { "id": "3", "name": "Cursor", "description": "AI 程式編輯器", "category": "dev", "url": "https://cursor.sh", "icon": "💻" },
+    { "id": "4", "name": "Vercel", "description": "部署平台", "category": "dev", "url": "https://vercel.com", "icon": "▲" },
+    { "id": "5", "name": "Figma", "description": "協作設計工具", "category": "design", "url": "https://figma.com", "icon": "🎨" },
+    { "id": "6", "name": "Notion", "description": "筆記與知識庫", "category": "productivity", "url": "https://notion.so", "icon": "📝" },
+    { "id": "7", "name": "GitHub", "description": "程式碼托管", "category": "dev", "url": "https://github.com", "icon": "🐙" },
+    { "id": "8", "name": "Tailwind CSS", "description": "CSS 框架", "category": "dev", "url": "https://tailwindcss.com", "icon": "🌐" },
+    { "id": "9", "name": "Next.js", "description": "React 框架", "category": "dev", "url": "https://nextjs.org", "icon": "⚛️" },
+    { "id": "10", "name": "Midjourney", "description": "AI 圖片生成", "category": "ai", "url": "https://midjourney.com", "icon": "🖼️" },
+    { "id": "11", "name": "OBS Studio", "description": "錄影直播工具", "category": "media", "url": "https://obsproject.com", "icon": "🎥" },
+    { "id": "12", "name": "Duolingo", "description": "語言學習", "category": "learning", "url": "https://duolingo.com", "icon": "🦉" }
+  ]
+}
