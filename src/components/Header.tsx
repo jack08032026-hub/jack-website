@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { motion } from "motion/react";
-import { ThemeToggle } from "@/components";
+import ThemeToggle from "@/components/providers/ThemeToggle";
 
 export default function Header() {
   return (
