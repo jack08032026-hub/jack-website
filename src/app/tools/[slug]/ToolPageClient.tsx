@@ -38,15 +38,15 @@ export function ToolPageClient({ tool, category, tutorial, jsonLd, allTools, all
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-zinc-50 to-zinc-100 dark:from-zinc-950 dark:to-zinc-900">
+    <div className="min-h-screen bg-gradient-to-b from-zinc-50 to-zinc-100">
       <MetadataJsonLd data={jsonLd} />
 
       {/* Header */}
-      <header className="border-b border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-900">
+      <header className="border-b border-zinc-200 bg-white">
         <div className="mx-auto flex max-w-4xl items-center justify-between px-4 py-4">
           <Link
-            href="/"
-            className="flex items-center gap-2 text-lg font-bold text-zinc-900 dark:text-zinc-50"
+            href="/jack-website/"
+            className="flex items-center gap-2 text-lg font-bold text-zinc-900"
           >
             <span>←</span>
             <span>Jack Website</span>
@@ -56,15 +56,15 @@ export function ToolPageClient({ tool, category, tutorial, jsonLd, allTools, all
 
       {/* Tool Content */}
       <main className="mx-auto max-w-4xl px-4 py-16">
-        <div className="rounded-3xl border border-zinc-200 bg-white p-8 shadow-lg dark:border-zinc-800 dark:bg-zinc-800">
+        <div className="rounded-3xl border border-zinc-200 bg-white p-8 shadow-lg">
           {/* Tool Header */}
           <div className="mb-8 flex items-start gap-6">
-            <div className="flex h-20 w-20 items-center justify-center rounded-2xl bg-gradient-to-br from-purple-100 to-blue-100 text-4xl dark:from-purple-900/30 dark:to-blue-900/30">
+            <div className="flex h-20 w-20 items-center justify-center rounded-2xl bg-gradient-to-br from-purple-100 to-blue-100 text-4xl">
               {tool.icon}
             </div>
             <div className="flex-1">
               <div className="mb-2 flex items-center gap-3">
-                <h1 className="text-3xl font-bold text-zinc-900 dark:text-zinc-50">
+                <h1 className="text-3xl font-bold text-zinc-900">
                   {tool.name}
                 </h1>
                 {category && (
@@ -75,7 +75,7 @@ export function ToolPageClient({ tool, category, tutorial, jsonLd, allTools, all
                   </span>
                 )}
               </div>
-              <p className="text-lg text-zinc-600 dark:text-zinc-400">
+              <p className="text-lg text-zinc-600">
                 {tool.shortDescription || tool.description}
               </p>
             </div>
@@ -83,23 +83,23 @@ export function ToolPageClient({ tool, category, tutorial, jsonLd, allTools, all
 
           {/* Description */}
           <div className="mb-8">
-            <h2 className="mb-3 text-xl font-semibold text-zinc-900 dark:text-zinc-50">
+            <h2 className="mb-3 text-xl font-semibold text-zinc-900">
               {t.about} {tool.name}
             </h2>
-            <p className="text-zinc-600 dark:text-zinc-400">{tool.description}</p>
+            <p className="text-zinc-600">{tool.description}</p>
           </div>
 
           {/* Keywords */}
           {tool.keywords && tool.keywords.length > 0 && (
             <div className="mb-8">
-              <h3 className="mb-3 text-lg font-semibold text-zinc-900 dark:text-zinc-50">
+              <h3 className="mb-3 text-lg font-semibold text-zinc-900">
                 {t.relatedKeywords}
               </h3>
               <div className="flex flex-wrap gap-2">
                 {tool.keywords.map((keyword) => (
                   <span
                     key={keyword}
-                    className="rounded-full bg-zinc-100 px-3 py-1 text-sm text-zinc-600 dark:bg-zinc-700 dark:text-zinc-300"
+                    className="rounded-full bg-zinc-100 px-3 py-1 text-sm text-zinc-600"
                   >
                     {keyword}
                   </span>
@@ -134,8 +134,8 @@ export function ToolPageClient({ tool, category, tutorial, jsonLd, allTools, all
 
         {/* Tutorial Section */}
         {tutorial && (
-          <div className="mt-12 rounded-3xl border border-zinc-200 bg-white p-8 shadow-lg dark:border-zinc-800 dark:bg-zinc-800">
-            <h2 className="mb-6 text-2xl font-bold text-zinc-900 dark:text-zinc-50">
+          <div className="mt-12 rounded-3xl border border-zinc-200 bg-white p-8 shadow-lg">
+            <h2 className="mb-6 text-2xl font-bold text-zinc-900">
               📖 {language === "zh" ? tutorial.title : tutorial.titleEn}
             </h2>
 
@@ -144,16 +144,16 @@ export function ToolPageClient({ tool, category, tutorial, jsonLd, allTools, all
               {tutorial.steps.map((step, index) => (
                 <div
                   key={index}
-                  className="flex gap-4 rounded-xl bg-zinc-50 p-4 dark:bg-zinc-900"
+                  className="flex gap-4 rounded-xl bg-zinc-50 p-4"
                 >
                   <div className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-purple-500 to-blue-500 text-white">
                     {index + 1}
                   </div>
                   <div>
-                    <h3 className="font-semibold text-zinc-900 dark:text-zinc-50">
+                    <h3 className="font-semibold text-zinc-900">
                       {language === "zh" ? step.title : step.titleEn}
                     </h3>
-                    <p className="text-zinc-600 dark:text-zinc-400">{language === "zh" ? step.content : step.contentEn}</p>
+                    <p className="text-zinc-600">{language === "zh" ? step.content : step.contentEn}</p>
                   </div>
                 </div>
               ))}
@@ -161,13 +161,13 @@ export function ToolPageClient({ tool, category, tutorial, jsonLd, allTools, all
 
             {/* Tips */}
             {tutorial.tips && tutorial.tips.length > 0 && (
-              <div className="rounded-xl bg-yellow-50 p-4 dark:bg-yellow-900/20">
-                <h3 className="mb-3 font-semibold text-yellow-800 dark:text-yellow-200">
+              <div className="rounded-xl bg-yellow-50 p-4">
+                <h3 className="mb-3 font-semibold text-yellow-800">
                   💡 {t.tips}
                 </h3>
                 <ul className="space-y-2">
                   {(language === "zh" ? tutorial.tips : tutorial.tipsEn).map((tip, index) => (
-                    <li key={index} className="text-sm text-yellow-700 dark:text-yellow-300">
+                    <li key={index} className="text-sm text-yellow-700">
                       • {tip}
                     </li>
                   ))}
@@ -179,7 +179,7 @@ export function ToolPageClient({ tool, category, tutorial, jsonLd, allTools, all
 
         {/* Related Tools */}
         <div className="mt-12">
-          <h2 className="mb-6 text-2xl font-bold text-zinc-900 dark:text-zinc-50">
+          <h2 className="mb-6 text-2xl font-bold text-zinc-900">
             {t.relatedTools}
           </h2>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
@@ -189,14 +189,14 @@ export function ToolPageClient({ tool, category, tutorial, jsonLd, allTools, all
               .map((relatedTool) => (
                 <Link
                   key={relatedTool.id}
-                  href={`/tools/${relatedTool.slug}/`}
-                  className="group flex flex-col rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg dark:border-zinc-800 dark:bg-zinc-800"
+                  href={`/jack-website/tools/${relatedTool.slug}/`}
+                  className="group flex flex-col rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg"
                 >
                   <span className="mb-3 text-3xl">{relatedTool.icon}</span>
-                  <h3 className="mb-1 font-semibold text-zinc-900 dark:text-zinc-50">
+                  <h3 className="mb-1 font-semibold text-zinc-900">
                     {relatedTool.name}
                   </h3>
-                  <p className="text-sm text-zinc-500 dark:text-zinc-400">{relatedTool.description}</p>
+                  <p className="text-sm text-zinc-500">{relatedTool.description}</p>
                 </Link>
               ))}
           </div>
@@ -204,8 +204,8 @@ export function ToolPageClient({ tool, category, tutorial, jsonLd, allTools, all
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-zinc-200 bg-white py-8 dark:border-zinc-800 dark:bg-zinc-900">
-        <div className="mx-auto max-w-6xl px-4 text-center text-sm text-zinc-500 dark:text-zinc-400">
+      <footer className="border-t border-zinc-200 bg-white py-8">
+        <div className="mx-auto max-w-6xl px-4 text-center text-sm text-zinc-500">
           <p>{t.copyright}</p>
         </div>
       </footer>
