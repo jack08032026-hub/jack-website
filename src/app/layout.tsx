@@ -24,9 +24,10 @@ export const metadata: Metadata = {
     description: "探索最棒的開發工具、AI 資源和生產力應用",
     type: "website",
     locale: "zh_TW",
+    url: "https://jack08032026-hub.github.io/jack-website",
   },
   alternates: {
-    canonical: "https://jack-website.vercel.app",
+    canonical: "https://jack08032026-hub.github.io/jack-website",
   },
 };
 

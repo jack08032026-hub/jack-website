@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: "website",
     },
     other: {
-      "og:url": `https://jack-website.vercel.app/tools/${slug}`,
+      "og:url": `https://jack08032026-hub.github.io/jack-website/tools/${slug}`,
     },
   };
 }
