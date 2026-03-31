@@ -189,7 +189,7 @@ export function ToolPageClient({ tool, category, tutorial, jsonLd, allTools, all
               .map((relatedTool) => (
                 <Link
                   key={relatedTool.id}
-                  href={`/tools/${relatedTool.slug}/`}
+                  href={`/jack-website/tools/${relatedTool.slug}/`}
                   className="group flex flex-col rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg dark:border-zinc-800 dark:bg-zinc-800"
                 >
                   <span className="mb-3 text-3xl">{relatedTool.icon}</span>

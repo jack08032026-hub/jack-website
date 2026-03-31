@@ -10,7 +10,7 @@ export default function Header() {
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
         <Link href="/" className="flex items-center gap-2">
           <img
-            src="/jack-website/jack-icon.png"
+            src="/jack-icon.png"
             alt="Jack"
             className="h-8 w-8 rounded-lg object-cover"
           />
