@@ -5,7 +5,9 @@
     { "id": "design", "name": "設計工具", "icon": "🎨", "color": "bg-pink-500", "slug": "design-tools" },
     { "id": "productivity", "name": "生產力", "icon": "⚡", "color": "bg-yellow-500", "slug": "productivity" },
     { "id": "learning", "name": "學習資源", "icon": "📚", "color": "bg-green-500", "slug": "learning" },
-    { "id": "media", "name": "媒體工具", "icon": "🎬", "color": "bg-red-500", "slug": "media-tools" }
+    { "id": "media", "name": "媒體工具", "icon": "🎬", "color": "bg-red-500", "slug": "media-tools" },
+    { "id": "cloud", "name": "雲端服務", "icon": "☁️", "color": "bg-cyan-500", "slug": "cloud-services" },
+    { "id": "security", "name": "資安工具", "icon": "🔒", "color": "bg-orange-500", "slug": "security-tools" }
   ],
   "tools": [
     {
@@ -210,6 +212,312 @@
         "description": "探索 Duolingo，遊戲化語言學習平台。透過 Jack Website 發現更多學習資源。",
         "ogTitle": "Duolingo - 語言學習",
         "ogDescription": "探索 Duolingo，遊戲化語言學習平台。透過 Jack Website 發現更多學習資源。"
+      }
+    },
+    {
+      "id": "13",
+      "name": "Gemini",
+      "slug": "gemini",
+      "description": "Google AI 助手",
+      "shortDescription": "Google 推出的 AI 助手",
+      "category": "ai",
+      "url": "https://gemini.google.com",
+      "icon": "✨",
+      "keywords": ["AI", "Google", "Gemini", "chatbot", "人工智慧"],
+      "seo": {
+        "title": "Gemini - Google AI 助手 | Jack Website",
+        "description": "探索 Gemini，Google 推出的 AI 助手。透過 Jack Website 發現更多 AI 工具。",
+        "ogTitle": "Gemini - Google AI 助手",
+        "ogDescription": "探索 Gemini，Google 推出的 AI 助手。透過 Jack Website 發現更多 AI 工具。"
+      }
+    },
+    {
+      "id": "14",
+      "name": "Perplexity",
+      "slug": "perplexity",
+      "description": "AI 搜尋引擎",
+      "shortDescription": "AI 驅動的搜尋引擎",
+      "category": "ai",
+      "url": "https://perplexity.ai",
+      "icon": "🔍",
+      "keywords": ["AI", "search", "Perplexity", "資訊檢索"],
+      "seo": {
+        "title": "Perplexity - AI 搜尋引擎 | Jack Website",
+        "description": "探索 Perplexity，AI 驅動的搜尋引擎。透過 Jack Website 發現更多 AI 工具。",
+        "ogTitle": "Perplexity - AI 搜尋引擎",
+        "ogDescription": "探索 Perplexity，AI 驅動的搜尋引擎。透過 Jack Website 發現更多 AI 工具。"
+      }
+    },
+    {
+      "id": "15",
+      "name": "Copilot",
+      "slug": "copilot",
+      "description": "Microsoft AI 助手",
+      "shortDescription": "Microsoft 推出的 AI 程式助手",
+      "category": "ai",
+      "url": "https://copilot.microsoft.com",
+      "icon": "💡",
+      "keywords": ["AI", "Microsoft", "Copilot", "coding", "助手"],
+      "seo": {
+        "title": "Copilot - Microsoft AI 助手 | Jack Website",
+        "description": "探索 Copilot，Microsoft 推出的 AI 程式助手。透過 Jack Website 發現更多開發工具。",
+        "ogTitle": "Copilot - Microsoft AI 助手",
+        "ogDescription": "探索 Copilot，Microsoft 推出的 AI 程式助手。透過 Jack Website 發現更多開發工具。"
+      }
+    },
+    {
+      "id": "16",
+      "name": "VS Code",
+      "slug": "vscode",
+      "description": "程式碼編輯器",
+      "shortDescription": "免費開源的程式碼編輯器",
+      "category": "dev",
+      "url": "https://code.visualstudio.com",
+      "icon": "📝",
+      "keywords": ["IDE", "editor", "VSCode", "coding", "開發"],
+      "seo": {
+        "title": "VS Code - 程式碼編輯器 | Jack Website",
+        "description": "探索 VS Code，免費開源的程式碼編輯器。透過 Jack Website 發現更多開發工具。",
+        "ogTitle": "VS Code - 程式碼編輯器",
+        "ogDescription": "探索 VS Code，免費開源的程式碼編輯器。透過 Jack Website 發現更多開發工具。"
+      }
+    },
+    {
+      "id": "17",
+      "name": "GitLab",
+      "slug": "gitlab",
+      "description": "程式碼管理平台",
+      "shortDescription": "開源的程式碼管理平台",
+      "category": "dev",
+      "url": "https://gitlab.com",
+      "icon": "🦊",
+      "keywords": ["git", "gitlab", "repository", "CI/CD", "DevOps"],
+      "seo": {
+        "title": "GitLab - 程式碼管理平台 | Jack Website",
+        "description": "探索 GitLab，開源的程式碼管理平台。透過 Jack Website 發現更多開發工具。",
+        "ogTitle": "GitLab - 程式碼管理平台",
+        "ogDescription": "探索 GitLab，開源的程式碼管理平台。透過 Jack Website 發現更多開發工具。"
+      }
+    },
+    {
+      "id": "18",
+      "name": "Docker",
+      "slug": "docker",
+      "description": "容器化平台",
+      "shortDescription": "應用程式容器化平台",
+      "category": "dev",
+      "url": "https://docker.com",
+      "icon": "🐳",
+      "keywords": ["docker", "container", "devops", "部署", "虛擬化"],
+      "seo": {
+        "title": "Docker - 容器化平台 | Jack Website",
+        "description": "探索 Docker，應用程式容器化平台。透過 Jack Website 發現更多開發工具。",
+        "ogTitle": "Docker - 容器化平台",
+        "ogDescription": "探索 Docker，應用程式容器化平台。透過 Jack Website 發現更多開發工具。"
+      }
+    },
+    {
+      "id": "19",
+      "name": "Figma",
+      "slug": "figma-dev",
+      "description": "設計工具",
+      "shortDescription": "雲端 UI 設計工具",
+      "category": "design",
+      "url": "https://figma.com",
+      "icon": "🎯",
+      "keywords": ["design", "UI", "UX", "figma", "原型"],
+      "seo": {
+        "title": "Figma - 設計工具 | Jack Website",
+        "description": "探索 Figma，雲端 UI 設計工具。透過 Jack Website 發現更多設計工具。",
+        "ogTitle": "Figma - 設計工具",
+        "ogDescription": "探索 Figma，雲端 UI 設計工具。透過 Jack Website 發現更多設計工具。"
+      }
+    },
+    {
+      "id": "20",
+      "name": "Canva",
+      "slug": "canva",
+      "description": "線上設計平台",
+      "shortDescription": "適合新手的線上設計工具",
+      "category": "design",
+      "url": "https://canva.com",
+      "icon": "✏️",
+      "keywords": ["design", "canva", "graphic", "海報", "簡報"],
+      "seo": {
+        "title": "Canva - 線上設計平台 | Jack Website",
+        "description": "探索 Canva，適合新手的線上設計工具。透過 Jack Website 發現更多設計工具。",
+        "ogTitle": "Canva - 線上設計平台",
+        "ogDescription": "探索 Canva，適合新手的線上設計工具。透過 Jack Website 發現更多設計工具。"
+      }
+    },
+    {
+      "id": "21",
+      "name": "Slack",
+      "slug": "slack",
+      "description": "團隊溝通平台",
+      "shortDescription": "企業級團隊溝通工具",
+      "category": "productivity",
+      "url": "https://slack.com",
+      "icon": "💬",
+      "keywords": ["slack", "team", "communication", "協作", "溝通"],
+      "seo": {
+        "title": "Slack - 團隊溝通平台 | Jack Website",
+        "description": "探索 Slack，企業級團隊溝通工具。透過 Jack Website 發現更多生產力工具。",
+        "ogTitle": "Slack - 團隊溝通平台",
+        "ogDescription": "探索 Slack，企業級團隊溝通工具。透過 Jack Website 發現更多生產力工具。"
+      }
+    },
+    {
+      "id": "22",
+      "name": "Trello",
+      "slug": "trello",
+      "description": "專案管理工具",
+      "shortDescription": "看板式專案管理工具",
+      "category": "productivity",
+      "url": "https://trello.com",
+      "icon": "📋",
+      "keywords": ["trello", "project", "kanban", "管理", "看板"],
+      "seo": {
+        "title": "Trello - 專案管理工具 | Jack Website",
+        "description": "探索 Trello，看板式專案管理工具。透過 Jack Website 發現更多生產力工具。",
+        "ogTitle": "Trello - 專案管理工具",
+        "ogDescription": "探索 Trello，看板式專案管理工具。透過 Jack Website 發現更多生產力工具。"
+      }
+    },
+    {
+      "id": "23",
+      "name": "Jira",
+      "slug": "jira",
+      "description": "專案追蹤工具",
+      "shortDescription": "Atlassian 專案追蹤工具",
+      "category": "productivity",
+      "url": "https://jira.atlassian.com",
+      "icon": "📊",
+      "keywords": ["jira", "project", "agile", "scrum", "追蹤"],
+      "seo": {
+        "title": "Jira - 專案追蹤工具 | Jack Website",
+        "description": "探索 Jira，Atlassian 專案追蹤工具。透過 Jack Website 發現更多生產力工具。",
+        "ogTitle": "Jira - 專案追蹤工具",
+        "ogDescription": "探索 Jira，Atlassian 專案追蹤工具。透過 Jack Website 發現更多生產力工具。"
+      }
+    },
+    {
+      "id": "24",
+      "name": "AWS",
+      "slug": "aws",
+      "description": "雲端運算服務",
+      "shortDescription": "Amazon 雲端運算平台",
+      "category": "cloud",
+      "url": "https://aws.amazon.com",
+      "icon": "☁️",
+      "keywords": ["aws", "cloud", "amazon", "serverless", "雲端"],
+      "seo": {
+        "title": "AWS - 雲端運算服務 | Jack Website",
+        "description": "探索 AWS，Amazon 雲端運算平台。透過 Jack Website 發現更多雲端服務。",
+        "ogTitle": "AWS - 雲端運算服務",
+        "ogDescription": "探索 AWS，Amazon 雲端運算平台。透過 Jack Website 發現更多雲端服務。"
+      }
+    },
+    {
+      "id": "25",
+      "name": "Cloudflare",
+      "slug": "cloudflare",
+      "description": "網路基礎設施",
+      "shortDescription": "CDN 與資安服務提供商",
+      "category": "cloud",
+      "url": "https://cloudflare.com",
+      "icon": "🌐",
+      "keywords": ["cloudflare", "CDN", "DNS", "安全", "效能"],
+      "seo": {
+        "title": "Cloudflare - 網路基礎設施 | Jack Website",
+        "description": "探索 Cloudflare，CDN 與資安服務提供商。透過 Jack Website 發現更多雲端服務。",
+        "ogTitle": "Cloudflare - 網路基礎設施",
+        "ogDescription": "探索 Cloudflare，CDN 與資安服務提供商。透過 Jack Website 發現更多雲端服務。"
+      }
+    },
+    {
+      "id": "26",
+      "name": "1Password",
+      "slug": "1password",
+      "description": "密碼管理工具",
+      "shortDescription": "安全的密碼管理器",
+      "category": "security",
+      "url": "https://1password.com",
+      "icon": "🔐",
+      "keywords": ["password", "security", "1password", "密碼", "管理"],
+      "seo": {
+        "title": "1Password - 密碼管理工具 | Jack Website",
+        "description": "探索 1Password，安全 的密碼管理器。透過 Jack Website 發現更多資安工具。",
+        "ogTitle": "1Password - 密碼管理工具",
+        "ogDescription": "探索 1Password，安全 的密碼管理器。透過 Jack Website 發現更多資安工具。"
+      }
+    },
+    {
+      "id": "27",
+      "name": "Coursera",
+      "slug": "coursera",
+      "description": "線上課程平台",
+      "shortDescription": "知名線上教育平台",
+      "category": "learning",
+      "url": "https://coursera.org",
+      "icon": "🎓",
+      "keywords": ["coursera", "course", "learning", "線上課程", "教育"],
+      "seo": {
+        "title": "Coursera - 線上課程平台 | Jack Website",
+        "description": "探索 Coursera，知 名線上教育平台。透過 Jack Website 發現更多學習資源。",
+        "ogTitle": "Coursera - 線上課程平台",
+        "ogDescription": "探索 Coursera，知 名線上教育平台。透過 Jack Website 發現更多學習資源。"
+      }
+    },
+    {
+      "id": "28",
+      "name": "YouTube",
+      "slug": "youtube",
+      "description": "影片分享平台",
+      "shortDescription": "全球最大影片平台",
+      "category": "media",
+      "url": "https://youtube.com",
+      "icon": "▶️",
+      "keywords": ["youtube", "video", "媒體", "教學", "娛樂"],
+      "seo": {
+        "title": "YouTube - 影片分享平台 | Jack Website",
+        "description": "探索 YouTube，全球最大影片平台。透過 Jack Website 發現更多媒體工具。",
+        "ogTitle": "YouTube - 影片分享平台",
+        "ogDescription": "探索 YouTube，全球最大影片平台。透過 Jack Website 發現更多媒體工具。"
+      }
+    },
+    {
+      "id": "29",
+      "name": "Spotify",
+      "slug": "spotify",
+      "description": "音樂串流平台",
+      "shortDescription": "全球最受歡迎的音樂串流服務",
+      "category": "media",
+      "url": "https://spotify.com",
+      "icon": "🎵",
+      "keywords": ["spotify", "music", "streaming", "音樂", "串流"],
+      "seo": {
+        "title": "Spotify - 音樂串流平台 | Jack Website",
+        "description": "探索 Spotify，全球最受歡迎的音樂串流服務。透過 Jack Website 發現更多媒體工具。",
+        "ogTitle": "Spotify - 音樂串流平台",
+        "ogDescription": "探索 Spotify，全球最受歡迎的音樂串流服務。透過 Jack Website 發現更多媒體工具。"
+      }
+    },
+    {
+      "id": "30",
+      "name": "Google Drive",
+      "slug": "google-drive",
+      "description": "雲端儲存服務",
+      "shortDescription": "Google 雲端硬碟",
+      "category": "cloud",
+      "url": "https://drive.google.com",
+      "icon": "📁",
+      "keywords": ["google", "drive", "cloud", "storage", "雲端硬碟"],
+      "seo": {
+        "title": "Google Drive - 雲端儲存服務 | Jack Website",
+        "description": "探索 Google Drive，Google 雲端硬碟。透過 Jack Website 發現更多雲端服務。",
+        "ogTitle": "Google Drive - 雲端儲存服務",
+        "ogDescription": "探索 Google Drive，Google 雲端硬碟。透過 Jack Website 發現更多雲端服務。"
       }
     }
   ]
