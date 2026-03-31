@@ -24,6 +24,7 @@ export interface Tool {
   icon: string;
   keywords?: string[];
   seo?: SEOData;
+  backLink?: string;
 }
 
 export interface ToolsData {

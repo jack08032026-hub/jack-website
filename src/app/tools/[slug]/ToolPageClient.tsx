@@ -37,6 +37,8 @@ export function ToolPageClient({ tool, category, tutorial, jsonLd, allTools, all
     return cat || id;
   };
 
+  const backLink = tool.backLink || "/jack-website";
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-zinc-50 to-zinc-100">
       <MetadataJsonLd data={jsonLd} />
@@ -45,7 +47,7 @@ export function ToolPageClient({ tool, category, tutorial, jsonLd, allTools, all
       <header className="border-b border-zinc-200 bg-white">
         <div className="mx-auto flex max-w-4xl items-center justify-between px-4 py-4">
           <Link
-            href="/jack-website/"
+            href={backLink}
             className="flex items-center gap-2 text-lg font-bold text-zinc-900"
           >
             <span>←</span>
@@ -189,7 +191,7 @@ export function ToolPageClient({ tool, category, tutorial, jsonLd, allTools, all
               .map((relatedTool) => (
                 <Link
                   key={relatedTool.id}
-                  href={`/tools/${relatedTool.slug}/`}
+                  href={`/jack-website/tools/${relatedTool.slug}/`}
                   className="group flex flex-col rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg"
                 >
                   <span className="mb-3 text-3xl">{relatedTool.icon}</span>
