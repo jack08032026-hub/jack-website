@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Footer } from "@/components/Footer";
+import Footer from "@/components/Footer";
 import { Category, Tool } from "@/types";
 import toolsData from "@/data/tools.json";
 
