@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { MetadataJsonLd } from "./MetadataJsonLd";
 import toolsData from "@/data/tools.json";
+import tutorialsData from "@/data/tutorials.json";
 import { Tool, Category } from "@/types";
 
 interface Props {
@@ -11,6 +12,11 @@ interface Props {
 
 const tools: Tool[] = toolsData.tools as Tool[];
 const categories: Category[] = toolsData.categories as Category[];
+const tutorials = tutorialsData.tutorials as Record<string, {
+  title: string;
+  steps: { title: string; content: string }[];
+  tips: string[];
+}>;
 
 export async function generateStaticParams() {
   return tools.map((tool) => ({ slug: tool.slug }));
@@ -52,6 +58,7 @@ export default async function ToolPage({ params }: Props) {
   }
 
   const category = categories.find((c) => c.id === tool.category);
+  const tutorial = tutorials[slug];
 
   // JSON-LD structured data
   const jsonLd = {
@@ -163,6 +170,51 @@ export default async function ToolPage({ params }: Props) {
             </svg>
           </a>
         </div>
+
+        {/* Tutorial Section */}
+        {tutorial && (
+          <div className="mt-12 rounded-3xl border border-zinc-200 bg-white p-8 shadow-lg dark:border-zinc-800 dark:bg-zinc-800">
+            <h2 className="mb-6 text-2xl font-bold text-zinc-900 dark:text-zinc-50">
+              📖 {tutorial.title}
+            </h2>
+
+            {/* Steps */}
+            <div className="mb-8 space-y-4">
+              {tutorial.steps.map((step, index) => (
+                <div
+                  key={index}
+                  className="flex gap-4 rounded-xl bg-zinc-50 p-4 dark:bg-zinc-900"
+                >
+                  <div className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-purple-500 to-blue-500 text-white">
+                    {index + 1}
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-zinc-900 dark:text-zinc-50">
+                      {step.title}
+                    </h3>
+                    <p className="text-zinc-600 dark:text-zinc-400">{step.content}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {/* Tips */}
+            {tutorial.tips && tutorial.tips.length > 0 && (
+              <div className="rounded-xl bg-yellow-50 p-4 dark:bg-yellow-900/20">
+                <h3 className="mb-3 font-semibold text-yellow-800 dark:text-yellow-200">
+                  💡 技巧提示
+                </h3>
+                <ul className="space-y-2">
+                  {tutorial.tips.map((tip, index) => (
+                    <li key={index} className="text-sm text-yellow-700 dark:text-yellow-300">
+                      • {tip}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
+          </div>
+        )}
 
         {/* Related Tools */}
         <div className="mt-12">
