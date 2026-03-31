@@ -13,8 +13,21 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Jack Website - 開發者工具資源整合",
-  description: "探索最棒的開發工具、AI 資源和生產力應用",
+  title: {
+    default: "Jack Website - 開發者工具資源整合",
+    template: "%s | Jack Website",
+  },
+  description: "探索最棒的開發工具、AI 資源和生產力應用。Jack Website 為您整合最實用的線上工具和資源。",
+  keywords: ["開發工具", "AI", "生产力", "設計工具", "線上工具", "資源整合"],
+  openGraph: {
+    title: "Jack Website - 開發者工具資源整合",
+    description: "探索最棒的開發工具、AI 資源和生產力應用",
+    type: "website",
+    locale: "zh_TW",
+  },
+  alternates: {
+    canonical: "https://jack-website.vercel.app",
+  },
 };
 
 export default function RootLayout({

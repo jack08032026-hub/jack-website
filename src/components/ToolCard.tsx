@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Tool, Category } from "@/types";
 
 interface ToolCardProps {
@@ -7,10 +8,8 @@ interface ToolCardProps {
 
 export default function ToolCard({ tool, category }: ToolCardProps) {
   return (
-    <a
-      href={tool.url}
-      target="_blank"
-      rel="noopener noreferrer"
+    <Link
+      href={`/tools/${tool.slug}`}
       className="group relative flex flex-col rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg dark:border-zinc-800 dark:bg-zinc-800"
     >
       <div className="mb-4 flex items-center justify-between">
@@ -42,6 +41,6 @@ export default function ToolCard({ tool, category }: ToolCardProps) {
           />
         </svg>
       </div>
-    </a>
+    </Link>
   );
 }
