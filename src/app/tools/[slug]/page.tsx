@@ -1,19 +1,29 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
-import Link from "next/link";
-import MetadataJsonLd from "./MetadataJsonLd";
+import { ToolPageClient } from "./ToolPageClient";
 import toolsData from "@/data/tools.json";
 import tutorialsData from "@/data/tutorials.json";
-import { ToolPageClient } from "./ToolPageClient";
 import { Category, Tool } from "@/types";
 
 const tools: Tool[] = toolsData.tools as Tool[];
 const categories: Category[] = toolsData.categories as Category[];
-const tutorials = tutorialsData.tutorials as Record<string, {
+
+interface TutorialStep {
   title: string;
-  steps: { title: string; content: string }[];
+  titleEn: string;
+  content: string;
+  contentEn: string;
+}
+
+interface Tutorial {
+  title: string;
+  titleEn: string;
+  steps: TutorialStep[];
   tips: string[];
-}>;
+  tipsEn: string[];
+}
+
+const tutorials = tutorialsData.tutorials as Record<string, Tutorial>;
 
 export function generateStaticParams() {
   return tools.map((tool) => ({ slug: tool.slug }));
@@ -39,7 +49,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
       type: "website",
     },
     other: {
-      "og:url": `https://jack08032026-hub.github.io/jack-website/tools/${slug}`,
+      "og:url": `https://jack08032026-hub.github.io/jack-website/tools/${slug}/`,
     },
   };
 }

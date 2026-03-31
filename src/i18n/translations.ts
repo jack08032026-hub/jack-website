@@ -33,6 +33,7 @@ export const zh = {
   relatedKeywords: "相關關鍵字",
   visit: "造訪",
   relatedTools: "同類別工具",
+  tips: "技巧提示",
 
   // Footer
   copyright: "© 2026 Jack Website. All rights reserved.",
@@ -78,6 +79,7 @@ export const en = {
   relatedKeywords: "Related Keywords",
   visit: "Visit",
   relatedTools: "Related Tools",
+  tips: "Tips",
 
   // Footer
   copyright: "© 2026 Jack Website. All rights reserved.",

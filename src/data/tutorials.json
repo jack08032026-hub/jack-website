@@ -2,314 +2,482 @@
   "tutorials": {
     "chatgpt": {
       "title": "如何使用 ChatGPT 提升開發效率",
+      "titleEn": "How to Use ChatGPT to Boost Development Efficiency",
       "steps": [
         {
           "title": "1. 請求程式碼解釋",
-          "content": "粘贴一段複雜的程式碼，要求 ChatGPT 解释其逻辑和功能。"
+          "titleEn": "1. Request Code Explanation",
+          "content": "粘贴一段複雜的程式碼，要求 ChatGPT 解释其逻辑和功能。",
+          "contentEn": "Paste a complex piece of code and ask ChatGPT to explain its logic and functionality."
         },
         {
           "title": "2. 請求代碼優化",
-          "content": "讓 ChatGPT 優化現有代碼，如改善效能、增強可讀性。"
+          "titleEn": "2. Request Code Optimization",
+          "content": "讓 ChatGPT 優化現有代碼，如改善效能、增強可讀性。",
+          "contentEn": "Let ChatGPT optimize your existing code, such as improving performance or enhancing readability."
         },
         {
           "title": "3. 請求調試幫助",
-          "content": "描述錯誤訊息，讓 ChatGPT 幫助診斷問題根源。"
+          "titleEn": "3. Request Debugging Help",
+          "content": "描述錯誤訊息，讓 ChatGPT 幫助診斷問題根源。",
+          "contentEn": "Describe the error message and let ChatGPT help diagnose the root cause."
         },
         {
           "title": "4. 請求文檔生成",
-          "content": "讓 ChatGPT 為你的程式碼生成 API 文檔或註釋。"
+          "titleEn": "4. Request Documentation Generation",
+          "content": "讓 ChatGPT 為你的程式碼生成 API 文檔或註釋。",
+          "contentEn": "Let ChatGPT generate API documentation or comments for your code."
         }
       ],
       "tips": [
         "使用明确的上下文来获得更准确的回答",
         "将复杂问题分解为多个简单问题",
-        "利用 ChatGPT 的迭代对话来逐步完善解决方案"
+        "利用 ChatGPT 的迭代对话来逐步完善解決方案"
+      ],
+      "tipsEn": [
+        "Use clear context to get more accurate answers",
+        "Break complex problems into multiple simpler questions",
+        "Use ChatGPT's iterative conversation to gradually refine solutions"
       ]
     },
     "claude": {
       "title": "Claude 程式開發實戰指南",
+      "titleEn": "Claude Programming Development Practical Guide",
       "steps": [
         {
           "title": "1. 專案初始化",
-          "content": "讓 Claude 幫助你建立新專案結構和配置文件。"
+          "titleEn": "1. Project Initialization",
+          "content": "讓 Claude 幫助你建立新專案結構和配置文件。",
+          "contentEn": "Let Claude help you set up new project structure and configuration files."
         },
         {
           "title": "2. 程式碼審查",
-          "content": "提交代碼讓 Claude 審查並提供改進建議。"
+          "titleEn": "2. Code Review",
+          "content": "提交代碼讓 Claude 審查並提供改進建議。",
+          "contentEn": "Submit code for Claude to review and provide improvement suggestions."
         },
         {
           "title": "3. 重構指導",
-          "content": "請求 Claude 幫助重構現有代碼以提高品質。"
+          "titleEn": "3. Refactoring Guidance",
+          "content": "請求 Claude 幫助重構現有代碼以提高品質。",
+          "contentEn": "Ask Claude to help refactor existing code to improve quality."
         },
         {
           "title": "4. 測試生成",
-          "content": "讓 Claude 為你的功能生成單元測試。"
+          "titleEn": "4. Test Generation",
+          "content": "讓 Claude 為你的功能生成單元測試。",
+          "contentEn": "Let Claude generate unit tests for your features."
         }
       ],
       "tips": [
         "Claude 在長上下文理解方面表現出色",
         "可以上傳整個檔案讓 Claude 分析",
         "善用「繼續」指令讓 Claude 補充更多細節"
+      ],
+      "tipsEn": [
+        "Claude excels at long context understanding",
+        "You can upload entire files for Claude to analyze",
+        "Use the 'Continue' command to get Claude to add more details"
       ]
     },
     "cursor": {
       "title": "Cursor AI 編輯器快速上手",
+      "titleEn": "Cursor AI Editor Quick Start Guide",
       "steps": [
         {
           "title": "1. 安裝與登入",
-          "content": "從 cursor.sh 下載安裝，使用 GitHub 帳號登入。"
+          "titleEn": "1. Installation & Login",
+          "content": "從 cursor.sh 下載安裝，使用 GitHub 帳號登入。",
+          "contentEn": "Download and install from cursor.sh, then log in with your GitHub account."
         },
         {
           "title": "2. AI 聊天互動",
-          "content": "使用 Cmd+K 呼叫 AI 助手，描述你想要實現的功能。"
+          "titleEn": "2. AI Chat Interaction",
+          "content": "使用 Cmd+K 呼叫 AI 助手，描述你想要實現的功能。",
+          "contentEn": "Use Cmd+K to summon the AI assistant and describe the feature you want to implement."
         },
         {
           "title": "3. 程式碼生成",
-          "content": "在對話框中描述需求，Cursor 會自動生成代碼。"
+          "titleEn": "3. Code Generation",
+          "content": "在對話框中描述需求，Cursor 會自動生成代碼。",
+          "contentEn": "Describe your requirements in the chat dialog and Cursor will automatically generate code."
         },
         {
           "title": "4. 智能重構",
-          "content": "選中代碼，使用 Cmd+Shift+R 進行智能重構。"
+          "titleEn": "4. Smart Refactoring",
+          "content": "選中代碼，使用 Cmd+Shift+R 進行智能重構。",
+          "contentEn": "Select code and use Cmd+Shift+R for smart refactoring."
         }
       ],
       "tips": [
         "熟悉鍵盤快捷鍵可以大幅提升效率",
         "使用自然語言描述需求即可生成代碼",
         "善用「Explain」功能理解陌生代碼"
+      ],
+      "tipsEn": [
+        "Familiarize yourself with keyboard shortcuts to greatly improve efficiency",
+        "Use natural language to describe requirements and generate code",
+        "Use the 'Explain' feature to understand unfamiliar code"
       ]
     },
     "vercel": {
       "title": "Vercel 部署 Next.js 專案",
+      "titleEn": "Deploying Next.js Projects on Vercel",
       "steps": [
         {
           "title": "1. 連接 GitHub",
-          "content": "在 Vercel 官網使用 GitHub 帳號登入並授權。"
+          "titleEn": "1. Connect GitHub",
+          "content": "在 Vercel 官網使用 GitHub 帳號登入並授權。",
+          "contentEn": "Log in to Vercel with your GitHub account and authorize access."
         },
         {
           "title": "2. 導入專案",
-          "content": "點擊 'New Project'，選擇要部署的 GitHub 倉庫。"
+          "titleEn": "2. Import Project",
+          "content": "點擊 'New Project'，選擇要部署的 GitHub 倉庫。",
+          "contentEn": "Click 'New Project' and select the GitHub repository to deploy."
         },
         {
           "title": "3. 配置部署",
-          "content": "Vercel 會自動偵測 Next.js 專案，點擊 'Deploy' 即可。"
+          "titleEn": "3. Configure Deployment",
+          "content": "Vercel 會自動偵測 Next.js 專案，點擊 'Deploy' 即可。",
+          "contentEn": "Vercel will automatically detect the Next.js project, just click 'Deploy'."
         },
         {
           "title": "4. 自訂網域",
-          "content": "在 Settings > Domains 中添加自訂網域。"
+          "titleEn": "4. Custom Domain",
+          "content": "在 Settings > Domains 中添加自訂網域。",
+          "contentEn": "Add custom domain in Settings > Domains."
         }
       ],
       "tips": [
         "預覽部署功能讓你可以在正式上線前測試",
         "環境變數可以在 Vercel dashboard 中設定",
         "使用 Vercel CLI 可以快速在本機預覽部署結果"
+      ],
+      "tipsEn": [
+        "Preview deployment lets you test before going live",
+        "Environment variables can be set in the Vercel dashboard",
+        "Use Vercel CLI to quickly preview deployment locally"
       ]
     },
     "figma": {
       "title": "Figma 協作設計入門",
+      "titleEn": "Figma Collaborative Design Getting Started",
       "steps": [
         {
           "title": "1. 建立專案",
-          "content": "登入 Figma 後，點擊 'New Project' 建立新設計專案。"
+          "titleEn": "1. Create Project",
+          "content": "登入 Figma 後，點擊 'New Project' 建立新設計專案。",
+          "contentEn": "After logging into Figma, click 'New Project' to create a new design project."
         },
         {
           "title": "2. 使用元件庫",
-          "content": "利用 Figma 內建的 UI Kits 快速建立介面原型。"
+          "titleEn": "2. Use Component Library",
+          "content": "利用 Figma 內建的 UI Kits 快速建立介面原型。",
+          "contentEn": "Use Figma's built-in UI Kits to quickly create interface prototypes."
         },
         {
           "title": "3. 協作邀請",
-          "content": "點擊 'Share' 按鈕，輸入團隊成員的郵箱邀請協作。"
+          "titleEn": "3. Invite Collaboration",
+          "content": "點擊 'Share' 按鈕，輸入團隊成員的郵箱邀請協作。",
+          "contentEn": "Click the 'Share' button and enter team members' emails to invite collaboration."
         },
         {
           "title": "4. 評論反饋",
-          "content": "直接在設計圖上點擊並添加評論，方便團隊溝通。"
+          "titleEn": "4. Comments & Feedback",
+          "content": "直接在設計圖上點擊並添加評論，方便團隊溝通。",
+          "contentEn": "Click directly on the design to add comments for easy team communication."
         }
       ],
       "tips": [
         "使用 Components 來建立可複用的設計元素",
         "利用 Auto Layout 讓設計響應式",
         "Figma 的 Dev Mode 可以直接產生 CSS/React 代碼"
+      ],
+      "tipsEn": [
+        "Use Components to create reusable design elements",
+        "Use Auto Layout to make designs responsive",
+        "Figma's Dev Mode can directly generate CSS/React code"
       ]
     },
     "notion": {
       "title": "Notion 知識庫建立指南",
+      "titleEn": "Notion Knowledge Base Building Guide",
       "steps": [
         {
           "title": "1. 建立工作區",
-          "content": "建立新工作區，邀請團隊成員加入。"
+          "titleEn": "1. Create Workspace",
+          "content": "建立新工作區，邀請團隊成員加入。",
+          "contentEn": "Create a new workspace and invite team members to join."
         },
         {
           "title": "2. 建立頁面",
-          "content": "使用 / 命令快速插入各種內容區塊。"
+          "titleEn": "2. Create Pages",
+          "content": "使用 / 命令快速插入各種內容區塊。",
+          "contentEn": "Use the / command to quickly insert various content blocks."
         },
         {
           "title": "3. 建立資料庫",
-          "content": "使用資料庫視圖管理專案、任務或客戶資訊。"
+          "titleEn": "3. Create Database",
+          "content": "使用資料庫視圖管理專案、任務或客戶資訊。",
+          "contentEn": "Use database views to manage projects, tasks, or customer information."
         },
         {
           "title": "4. 建立範本",
-          "content": "建立常用的頁面範本，提高工作效率。"
+          "titleEn": "4. Create Templates",
+          "content": "建立常用的頁面範本，提高工作效率。",
+          "contentEn": "Create common page templates to improve work efficiency."
         }
       ],
       "tips": [
         "使用 / slash command 可以快速插入任何內容",
         "善用關聯資料庫來建立知識圖譜",
         "利用 NOTION API 可以自動化工作流程"
+      ],
+      "tipsEn": [
+        "Use / slash command to quickly insert any content",
+        "Leverage linked databases to build knowledge graphs",
+        "Use the Notion API to automate workflows"
       ]
     },
     "github": {
       "title": "GitHub 協作開發流程",
+      "titleEn": "GitHub Collaborative Development Workflow",
       "steps": [
         {
           "title": "1. 建立倉庫",
-          "content": "點擊 'New repository' 建立新專案倉庫。"
+          "titleEn": "1. Create Repository",
+          "content": "點擊 'New repository' 建立新專案倉庫。",
+          "contentEn": "Click 'New repository' to create a new project repository."
         },
         {
           "title": "2. 分支管理",
-          "content": "使用 feature 分支開發新功能，保護 main 分支。"
+          "titleEn": "2. Branch Management",
+          "content": "使用 feature 分支開發新功能，保護 main 分支。",
+          "contentEn": "Use feature branches to develop new features, protect main branch."
         },
         {
           "title": "3. PR 審查",
-          "content": "推送代碼後建立 Pull Request，等待團隊審查。"
+          "titleEn": "3. PR Review",
+          "content": "推送代碼後建立 Pull Request，等待團隊審查。",
+          "contentEn": "Push code and create a Pull Request, wait for team review."
         },
         {
           "title": "4. Issues 管理",
-          "content": "使用 Issues 追蹤問題和功能請求。"
+          "titleEn": "4. Issues Management",
+          "content": "使用 Issues 追蹤問題和功能請求。",
+          "contentEn": "Use Issues to track problems and feature requests."
         }
       ],
       "tips": [
         "使用 GitHub Actions 自動化測試和部署",
         "利用 Projects 看板管理開發進度",
         "使用 Code Review 提議功能進行代碼審查"
+      ],
+      "tipsEn": [
+        "Use GitHub Actions to automate testing and deployment",
+        "Use Projects board to manage development progress",
+        "Use Code Review suggestions for code review"
       ]
     },
     "tailwind-css": {
       "title": "Tailwind CSS 實用技巧",
+      "titleEn": "Tailwind CSS Practical Tips",
       "steps": [
         {
           "title": "1. 快速建立元件",
-          "content": "使用 Tailwind 的 utility classes 快速建立 UI 元件。"
+          "titleEn": "1. Quick Component Building",
+          "content": "使用 Tailwind 的 utility classes 快速建立 UI 元件。",
+          "contentEn": "Use Tailwind's utility classes to quickly build UI components."
         },
         {
           "title": "2. 使用 JIT 模式",
-          "content": "Tailwind CSS 預設使用 JIT，及時編譯只使用的 class。"
+          "titleEn": "2. Use JIT Mode",
+          "content": "Tailwind CSS 預設使用 JIT，及時編譯只使用的 class。",
+          "contentEn": "Tailwind CSS uses JIT by default, compiling only used classes on demand."
         },
         {
           "title": "3. 自訂主題",
-          "content": "在 tailwind.config.js 中自訂顏色、間距等主題。"
+          "titleEn": "3. Custom Theme",
+          "content": "在 tailwind.config.js 中自訂顏色、間距等主題。",
+          "contentEn": "Customize colors, spacing, and other theme settings in tailwind.config.js."
         },
         {
           "title": "4. 使用 Group",
-          "content": "利用 group 和 group-hover 實現父元件 hover 效果。"
+          "titleEn": "4. Use Group",
+          "content": "利用 group 和 group-hover 實現父元件 hover 效果。",
+          "contentEn": "Use group and group-hover to implement parent component hover effects."
         }
       ],
       "tips": [
         "使用 @apply 抽取重複的 class 到自訂 class",
         "利用 @layer 自訂 base、components、utilities 樣式",
         "使用 Tailwind CSS IntelliSense 擴充獲得代碼提示"
+      ],
+      "tipsEn": [
+        "Use @apply to extract repeated classes into custom classes",
+        "Use @layer to customize base, components, and utilities styles",
+        "Use Tailwind CSS IntelliSense extension for code hints"
       ]
     },
     "nextjs": {
       "title": "Next.js 15 開發指南",
+      "titleEn": "Next.js 15 Development Guide",
       "steps": [
         {
           "title": "1. 建立專案",
-          "content": "使用 npx create-next-app@latest 建立新 Next.js 專案。"
+          "titleEn": "1. Create Project",
+          "content": "使用 npx create-next-app@latest 建立新 Next.js 專案。",
+          "contentEn": "Use npx create-next-app@latest to create a new Next.js project."
         },
         {
           "title": "2. App Router",
-          "content": "使用 App Router (app 目錄) 建立頁面和路由。"
+          "titleEn": "2. App Router",
+          "content": "使用 App Router (app 目錄) 建立頁面和路由。",
+          "contentEn": "Use App Router (app directory) to create pages and routes."
         },
         {
           "title": "3. Server Components",
-          "content": "預設使用 Server Components，少量使用 'use client'。"
+          "titleEn": "3. Server Components",
+          "content": "預設使用 Server Components，少量使用 'use client'。",
+          "contentEn": "Use Server Components by default, minimize use of 'use client'."
         },
         {
           "title": "4. API Routes",
-          "content": "在 app/api 目錄建立 API 端點。"
+          "titleEn": "4. API Routes",
+          "content": "在 app/api 目錄建立 API 端點。",
+          "contentEn": "Create API endpoints in the app/api directory."
         }
       ],
       "tips": [
         "使用 React Server Components 提升效能",
         "利用 next/image 自動優化圖片",
         "使用 next/font 自動載入並優化字體"
+      ],
+      "tipsEn": [
+        "Use React Server Components to improve performance",
+        "Use next/image for automatic image optimization",
+        "Use next/font to automatically load and optimize fonts"
       ]
     },
     "midjourney": {
       "title": "Midjourney AI 繪圖教學",
+      "titleEn": "Midjourney AI Art Tutorial",
       "steps": [
         {
           "title": "1. 進入 Discord",
-          "content": "加入 Midjourney Discord 伺服器。"
+          "titleEn": "1. Join Discord",
+          "content": "加入 Midjourney Discord 伺服器。",
+          "contentEn": "Join the Midjourney Discord server."
         },
         {
           "title": "2. 生成圖片",
-          "content": "在文字頻道輸入 /imagine 加上你的提示詞。"
+          "titleEn": "2. Generate Images",
+          "content": "在文字頻道輸入 /imagine 加上你的提示詞。",
+          "contentEn": "Enter /imagine followed by your prompt in the text channel."
         },
         {
           "title": "3. 調整參數",
-          "content": "使用 --ar、--stylize 等參數調整生成效果。"
+          "titleEn": "3. Adjust Parameters",
+          "content": "使用 --ar、--stylize 等參數調整生成效果。",
+          "contentEn": "Use parameters like --ar, --stylize to adjust generation results."
         },
         {
           "title": "4. 版本選擇",
-          "content": "使用 --version 或 --v 切換不同模型版本。"
+          "titleEn": "4. Version Selection",
+          "content": "使用 --version 或 --v 切換不同模型版本。",
+          "contentEn": "Use --version or --v to switch between different model versions."
         }
       ],
       "tips": [
         "詳細的提示詞會產生更精確的結果",
         "使用 --iw 調整參考圖片的重要性",
         "善用 Upscale 功能提升圖片解析度"
+      ],
+      "tipsEn": [
+        "Detailed prompts produce more accurate results",
+        "Use --iw to adjust the importance of reference images",
+        "Use the Upscale feature to increase image resolution"
       ]
     },
     "obs-studio": {
       "title": "OBS Studio 直播設定指南",
+      "titleEn": "OBS Studio Live Streaming Setup Guide",
       "steps": [
         {
           "title": "1. 場景設定",
-          "content": "在「場景」中加入畫面來源（遊戲、視窗、文字等）。"
+          "titleEn": "1. Scene Setup",
+          "content": "在「場景」中加入畫面來源（遊戲、視窗、文字等）。",
+          "contentEn": "Add sources (games, windows, text, etc.) in 'Scenes'."
         },
         {
           "title": "2. 音訊設定",
-          "content": "設定麥克風和桌面音效的混合器。"
+          "titleEn": "2. Audio Setup",
+          "content": "設定麥克風和桌面音效的混合器。",
+          "contentEn": "Set up mixer for microphone and desktop audio."
         },
         {
           "title": "3. 錄製設定",
-          "content": "選擇錄製格式和品質，開始錄製。"
+          "titleEn": "3. Recording Setup",
+          "content": "選擇錄製格式和品質，開始錄製。",
+          "contentEn": "Choose recording format and quality, start recording."
         },
         {
           "title": "4. 串流設定",
-          "content": "連接 Twitch 或 YouTube 進行直播。"
+          "titleEn": "4. Streaming Setup",
+          "content": "連接 Twitch 或 YouTube 進行直播。",
+          "contentEn": "Connect to Twitch or YouTube for live streaming."
         }
       ],
       "tips": [
         "使用「來源」功能可以組合多個畫面",
         "利用濾鏡功能美化画面和音訊",
         "使用快捷鍵可以快速切換場景"
+      ],
+      "tipsEn": [
+        "Use 'Sources' to combine multiple screens",
+        "Use filters to beautify video and audio",
+        "Use keyboard shortcuts to quickly switch scenes"
       ]
     },
     "duolingo": {
       "title": "Duolingo 語言學習技巧",
+      "titleEn": "Duolingo Language Learning Tips",
       "steps": [
         {
           "title": "1. 每日目標",
-          "content": "設定每日學習目標（建議 15-30 分鐘）。"
+          "titleEn": "1. Daily Goal",
+          "content": "設定每日學習目標（建議 15-30 分鐘）。",
+          "contentEn": "Set daily learning goal (recommended 15-30 minutes)."
         },
         {
           "title": "2. 練習模式",
-          "content": "完成故事、測驗、論壇等多種練習。"
+          "titleEn": "2. Practice Modes",
+          "content": "完成故事、測驗、論壇等多種練習。",
+          "contentEn": "Complete various exercises like stories, quizzes, forums."
         },
         {
           "title": "3. 排行榜",
-          "content": "加入排行榜與其他學習者競爭。"
+          "titleEn": "3. Leaderboard",
+          "content": "加入排行榜與其他學習者競爭。",
+          "contentEn": "Join leaderboards to compete with other learners."
         },
         {
           "title": "4. 復習功能",
-          "content": "利用復習功能鞏固已學過的內容。"
+          "titleEn": "4. Review Feature",
+          "content": "利用復習功能鞏固已學過的內容。",
+          "contentEn": "Use review feature to solidify learned content."
         }
       ],
       "tips": [
         "保持一致的學習習慣比長時間學習更重要",
         "聆聽音頻練習可以提升聽力",
         "完成所有技能樹以獲得全面語言能力"
+      ],
+      "tipsEn": [
+        "Consistent learning habits are more important than long study sessions",
+        "Listening to audio exercises can improve listening skills",
+        "Complete all skill trees to gain comprehensive language abilities"
       ]
     }
   }

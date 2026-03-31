@@ -5,10 +5,19 @@ import Link from "next/link";
 import MetadataJsonLd from "./MetadataJsonLd";
 import { Category, Tool } from "@/types";
 
+interface TutorialStep {
+  title: string;
+  titleEn: string;
+  content: string;
+  contentEn: string;
+}
+
 interface Tutorial {
   title: string;
-  steps: { title: string; content: string }[];
+  titleEn: string;
+  steps: TutorialStep[];
   tips: string[];
+  tipsEn: string[];
 }
 
 interface Props {
@@ -21,7 +30,7 @@ interface Props {
 }
 
 export function ToolPageClient({ tool, category, tutorial, jsonLd, allTools, allCategories }: Props) {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
 
   const getCategoryName = (id: string) => {
     const cat = t.categoryNames[id as keyof typeof t.categoryNames];
@@ -127,7 +136,7 @@ export function ToolPageClient({ tool, category, tutorial, jsonLd, allTools, all
         {tutorial && (
           <div className="mt-12 rounded-3xl border border-zinc-200 bg-white p-8 shadow-lg">
             <h2 className="mb-6 text-2xl font-bold text-zinc-900">
-              📖 {tutorial.title}
+              📖 {language === "zh" ? tutorial.title : tutorial.titleEn}
             </h2>
 
             {/* Steps */}
@@ -142,9 +151,9 @@ export function ToolPageClient({ tool, category, tutorial, jsonLd, allTools, all
                   </div>
                   <div>
                     <h3 className="font-semibold text-zinc-900">
-                      {step.title}
+                      {language === "zh" ? step.title : step.titleEn}
                     </h3>
-                    <p className="text-zinc-600">{step.content}</p>
+                    <p className="text-zinc-600">{language === "zh" ? step.content : step.contentEn}</p>
                   </div>
                 </div>
               ))}
@@ -154,10 +163,10 @@ export function ToolPageClient({ tool, category, tutorial, jsonLd, allTools, all
             {tutorial.tips && tutorial.tips.length > 0 && (
               <div className="rounded-xl bg-yellow-50 p-4">
                 <h3 className="mb-3 font-semibold text-yellow-800">
-                  💡 技巧提示
+                  💡 {t.tips}
                 </h3>
                 <ul className="space-y-2">
-                  {tutorial.tips.map((tip, index) => (
+                  {(language === "zh" ? tutorial.tips : tutorial.tipsEn).map((tip, index) => (
                     <li key={index} className="text-sm text-yellow-700">
                       • {tip}
                     </li>
@@ -180,7 +189,7 @@ export function ToolPageClient({ tool, category, tutorial, jsonLd, allTools, all
               .map((relatedTool) => (
                 <Link
                   key={relatedTool.id}
-                  href={`/tools/${relatedTool.slug}`}
+                  href={`/tools/${relatedTool.slug}/`}
                   className="group flex flex-col rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg"
                 >
                   <span className="mb-3 text-3xl">{relatedTool.icon}</span>
