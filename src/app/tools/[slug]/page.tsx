@@ -1,5 +1,6 @@
 "use client";
 
+import React from "react";
 import { useLanguage } from "@/i18n/LanguageProvider";
 import { notFound } from "next/navigation";
 import Link from "next/link";
@@ -16,9 +17,28 @@ const tutorials = tutorialsData.tutorials as Record<string, {
   tips: string[];
 }>;
 
-export default function ToolPage({ params }: { params: Promise<{ slug: string }> }) {
+interface Props {
+  params: Promise<{ slug: string }>;
+}
+
+export default function ToolPage({ params }: Props) {
   const { t, language } = useLanguage();
-  const { slug } = Promise.resolve(params);
+
+  // Use useEffect to handle async params in client component
+  const [slug, setSlug] = React.useState<string>("");
+  const [loading, setLoading] = React.useState(true);
+
+  React.useEffect(() => {
+    params.then((p) => {
+      setSlug(p.slug);
+      setLoading(false);
+    });
+  }, [params]);
+
+  if (loading) {
+    return null;
+  }
+
   const tool = tools.find((t) => t.slug === slug);
 
   if (!tool) {
