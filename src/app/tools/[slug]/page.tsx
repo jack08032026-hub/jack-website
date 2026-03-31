@@ -1,14 +1,12 @@
-import { Metadata } from "next";
+"use client";
+
+import { useLanguage } from "@/i18n/LanguageProvider";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import MetadataJsonLd from "./MetadataJsonLd";
 import toolsData from "@/data/tools.json";
 import tutorialsData from "@/data/tutorials.json";
-import { Tool, Category } from "@/types";
-
-interface Props {
-  params: Promise<{ slug: string }>;
-}
+import { Category, Tool } from "@/types";
 
 const tools: Tool[] = toolsData.tools as Tool[];
 const categories: Category[] = toolsData.categories as Category[];
@@ -18,39 +16,9 @@ const tutorials = tutorialsData.tutorials as Record<string, {
   tips: string[];
 }>;
 
-export async function generateStaticParams() {
-  return tools.map((tool) => ({ slug: tool.slug }));
-}
-
-export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { slug } = await params;
-  const tool = tools.find((t) => t.slug === slug);
-
-  if (!tool) {
-    return {
-      title: "工具不存在 | Jack Website",
-    };
-  }
-
-  const category = categories.find((c) => c.id === tool.category);
-
-  return {
-    title: tool.seo?.title || `${tool.name} - ${tool.description} | Jack Website`,
-    description: tool.seo?.description || tool.description,
-    keywords: tool.keywords,
-    openGraph: {
-      title: tool.seo?.ogTitle || tool.name,
-      description: tool.seo?.ogDescription || tool.description,
-      type: "website",
-    },
-    other: {
-      "og:url": `https://jack08032026-hub.github.io/jack-website/tools/${slug}`,
-    },
-  };
-}
-
-export default async function ToolPage({ params }: Props) {
-  const { slug } = await params;
+export default function ToolPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { t, language } = useLanguage();
+  const { slug } = Promise.resolve(params);
   const tool = tools.find((t) => t.slug === slug);
 
   if (!tool) {
@@ -60,7 +28,11 @@ export default async function ToolPage({ params }: Props) {
   const category = categories.find((c) => c.id === tool.category);
   const tutorial = tutorials[slug];
 
-  // JSON-LD structured data
+  const getCategoryName = (id: string) => {
+    const cat = t.categoryNames[id as keyof typeof t.categoryNames];
+    return cat || id;
+  };
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
@@ -77,15 +49,15 @@ export default async function ToolPage({ params }: Props) {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-zinc-50 to-zinc-100 dark:from-zinc-950 dark:to-zinc-900">
+    <div className="min-h-screen bg-gradient-to-b from-zinc-50 to-zinc-100">
       <MetadataJsonLd data={jsonLd} />
 
       {/* Header */}
-      <header className="border-b border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-900">
+      <header className="border-b border-zinc-200 bg-white">
         <div className="mx-auto flex max-w-4xl items-center justify-between px-4 py-4">
           <Link
             href="/"
-            className="flex items-center gap-2 text-lg font-bold text-zinc-900 dark:text-zinc-50"
+            className="flex items-center gap-2 text-lg font-bold text-zinc-900"
           >
             <span>←</span>
             <span>Jack Website</span>
@@ -95,26 +67,26 @@ export default async function ToolPage({ params }: Props) {
 
       {/* Tool Content */}
       <main className="mx-auto max-w-4xl px-4 py-16">
-        <div className="rounded-3xl border border-zinc-200 bg-white p-8 shadow-lg dark:border-zinc-800 dark:bg-zinc-800">
+        <div className="rounded-3xl border border-zinc-200 bg-white p-8 shadow-lg">
           {/* Tool Header */}
           <div className="mb-8 flex items-start gap-6">
-            <div className="flex h-20 w-20 items-center justify-center rounded-2xl bg-gradient-to-br from-purple-100 to-blue-100 text-4xl dark:from-purple-900/30 dark:to-blue-900/30">
+            <div className="flex h-20 w-20 items-center justify-center rounded-2xl bg-gradient-to-br from-purple-100 to-blue-100 text-4xl">
               {tool.icon}
             </div>
             <div className="flex-1">
               <div className="mb-2 flex items-center gap-3">
-                <h1 className="text-3xl font-bold text-zinc-900 dark:text-zinc-50">
+                <h1 className="text-3xl font-bold text-zinc-900">
                   {tool.name}
                 </h1>
                 {category && (
                   <span
                     className={`rounded-full px-3 py-1 text-sm font-medium text-white ${category.color}`}
                   >
-                    {category.name}
+                    {getCategoryName(category.id)}
                   </span>
                 )}
               </div>
-              <p className="text-lg text-zinc-600 dark:text-zinc-400">
+              <p className="text-lg text-zinc-600">
                 {tool.shortDescription || tool.description}
               </p>
             </div>
@@ -122,23 +94,23 @@ export default async function ToolPage({ params }: Props) {
 
           {/* Description */}
           <div className="mb-8">
-            <h2 className="mb-3 text-xl font-semibold text-zinc-900 dark:text-zinc-50">
-              關於 {tool.name}
+            <h2 className="mb-3 text-xl font-semibold text-zinc-900">
+              {t.about} {tool.name}
             </h2>
-            <p className="text-zinc-600 dark:text-zinc-400">{tool.description}</p>
+            <p className="text-zinc-600">{tool.description}</p>
           </div>
 
           {/* Keywords */}
           {tool.keywords && tool.keywords.length > 0 && (
             <div className="mb-8">
-              <h3 className="mb-3 text-lg font-semibold text-zinc-900 dark:text-zinc-50">
-                相關關鍵字
+              <h3 className="mb-3 text-lg font-semibold text-zinc-900">
+                {t.relatedKeywords}
               </h3>
               <div className="flex flex-wrap gap-2">
                 {tool.keywords.map((keyword) => (
                   <span
                     key={keyword}
-                    className="rounded-full bg-zinc-100 px-3 py-1 text-sm text-zinc-600 dark:bg-zinc-700 dark:text-zinc-300"
+                    className="rounded-full bg-zinc-100 px-3 py-1 text-sm text-zinc-600"
                   >
                     {keyword}
                   </span>
@@ -154,7 +126,7 @@ export default async function ToolPage({ params }: Props) {
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-purple-600 to-blue-600 px-6 py-3 font-medium text-white transition-all hover:from-purple-700 hover:to-blue-700 hover:shadow-lg"
           >
-            造訪 {tool.name}
+            {t.visit} {tool.name}
             <svg
               className="h-4 w-4"
               fill="none"
@@ -173,8 +145,8 @@ export default async function ToolPage({ params }: Props) {
 
         {/* Tutorial Section */}
         {tutorial && (
-          <div className="mt-12 rounded-3xl border border-zinc-200 bg-white p-8 shadow-lg dark:border-zinc-800 dark:bg-zinc-800">
-            <h2 className="mb-6 text-2xl font-bold text-zinc-900 dark:text-zinc-50">
+          <div className="mt-12 rounded-3xl border border-zinc-200 bg-white p-8 shadow-lg">
+            <h2 className="mb-6 text-2xl font-bold text-zinc-900">
               📖 {tutorial.title}
             </h2>
 
@@ -183,16 +155,16 @@ export default async function ToolPage({ params }: Props) {
               {tutorial.steps.map((step, index) => (
                 <div
                   key={index}
-                  className="flex gap-4 rounded-xl bg-zinc-50 p-4 dark:bg-zinc-900"
+                  className="flex gap-4 rounded-xl bg-zinc-50 p-4"
                 >
                   <div className="flex h-8 w-8 flex-shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-purple-500 to-blue-500 text-white">
                     {index + 1}
                   </div>
                   <div>
-                    <h3 className="font-semibold text-zinc-900 dark:text-zinc-50">
+                    <h3 className="font-semibold text-zinc-900">
                       {step.title}
                     </h3>
-                    <p className="text-zinc-600 dark:text-zinc-400">{step.content}</p>
+                    <p className="text-zinc-600">{step.content}</p>
                   </div>
                 </div>
               ))}
@@ -200,13 +172,13 @@ export default async function ToolPage({ params }: Props) {
 
             {/* Tips */}
             {tutorial.tips && tutorial.tips.length > 0 && (
-              <div className="rounded-xl bg-yellow-50 p-4 dark:bg-yellow-900/20">
-                <h3 className="mb-3 font-semibold text-yellow-800 dark:text-yellow-200">
+              <div className="rounded-xl bg-yellow-50 p-4">
+                <h3 className="mb-3 font-semibold text-yellow-800">
                   💡 技巧提示
                 </h3>
                 <ul className="space-y-2">
                   {tutorial.tips.map((tip, index) => (
-                    <li key={index} className="text-sm text-yellow-700 dark:text-yellow-300">
+                    <li key={index} className="text-sm text-yellow-700">
                       • {tip}
                     </li>
                   ))}
@@ -218,8 +190,8 @@ export default async function ToolPage({ params }: Props) {
 
         {/* Related Tools */}
         <div className="mt-12">
-          <h2 className="mb-6 text-2xl font-bold text-zinc-900 dark:text-zinc-50">
-            同類別工具
+          <h2 className="mb-6 text-2xl font-bold text-zinc-900">
+            {t.relatedTools}
           </h2>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {tools
@@ -229,10 +201,10 @@ export default async function ToolPage({ params }: Props) {
                 <Link
                   key={relatedTool.id}
                   href={`/tools/${relatedTool.slug}`}
-                  className="group flex flex-col rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg dark:border-zinc-800 dark:bg-zinc-800"
+                  className="group flex flex-col rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg"
                 >
                   <span className="mb-3 text-3xl">{relatedTool.icon}</span>
-                  <h3 className="mb-1 font-semibold text-zinc-900 dark:text-zinc-50">
+                  <h3 className="mb-1 font-semibold text-zinc-900">
                     {relatedTool.name}
                   </h3>
                   <p className="text-sm text-zinc-500">{relatedTool.description}</p>
@@ -243,9 +215,9 @@ export default async function ToolPage({ params }: Props) {
       </main>
 
       {/* Footer */}
-      <footer className="border-t border-zinc-200 bg-white py-8 dark:border-zinc-800 dark:bg-zinc-900">
+      <footer className="border-t border-zinc-200 bg-white py-8">
         <div className="mx-auto max-w-6xl px-4 text-center text-sm text-zinc-500">
-          <p>© 2026 Jack Website. All rights reserved.</p>
+          <p>{t.copyright}</p>
         </div>
       </footer>
     </div>

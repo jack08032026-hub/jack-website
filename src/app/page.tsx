@@ -1,14 +1,15 @@
 "use client";
 
 import { useState } from "react";
-import Footer from "@/components/Footer";
-import { Category, Tool } from "@/types";
+import { useLanguage } from "@/i18n/LanguageProvider";
 import toolsData from "@/data/tools.json";
+import { Category, Tool } from "@/types";
 
 const categories: Category[] = toolsData.categories as Category[];
 const tools: Tool[] = toolsData.tools as Tool[];
 
 export default function Home() {
+  const { t, language } = useLanguage();
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
 
@@ -20,26 +21,34 @@ export default function Home() {
     return matchesSearch && matchesCategory;
   });
 
+  const getCategoryName = (id: string) => {
+    const cat = t.categoryNames[id as keyof typeof t.categoryNames];
+    return cat || id;
+  };
+
   return (
-    <div className="min-h-screen bg-gradient-to-b from-zinc-50 to-zinc-100 dark:from-zinc-950 dark:to-zinc-900">
+    <div className="min-h-screen bg-gradient-to-b from-zinc-50 to-zinc-100">
       {/* Hero Section */}
       <section className="relative px-4 py-24 text-center">
         <div className="mx-auto max-w-3xl">
-          <h1 className="mb-4 text-4xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50 sm:text-5xl lg:text-6xl">
+          <h1 className="mb-4 text-4xl font-bold tracking-tight text-zinc-900 sm:text-5xl lg:text-6xl">
             Jack Website
           </h1>
-          <p className="mb-8 text-lg text-zinc-600 dark:text-zinc-400">
-            探索最棒的開發工具、AI 資源和生產力應用
+          <p className="mb-2 text-lg text-zinc-600">
+            {t.heroTitle}
+          </p>
+          <p className="mb-8 text-sm text-zinc-500 italic">
+            {t.heroSubtitle}
           </p>
 
           {/* Search Bar */}
           <div className="relative mx-auto max-w-xl">
             <input
               type="text"
-              placeholder="搜尋工具..."
+              placeholder={language === "zh" ? "搜尋工具..." : "Search tools..."}
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full rounded-2xl border border-zinc-200 bg-white px-5 py-4 text-zinc-900 shadow-lg outline-none transition-shadow focus:border-zinc-400 focus:shadow-xl dark:border-zinc-800 dark:bg-zinc-800 dark:text-zinc-50"
+              className="w-full rounded-2xl border border-zinc-200 bg-white px-5 py-4 text-zinc-900 shadow-lg outline-none transition-shadow focus:border-zinc-400 focus:shadow-xl"
             />
             <svg
               className="absolute right-4 top-1/2 h-5 w-5 -translate-y-1/2 text-zinc-400"
@@ -57,7 +66,7 @@ export default function Home() {
           <svg className="absolute bottom-0 h-16 w-full" preserveAspectRatio="none" viewBox="0 0 1440 100">
             <path
               fill="currentColor"
-              className="fill-zinc-100 dark:fill-zinc-900"
+              className="fill-zinc-100"
               d="M0,50 C360,100 1080,0 1440,50 L1440,100 L0,100 Z"
             />
           </svg>
@@ -67,18 +76,18 @@ export default function Home() {
       {/* Category Cards */}
       <section className="px-4 pb-16">
         <div className="mx-auto max-w-6xl">
-          <h2 className="mb-6 text-2xl font-bold text-zinc-900 dark:text-zinc-50">工具分類</h2>
+          <h2 className="mb-6 text-2xl font-bold text-zinc-900">{t.categoriesTitle}</h2>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
             {categories.map((category) => (
               <button
                 key={category.id}
                 onClick={() => setSelectedCategory(selectedCategory === category.id ? null : category.id)}
-                className={`group flex flex-col items-center rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md dark:border-zinc-800 dark:bg-zinc-800 ${
-                  selectedCategory === category.id ? "ring-2 ring-zinc-900 dark:ring-zinc-50" : ""
+                className={`group flex flex-col items-center rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md ${
+                  selectedCategory === category.id ? "ring-2 ring-purple-500" : ""
                 }`}
               >
                 <span className="mb-3 text-4xl">{category.icon}</span>
-                <span className="font-medium text-zinc-700 dark:text-zinc-300">{category.name}</span>
+                <span className="font-medium text-zinc-700">{getCategoryName(category.id)}</span>
               </button>
             ))}
           </div>
@@ -89,17 +98,19 @@ export default function Home() {
       <section className="px-4 pb-24">
         <div className="mx-auto max-w-6xl">
           <div className="mb-6 flex items-center justify-between">
-            <h2 className="text-2xl font-bold text-zinc-900 dark:text-zinc-50">
+            <h2 className="text-2xl font-bold text-zinc-900">
               {selectedCategory
-                ? categories.find((c) => c.id === selectedCategory)?.name
-                : "所有工具"}
+                ? getCategoryName(selectedCategory)
+                : t.allTools}
             </h2>
-            <span className="text-sm text-zinc-500">{filteredTools.length} 個工具</span>
+            <span className="text-sm text-zinc-500">
+              {filteredTools.length} {t.toolsCount}
+            </span>
           </div>
 
           {filteredTools.length === 0 ? (
             <div className="flex h-40 items-center justify-center">
-              <p className="text-zinc-500">沒有找到相關工具</p>
+              <p className="text-zinc-500">{t.noResults}</p>
             </div>
           ) : (
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
@@ -109,17 +120,17 @@ export default function Home() {
                   <a
                     key={tool.id}
                     href={`/tools/${tool.slug}`}
-                    className="group relative flex flex-col rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg dark:border-zinc-800 dark:bg-zinc-800"
+                    className="group relative flex flex-col rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg"
                   >
                     <div className="mb-4 flex items-center justify-between">
                       <span className="text-3xl">{tool.icon}</span>
                       {category && (
                         <span className={`rounded-full px-2 py-1 text-xs font-medium text-white ${category.color}`}>
-                          {category.name}
+                          {getCategoryName(category.id)}
                         </span>
                       )}
                     </div>
-                    <h3 className="mb-2 text-lg font-semibold text-zinc-900 dark:text-zinc-50">{tool.name}</h3>
+                    <h3 className="mb-2 text-lg font-semibold text-zinc-900">{tool.name}</h3>
                     <p className="text-sm text-zinc-500">{tool.description}</p>
                     <div className="absolute right-4 top-4 opacity-0 transition-opacity group-hover:opacity-100">
                       <svg className="h-5 w-5 text-zinc-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -134,7 +145,12 @@ export default function Home() {
         </div>
       </section>
 
-      <Footer />
+      {/* Footer */}
+      <footer className="border-t border-zinc-200 bg-white py-8">
+        <div className="mx-auto max-w-6xl px-4 text-center text-sm text-zinc-500">
+          <p>{t.copyright}</p>
+        </div>
+      </footer>
     </div>
   );
 }
