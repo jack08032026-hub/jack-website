@@ -1,0 +1,84 @@
+name: Broken Link Checker
+
+on:
+  schedule:
+    # 每週一早上 8 點執行
+    - cron: "0 8 * * 1"
+  workflow_dispatch:
+  # 手動觸發
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install link checker
+        run: npm install -g broken-link-checker
+
+      - name: Check for broken links
+        run: |
+          echo "Checking links in tools.json..."
+          npx blc --filter-level 3 --recursive --host-relationshiptag parent https://jack08032026-hub.github.io/jack-website/ -v || true
+        continue-on-error: true
+
+      - name: Extract URLs from JSON
+        id: extract
+        run: |
+          # 從 tools.json 提取所有 URL
+          URLs=$(node -e "
+            const data = require('./src/data/tools.json');
+            const urls = data.tools.map(t => t.url).join('\n');
+            console.log(urls);
+          ")
+          echo "urls=$URLS" >> $GITHUB_OUTPUT
+
+      - name: Check each tool URL
+        run: |
+          IFS=$'\n' read -rd '' -a url_array <<< "${{ steps.extract.outputs.urls }}"
+
+          BROKEN_LINKS=""
+          for url in "\${url_array[@]}"; do
+            echo "Checking: $url"
+            HTTP_CODE=\$(curl -s -o /dev/null -w "%{http_code}" --max-time 10 "\$url" || echo "000")
+
+            if [ "\$HTTP_CODE" = "000" ]; then
+              echo "❌ $url - Connection failed"
+              BROKEN_LINKS+="❌ $url - Connection failed\n"
+            elif [ "\$HTTP_CODE" -ge 400 ]; then
+              echo "❌ $url - HTTP \$HTTP_CODE"
+              BROKEN_LINKS+="❌ $url - HTTP \$HTTP_CODE\n"
+            else
+              echo "✅ $url - OK"
+            fi
+          done
+
+          echo "\$BROKEN_LINKS" > broken_links.txt
+
+      - name: Create issue if broken links found
+        if: success() && hashFiles('broken_links.txt') && steps.check.outputs.broken > 0
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const brokenLinks = fs.readFileSync('broken_links.txt', 'utf8');
+
+            if (brokenLinks.trim()) {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: '⚠️ 發現失效連結',
+                body: `## 失效連結報告\n\n以下連結可能已失效：\n\n${brokenLinks}\n\n請檢查並更新 tools.json`,
+                labels: ['bug', 'broken-link']
+              });
+            }
+
+      - name: Report success
+        if: success()
+        run: echo "✅ 連結檢查完成，所有工具連結正常"

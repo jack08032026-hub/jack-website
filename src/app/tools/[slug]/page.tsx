@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import { MetadataJsonLd } from "./MetadataJsonLd";
 import toolsData from "@/data/tools.json";
 import { Tool, Category } from "@/types";
 
@@ -52,8 +53,26 @@ export default async function ToolPage({ params }: Props) {
 
   const category = categories.find((c) => c.id === tool.category);
 
+  // JSON-LD structured data
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    name: tool.name,
+    description: tool.description,
+    applicationCategory: "DeveloperApplication",
+    operatingSystem: "Web",
+    url: tool.url,
+    offers: {
+      "@type": "Offer",
+      price: "0",
+      priceCurrency: "USD",
+    },
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-zinc-50 to-zinc-100 dark:from-zinc-950 dark:to-zinc-900">
+      <MetadataJsonLd data={jsonLd} />
+
       {/* Header */}
       <header className="border-b border-zinc-200 bg-white dark:border-zinc-800 dark:bg-zinc-900">
         <div className="mx-auto flex max-w-4xl items-center justify-between px-4 py-4">
@@ -72,7 +91,7 @@ export default async function ToolPage({ params }: Props) {
         <div className="rounded-3xl border border-zinc-200 bg-white p-8 shadow-lg dark:border-zinc-800 dark:bg-zinc-800">
           {/* Tool Header */}
           <div className="mb-8 flex items-start gap-6">
-            <div className="flex h-20 w-20 items-center justify-center rounded-2xl bg-zinc-100 text-4xl dark:bg-zinc-700">
+            <div className="flex h-20 w-20 items-center justify-center rounded-2xl bg-gradient-to-br from-purple-100 to-blue-100 text-4xl dark:from-purple-900/30 dark:to-blue-900/30">
               {tool.icon}
             </div>
             <div className="flex-1">
@@ -126,7 +145,7 @@ export default async function ToolPage({ params }: Props) {
             href={tool.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-xl bg-zinc-900 px-6 py-3 font-medium text-white transition-colors hover:bg-zinc-700 dark:bg-zinc-50 dark:text-zinc-900"
+            className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-purple-600 to-blue-600 px-6 py-3 font-medium text-white transition-all hover:from-purple-700 hover:to-blue-700 hover:shadow-lg"
           >
             造訪 {tool.name}
             <svg

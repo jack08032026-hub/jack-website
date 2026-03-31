@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Hero, CategoryCard, ToolCard, Footer } from "@/components";
+import { AnimatedHero, AnimatedCategoryCard, AnimatedToolCard, Footer } from "@/components";
 import { Category, Tool } from "@/types";
 import toolsData from "@/data/tools.json";
 
@@ -22,7 +22,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-zinc-50 to-zinc-100 dark:from-zinc-950 dark:to-zinc-900">
-      <Hero
+      <AnimatedHero
         title="Jack Website"
         subtitle="探索最棒的開發工具、AI 資源和生產力應用"
         searchValue={searchQuery}
@@ -34,14 +34,15 @@ export default function Home() {
         <div className="mx-auto max-w-6xl">
           <h2 className="mb-6 text-2xl font-bold text-zinc-900 dark:text-zinc-50">工具分類</h2>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
-            {categories.map((category) => (
-              <CategoryCard
+            {categories.map((category, index) => (
+              <AnimatedCategoryCard
                 key={category.id}
                 category={category}
                 isSelected={selectedCategory === category.id}
                 onClick={() =>
                   setSelectedCategory(selectedCategory === category.id ? null : category.id)
                 }
+                index={index}
               />
             ))}
           </div>
@@ -66,11 +67,12 @@ export default function Home() {
             </div>
           ) : (
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-              {filteredTools.map((tool) => (
-                <ToolCard
+              {filteredTools.map((tool, index) => (
+                <AnimatedToolCard
                   key={tool.id}
                   tool={tool}
                   category={categories.find((c) => c.id === tool.category)}
+                  index={index}
                 />
               ))}
             </div>
