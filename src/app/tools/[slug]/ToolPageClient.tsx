@@ -37,7 +37,7 @@ export function ToolPageClient({ tool, category, tutorial, jsonLd, allTools, all
     return cat || id;
   };
 
-  const backLink = tool.backLink || "/jack-website";
+  const backLink = tool.backLink || "/";
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-zinc-50 to-zinc-100">
