@@ -119,7 +119,7 @@ export default function Home() {
                 return (
                   <a
                     key={tool.id}
-                    href={`/jack-website/tools/${tool.slug}/`}
+                    href={`/tools/${tool.slug}/`}
                     className="group relative flex flex-col rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg"
                   >
                     <div className="mb-4 flex items-center justify-between">
