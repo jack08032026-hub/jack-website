@@ -214,50 +214,6 @@
       }
     },
     {
-      "id": "101",
-      "name": "DriveToWeb",
-      "slug": "drivetoweb",
-      "description": "網站托管服務",
-      "shortDescription": "透過 Google Drive 托管靜態網站",
-      "category": "cloud",
-      "url": "https://drive-to-web.com",
-      "icon": "📁",
-      "keywords": [
-        "Google Drive",
-        "托管",
-        "靜態網站",
-        "Hosting"
-      ],
-      "seo": {
-        "title": "DriveToWeb - 網站托管 | Jack Website",
-        "description": "探索 DriveToWeb，透過 Google Drive 托管靜態網站。透過 Jack Website 發現更多雲端服務。",
-        "ogTitle": "DriveToWeb - 網站托管",
-        "ogDescription": "探索 DriveToWeb，透過 Google Drive 托管靜態網站。透過 Jack Website 發現更多雲端服務。"
-      }
-    },
-    {
-      "id": "102",
-      "name": "Glitch",
-      "slug": "glitch",
-      "description": "線上程式開發平台",
-      "shortDescription": "線上即時程式編輯與托管平台",
-      "category": "dev",
-      "url": "https://glitch.com",
-      "icon": "🌀",
-      "keywords": [
-        "Glitch",
-        "線上開發",
-        "程式",
-        "編輯器"
-      ],
-      "seo": {
-        "title": "Glitch - 線上開發平台 | Jack Website",
-        "description": "探索 Glitch，線上即時程式編輯與托管平台。透過 Jack Website 發現更多開發工具。",
-        "ogTitle": "Glitch - 線上開發平台",
-        "ogDescription": "探索 Glitch，線上即時程式編輯與托管平台。透過 Jack Website 發現更多開發工具。"
-      }
-    },
-    {
       "id": "103",
       "name": "Kaggle",
       "slug": "kaggle",
@@ -416,50 +372,6 @@
       }
     },
     {
-      "id": "110",
-      "name": "AR.js Studio",
-      "slug": "arjs-studio",
-      "description": "AR 網頁開發",
-      "shortDescription": "用 AR.js 建立擴增實境網頁",
-      "category": "dev",
-      "url": "https://ar-js-org.github.io/AR.js.Studio",
-      "icon": "📱",
-      "keywords": [
-        "AR.js",
-        "擴增實境",
-        "Web AR",
-        "開發工具"
-      ],
-      "seo": {
-        "title": "AR.js Studio - AR 網頁開發 | Jack Website",
-        "description": "探索 AR.js Studio，用 AR.js 建立擴增實境網頁。透過 Jack Website 發現更多開發工具。",
-        "ogTitle": "AR.js Studio - AR 網頁開發",
-        "ogDescription": "探索 AR.js Studio，用 AR.js 建立擴增實境網頁。透過 Jack Website 發現更多開發工具。"
-      }
-    },
-    {
-      "id": "111",
-      "name": "AR.js Marker Training",
-      "slug": "arjs-marker-training",
-      "description": "AR 圖像訓練",
-      "shortDescription": "為 AR.js 訓練自訂辨識圖像",
-      "category": "dev",
-      "url": "https://ar-js-org.github.io/AR.js/marker-training",
-      "icon": "📷",
-      "keywords": [
-        "AR.js",
-        "Marker",
-        "圖像訓練",
-        "擴增實境"
-      ],
-      "seo": {
-        "title": "AR.js Marker Training - AR 圖像訓練 | Jack Website",
-        "description": "探索 AR.js Marker Training，為 AR.js 訓練自訂辨識圖像。透過 Jack Website 發現更多開發工具。",
-        "ogTitle": "AR.js Marker Training - AR 圖像訓練",
-        "ogDescription": "探索 AR.js Marker Training，為 AR.js 訓練自訂辨識圖像。透過 Jack Website 發現更多開發工具。"
-      }
-    },
-    {
       "id": "112",
       "name": "美图设计室",
       "slug": "meitu-design",
@@ -550,73 +462,6 @@
       }
     },
     {
-      "id": "116",
-      "name": "VTC MyPortal",
-      "slug": "vtc-myportal",
-      "description": "VTC 學生入口",
-      "shortDescription": "職業訓練局學生入口網站",
-      "category": "learning",
-      "url": "https://myportal.vtc.edu.hk",
-      "icon": "🏫",
-      "keywords": [
-        "VTC",
-        "MyPortal",
-        "職業訓練局",
-        "學生入口"
-      ],
-      "seo": {
-        "title": "VTC MyPortal - 學生入口 | Jack Website",
-        "description": "探索 VTC MyPortal，職業訓練局學生入口網站。透過 Jack Website 發現更多學習資源。",
-        "ogTitle": "VTC MyPortal - 學生入口",
-        "ogDescription": "探索 VTC MyPortal，職業訓練局學生入口網站。透過 Jack Website 發現更多學習資源。"
-      }
-    },
-    {
-      "id": "117",
-      "name": "VTC Moodle",
-      "slug": "vtc-moodle",
-      "description": "VTC 網上學習平台",
-      "shortDescription": "職業訓練局網上學習與評估系統",
-      "category": "learning",
-      "url": "https://elearn.vtc.edu.hk",
-      "icon": "📖",
-      "keywords": [
-        "VTC",
-        "Moodle",
-        "網上學習",
-        "線上課程"
-      ],
-      "seo": {
-        "title": "VTC Moodle - 網上學習平台 | Jack Website",
-        "description": "探索 VTC Moodle，職業訓練局網上學習與評估系統。透過 Jack Website 發現更多學習資源。",
-        "ogTitle": "VTC Moodle - 網上學習平台",
-        "ogDescription": "探索 VTC Moodle，職業訓練局網上學習與評估系統。透過 Jack Website 發現更多學習資源。"
-      }
-    },
-    {
-      "id": "118",
-      "name": "HKUST Apply",
-      "slug": "hkust-apply",
-      "description": "科大入學申請",
-      "shortDescription": "香港科技大學入學申請入口",
-      "category": "learning",
-      "url": "https://www.hkust.edu.hk/apply",
-      "icon": "🎓",
-      "keywords": [
-        "HKUST",
-        "科大",
-        "入學",
-        "申請",
-        "大學"
-      ],
-      "seo": {
-        "title": "HKUST Apply - 科大入學申請 | Jack Website",
-        "description": "探索 HKUST Apply，香港科技大學入學申請入口。透過 Jack Website 發現更多學習資源。",
-        "ogTitle": "HKUST Apply - 科大入學申請",
-        "ogDescription": "探索 HKUST Apply，香港科技大學入學申請入口。透過 Jack Website 發現更多學習資源。"
-      }
-    },
-    {
       "id": "119",
       "name": "flowkey",
       "slug": "flowkey",
@@ -682,28 +527,6 @@
         "description": "探索 ExplainThis，精選 ChatGPT 提示詞與指令集合。透過 Jack Website 發現更多學習資源。",
         "ogTitle": "ExplainThis - ChatGPT 指令庫",
         "ogDescription": "探索 ExplainThis，精選 ChatGPT 提示詞與指令集合。透過 Jack Website 發現更多學習資源。"
-      }
-    },
-    {
-      "id": "122",
-      "name": "Teach Anything",
-      "slug": "teach-anything",
-      "description": "AI 教學工具",
-      "shortDescription": "AI 驅動的即時教學問答工具",
-      "category": "learning",
-      "url": "https://teachanything.com",
-      "icon": "🍎",
-      "keywords": [
-        "Teach Anything",
-        "AI 教學",
-        "問答",
-        "教學工具"
-      ],
-      "seo": {
-        "title": "Teach Anything - AI 教學工具 | Jack Website",
-        "description": "探索 Teach Anything，AI 驅動的即時教學問答工具。透過 Jack Website 發現更多學習資源。",
-        "ogTitle": "Teach Anything - AI 教學工具",
-        "ogDescription": "探索 Teach Anything，AI 驅動的即時教學問答工具。透過 Jack Website 發現更多學習資源。"
       }
     },
     {
@@ -1062,29 +885,6 @@
         "description": "探索 Overleaf，線上 LaTeX 論文寫作平台。透過 Jack Website 發現更多開發工具。",
         "ogTitle": "Overleaf - 線上 LaTeX 編輯器",
         "ogDescription": "探索 Overleaf，線上 LaTeX 論文寫作平台。透過 Jack Website 發現更多開發工具。"
-      }
-    },
-    {
-      "id": "42",
-      "name": "Figma",
-      "slug": "figma",
-      "description": "協作設計工具",
-      "shortDescription": "雲端協作 UI 設計工具",
-      "category": "design",
-      "url": "https://figma.com",
-      "icon": "🎨",
-      "keywords": [
-        "design",
-        "UI",
-        "UX",
-        "figma",
-        "設計"
-      ],
-      "seo": {
-        "title": "Figma - 協作設計工具 | Jack Website",
-        "description": "探索 Figma，雲端協作 UI 設計工具。透過 Jack Website 發現更多設計工具。",
-        "ogTitle": "Figma - 協作設計工具",
-        "ogDescription": "探索 Figma，雲端協作 UI 設計工具。透過 Jack Website 發現更多設計工具。"
       }
     },
     {
@@ -2391,26 +2191,26 @@
       }
     },
     {
-      "id": "19",
-      "name": "Figma",
-      "slug": "figma-dev",
-      "description": "設計工具",
-      "shortDescription": "雲端 UI 設計工具",
-      "category": "design",
-      "url": "https://figma.com",
-      "icon": "🎯",
+      "id": "134",
+      "name": "Railway",
+      "slug": "railway",
+      "description": "雲端部署平台",
+      "shortDescription": "快速的雲端部署與托管服務",
+      "category": "dev",
+      "url": "https://railway.app",
+      "icon": "🚂",
       "keywords": [
-        "design",
-        "UI",
-        "UX",
-        "figma",
-        "原型"
+        "Railway",
+        "部署",
+        "雲端",
+        "hosting",
+        "deploy"
       ],
       "seo": {
-        "title": "Figma - 設計工具 | Jack Website",
-        "description": "探索 Figma，雲端 UI 設計工具。透過 Jack Website 發現更多設計工具。",
-        "ogTitle": "Figma - 設計工具",
-        "ogDescription": "探索 Figma，雲端 UI 設計工具。透過 Jack Website 發現更多設計工具。"
+        "title": "Railway - 雲端部署平台 | Jack Website",
+        "description": "探索 Railway快速的雲端部署與托管服務。透過 Jack Website 發現更多開發工具。",
+        "ogTitle": "Railway - 雲端部署平台",
+        "ogDescription": "探索 Railway快速的雲端部署與托管服務。透過 Jack Website 發現更多開發工具。"
       }
     }
   ]
