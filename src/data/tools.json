@@ -2214,6 +2214,29 @@
         "ogTitle": "Figma - 協作設計工具",
         "ogDescription": "探索 Figma，雲端協作 UI 設計工具。透過 Jack Website 發現更多設計工具。"
       }
+    },
+    {
+      "id": "97",
+      "name": "cpolar",
+      "slug": "cpolar",
+      "description": "內網穿透工具",
+      "shortDescription": "安全的內網穿透服務",
+      "category": "dev",
+      "url": "https://www.cpolar.com/",
+      "icon": "🔗",
+      "keywords": [
+        "cpolar",
+        "內網穿透",
+        "隧道",
+        "開發",
+        "ngrok"
+      ],
+      "seo": {
+        "title": "cpolar - 內網穿透工具 | Jack Website",
+        "description": "探索 cpolar，安全 的內網穿透服務。透過 Jack Website 發現更多開發工具。",
+        "ogTitle": "cpolar - 內網穿透工具",
+        "ogDescription": "探索 cpolar，安全 的內網穿透服務。透過 Jack Website 發現更多開發工具。"
+      }
     }
   ]
 }
