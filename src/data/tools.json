@@ -2284,6 +2284,30 @@
         "ogTitle": "WebSim - AI 網站生成工具",
         "ogDescription": "探索 WebSim，AI 驅動的即時網站生成平台。透過 Jack Website 發現更多開發工具。"
       }
+    },
+    {
+      "id": "100",
+      "name": "Ollama",
+      "slug": "ollama",
+      "description": "本地 AI 模型執行",
+      "shortDescription": "在本地運行大型語言模型的工具",
+      "category": "ai",
+      "url": "https://ollama.com/",
+      "icon": "🦙",
+      "keywords": [
+        "Ollama",
+        "AI",
+        "本地",
+        "模型",
+        "LLM",
+        "開源"
+      ],
+      "seo": {
+        "title": "Ollama - 本地 AI 模型執行 | Jack Website",
+        "description": "探索 Ollama，在本地運行大型語言模型的工具。透過 Jack Website 發現更多 AI 工具。",
+        "ogTitle": "Ollama - 本地 AI 模型執行",
+        "ogDescription": "探索 Ollama，在本地運行大型語言模型的工具。透過 Jack Website 發現更多 AI 工具。"
+      }
     }
   ]
 }
