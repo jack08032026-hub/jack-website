@@ -2237,6 +2237,30 @@
         "ogTitle": "cpolar - 內網穿透工具",
         "ogDescription": "探索 cpolar，安全 的內網穿透服務。透過 Jack Website 發現更多開發工具。"
       }
+    },
+    {
+      "id": "98",
+      "name": "Minimax",
+      "slug": "minimax",
+      "description": "AI 內容生成平台",
+      "shortDescription": "AI 驅動的文字、圖片和影片生成平台",
+      "category": "ai",
+      "url": "https://www.minimax.io/",
+      "icon": "🤖",
+      "keywords": [
+        "Minimax",
+        "AI",
+        "生成",
+        "文字",
+        "圖片",
+        "影片"
+      ],
+      "seo": {
+        "title": "Minimax - AI 內容生成平台 | Jack Website",
+        "description": "探索 Minimax，AI 驅動的文字、圖片和影片生成平台。透過 Jack Website 發現更多 AI 工具。",
+        "ogTitle": "Minimax - AI 內容生成平台",
+        "ogDescription": "探索 Minimax，AI 驅動的文字、圖片和影片生成平台。透過 Jack Website 發現更多 AI 工具。"
+      }
     }
   ]
 }
