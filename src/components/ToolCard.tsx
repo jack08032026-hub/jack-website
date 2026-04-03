@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { useLanguage } from "@/i18n/LanguageProvider";
 import { Tool, Category } from "@/types";
 
 interface ToolCardProps {
@@ -7,9 +10,11 @@ interface ToolCardProps {
 }
 
 export default function ToolCard({ tool, category }: ToolCardProps) {
+  const { language } = useLanguage();
+
   return (
     <Link
-      href={`/tools/${tool.slug}`}
+      href={`/jack-website/tools/${tool.slug}/`}
       className="group relative flex flex-col rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg dark:border-zinc-800 dark:bg-zinc-800"
     >
       <div className="mb-4 flex items-center justify-between">
@@ -25,7 +30,9 @@ export default function ToolCard({ tool, category }: ToolCardProps) {
       <h3 className="mb-2 text-lg font-semibold text-zinc-900 dark:text-zinc-50">
         {tool.name}
       </h3>
-      <p className="text-sm text-zinc-500">{tool.description}</p>
+      <p className="text-sm text-zinc-500">
+        {language === "zh" ? tool.description : (tool.descriptionEn || tool.description)}
+      </p>
       <div className="absolute right-4 top-4 opacity-0 transition-opacity group-hover:opacity-100">
         <svg
           className="h-5 w-5 text-zinc-400"

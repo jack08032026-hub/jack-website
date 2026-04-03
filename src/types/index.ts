@@ -18,7 +18,9 @@ export interface Tool {
   name: string;
   slug: string;
   description: string;
+  descriptionEn?: string;
   shortDescription?: string;
+  shortDescriptionEn?: string;
   category: string;
   url: string;
   icon: string;

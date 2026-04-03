@@ -78,7 +78,7 @@ export function ToolPageClient({ tool, category, tutorial, jsonLd, allTools, all
                 )}
               </div>
               <p className="text-lg text-zinc-600">
-                {tool.shortDescription || tool.description}
+                {language === "zh" ? (tool.shortDescription || tool.description) : (tool.shortDescriptionEn || tool.descriptionEn || tool.shortDescription || tool.description)}
               </p>
             </div>
           </div>
@@ -88,7 +88,7 @@ export function ToolPageClient({ tool, category, tutorial, jsonLd, allTools, all
             <h2 className="mb-3 text-xl font-semibold text-zinc-900">
               {t.about} {tool.name}
             </h2>
-            <p className="text-zinc-600">{tool.description}</p>
+            <p className="text-zinc-600">{language === "zh" ? tool.description : (tool.descriptionEn || tool.description)}</p>
           </div>
 
           {/* Keywords */}
@@ -198,7 +198,9 @@ export function ToolPageClient({ tool, category, tutorial, jsonLd, allTools, all
                   <h3 className="mb-1 font-semibold text-zinc-900">
                     {relatedTool.name}
                   </h3>
-                  <p className="text-sm text-zinc-500">{relatedTool.description}</p>
+                  <p className="text-sm text-zinc-500">
+                          {language === "zh" ? relatedTool.description : (relatedTool.descriptionEn || relatedTool.description)}
+                        </p>
                 </Link>
               ))}
           </div>
