@@ -82,7 +82,7 @@
       }
     },
     {
-      "id": "31",
+      "id": "2",
       "name": "DeepL",
       "slug": "deepl",
       "description": "AI 翻譯工具",
@@ -104,7 +104,7 @@
       }
     },
     {
-      "id": "32",
+      "id": "3",
       "name": "智譜AI",
       "slug": "zhipuai",
       "description": "國產 AI 大模型",
@@ -126,7 +126,7 @@
       }
     },
     {
-      "id": "33",
+      "id": "4",
       "name": "Kimi",
       "slug": "kimi",
       "description": "AI 助手",
@@ -148,7 +148,7 @@
       }
     },
     {
-      "id": "34",
+      "id": "5",
       "name": "通義千問",
       "slug": "tongyi",
       "description": "阿里 AI 助手",
@@ -170,7 +170,7 @@
       }
     },
     {
-      "id": "35",
+      "id": "6",
       "name": "Mage",
       "slug": "mage",
       "description": "AI 圖片生成",
@@ -192,7 +192,7 @@
       }
     },
     {
-      "id": "36",
+      "id": "7",
       "name": "Suno",
       "slug": "suno",
       "description": "AI 音樂生成",
@@ -214,7 +214,7 @@
       }
     },
     {
-      "id": "103",
+      "id": "8",
       "name": "Kaggle",
       "slug": "kaggle",
       "description": "資料科學平台",
@@ -237,7 +237,7 @@
       }
     },
     {
-      "id": "104",
+      "id": "9",
       "name": "Civitai",
       "slug": "civitai",
       "description": "AI 模型市集",
@@ -260,7 +260,7 @@
       }
     },
     {
-      "id": "105",
+      "id": "10",
       "name": "Ultralytics HUB",
       "slug": "ultralytics-hub",
       "description": "AI 模型訓練平台",
@@ -283,7 +283,7 @@
       }
     },
     {
-      "id": "106",
+      "id": "11",
       "name": "Stable Video",
       "slug": "stable-video",
       "description": "AI 影片生成",
@@ -305,7 +305,7 @@
       }
     },
     {
-      "id": "107",
+      "id": "12",
       "name": "Dreamina",
       "slug": "dreamina",
       "description": "AI 圖片生成",
@@ -327,7 +327,7 @@
       }
     },
     {
-      "id": "108",
+      "id": "13",
       "name": "Coze",
       "slug": "coze",
       "description": "AI Bot 平台",
@@ -350,7 +350,7 @@
       }
     },
     {
-      "id": "109",
+      "id": "14",
       "name": "Recraft",
       "slug": "recraft",
       "description": "AI 設計工具",
@@ -372,7 +372,7 @@
       }
     },
     {
-      "id": "112",
+      "id": "15",
       "name": "美图设计室",
       "slug": "meitu-design",
       "description": "線上設計平台",
@@ -395,7 +395,7 @@
       }
     },
     {
-      "id": "113",
+      "id": "16",
       "name": "魔音工坊",
       "slug": "moyin",
       "description": "AI 配音工具",
@@ -417,7 +417,7 @@
       }
     },
     {
-      "id": "114",
+      "id": "17",
       "name": "Lucidchart",
       "slug": "lucidchart",
       "description": "線上圖表工具",
@@ -440,7 +440,7 @@
       }
     },
     {
-      "id": "115",
+      "id": "18",
       "name": "Adobe Express",
       "slug": "adobe-express",
       "description": "創意設計工具",
@@ -462,7 +462,7 @@
       }
     },
     {
-      "id": "119",
+      "id": "19",
       "name": "flowkey",
       "slug": "flowkey",
       "description": "鋼琴學習平台",
@@ -485,7 +485,7 @@
       }
     },
     {
-      "id": "120",
+      "id": "20",
       "name": "Plickers",
       "slug": "plickers",
       "description": "課堂互動工具",
@@ -507,7 +507,7 @@
       }
     },
     {
-      "id": "121",
+      "id": "21",
       "name": "ExplainThis",
       "slug": "explainthis",
       "description": "ChatGPT 指令庫",
@@ -530,7 +530,7 @@
       }
     },
     {
-      "id": "123",
+      "id": "22",
       "name": "Outlook",
       "slug": "outlook",
       "description": "電子郵件服務",
@@ -552,7 +552,7 @@
       }
     },
     {
-      "id": "124",
+      "id": "23",
       "name": "WhatsApp Web",
       "slug": "whatsapp-web",
       "description": "即時通訊",
@@ -574,7 +574,7 @@
       }
     },
     {
-      "id": "125",
+      "id": "24",
       "name": "Microsoft Teams",
       "slug": "microsoft-teams",
       "description": "團隊協作平台",
@@ -597,7 +597,7 @@
       }
     },
     {
-      "id": "126",
+      "id": "25",
       "name": "Gmail",
       "slug": "gmail",
       "description": "Google 郵件服務",
@@ -619,7 +619,7 @@
       }
     },
     {
-      "id": "127",
+      "id": "26",
       "name": "Google Maps",
       "slug": "google-maps",
       "description": "地圖服務",
@@ -641,7 +641,7 @@
       }
     },
     {
-      "id": "128",
+      "id": "27",
       "name": "AnyViewer",
       "slug": "anyviewer",
       "description": "遠端桌面工具",
@@ -663,7 +663,7 @@
       }
     },
     {
-      "id": "129",
+      "id": "28",
       "name": "Symbolab",
       "slug": "symbolab",
       "description": "數學計算機",
@@ -686,7 +686,7 @@
       }
     },
     {
-      "id": "130",
+      "id": "29",
       "name": "Visla",
       "slug": "visla",
       "description": "AI 影片編輯",
@@ -708,7 +708,7 @@
       }
     },
     {
-      "id": "131",
+      "id": "30",
       "name": "OpenWeatherMap",
       "slug": "openweathermap",
       "description": "天氣數據 API",
@@ -730,7 +730,7 @@
       }
     },
     {
-      "id": "132",
+      "id": "31",
       "name": "fiverr",
       "slug": "fiverr",
       "description": "自由工作者平台",
@@ -753,7 +753,7 @@
       }
     },
     {
-      "id": "133",
+      "id": "32",
       "name": "Thesaurus",
       "slug": "thesaurus",
       "description": "同義詞字典",
@@ -776,7 +776,7 @@
       }
     },
     {
-      "id": "37",
+      "id": "33",
       "name": "Bolt.new",
       "slug": "bolt-new",
       "description": "AI 網頁開發",
@@ -799,7 +799,7 @@
       }
     },
     {
-      "id": "38",
+      "id": "34",
       "name": "v0",
       "slug": "v0",
       "description": "AI UI 生成",
@@ -821,7 +821,7 @@
       }
     },
     {
-      "id": "39",
+      "id": "35",
       "name": "ngrok",
       "slug": "ngrok",
       "description": "內網穿透工具",
@@ -843,7 +843,7 @@
       }
     },
     {
-      "id": "40",
+      "id": "36",
       "name": "Stack Overflow",
       "slug": "stackoverflow",
       "description": "程式問答社區",
@@ -866,7 +866,7 @@
       }
     },
     {
-      "id": "41",
+      "id": "37",
       "name": "Overleaf",
       "slug": "overleaf",
       "description": "線上 LaTeX 編輯器",
@@ -888,7 +888,7 @@
       }
     },
     {
-      "id": "43",
+      "id": "38",
       "name": "Canva",
       "slug": "canva",
       "description": "線上設計平台",
@@ -911,7 +911,7 @@
       }
     },
     {
-      "id": "44",
+      "id": "39",
       "name": "Renderforest",
       "slug": "renderforest",
       "description": "線上影片製作",
@@ -933,7 +933,7 @@
       }
     },
     {
-      "id": "45",
+      "id": "40",
       "name": "Flaticon",
       "slug": "flaticon",
       "description": "免費圖標素材",
@@ -956,7 +956,7 @@
       }
     },
     {
-      "id": "46",
+      "id": "41",
       "name": "Google Fonts",
       "slug": "google-fonts",
       "description": "網頁字體庫",
@@ -978,7 +978,7 @@
       }
     },
     {
-      "id": "47",
+      "id": "42",
       "name": "Flat UI Colors",
       "slug": "flat-ui-colors",
       "description": "配色方案",
@@ -1001,7 +1001,7 @@
       }
     },
     {
-      "id": "48",
+      "id": "43",
       "name": "iLoveIMG",
       "slug": "iloveimg",
       "description": "圖片處理工具",
@@ -1023,7 +1023,7 @@
       }
     },
     {
-      "id": "49",
+      "id": "44",
       "name": "iLovePDF",
       "slug": "ilovepdf",
       "description": "PDF 處理工具",
@@ -1045,7 +1045,7 @@
       }
     },
     {
-      "id": "50",
+      "id": "45",
       "name": "QRCode Monkey",
       "slug": "qrcode-monkey",
       "description": "QR 碼生成器",
@@ -1067,7 +1067,7 @@
       }
     },
     {
-      "id": "51",
+      "id": "46",
       "name": "PicWish",
       "slug": "picwish",
       "description": "AI 圖片工具",
@@ -1090,7 +1090,7 @@
       }
     },
     {
-      "id": "52",
+      "id": "47",
       "name": "Pixiv",
       "slug": "pixiv",
       "description": "日本插畫社群",
@@ -1112,7 +1112,7 @@
       }
     },
     {
-      "id": "53",
+      "id": "48",
       "name": "Notion",
       "slug": "notion",
       "description": "筆記與知識庫",
@@ -1135,7 +1135,7 @@
       }
     },
     {
-      "id": "54",
+      "id": "49",
       "name": "Mentimeter",
       "slug": "mentimeter",
       "description": "互動簡報工具",
@@ -1157,7 +1157,7 @@
       }
     },
     {
-      "id": "55",
+      "id": "50",
       "name": "Miro",
       "slug": "miro",
       "description": "線上白板",
@@ -1179,7 +1179,7 @@
       }
     },
     {
-      "id": "56",
+      "id": "51",
       "name": "Whimsical",
       "slug": "whimsical",
       "description": "思維導圖工具",
@@ -1201,7 +1201,7 @@
       }
     },
     {
-      "id": "57",
+      "id": "52",
       "name": "Napkin",
       "slug": "napkin",
       "description": "視覺化工具",
@@ -1223,7 +1223,7 @@
       }
     },
     {
-      "id": "58",
+      "id": "53",
       "name": "Slack",
       "slug": "slack",
       "description": "團隊溝通平台",
@@ -1246,7 +1246,7 @@
       }
     },
     {
-      "id": "59",
+      "id": "54",
       "name": "Trello",
       "slug": "trello",
       "description": "專案管理工具",
@@ -1269,7 +1269,7 @@
       }
     },
     {
-      "id": "60",
+      "id": "55",
       "name": "DeepL 翻譯",
       "slug": "deepl-translator",
       "description": "AI 翻譯",
@@ -1288,7 +1288,7 @@
       }
     },
     {
-      "id": "61",
+      "id": "56",
       "name": "Firebase",
       "slug": "firebase",
       "description": "後端即服務",
@@ -1310,7 +1310,7 @@
       }
     },
     {
-      "id": "63",
+      "id": "57",
       "name": "Cloudflare",
       "slug": "cloudflare",
       "description": "網路基礎設施",
@@ -1333,7 +1333,7 @@
       }
     },
     {
-      "id": "64",
+      "id": "58",
       "name": "Google Drive",
       "slug": "google-drive",
       "description": "雲端儲存服務",
@@ -1356,7 +1356,7 @@
       }
     },
     {
-      "id": "65",
+      "id": "59",
       "name": "1Password",
       "slug": "1password",
       "description": "密碼管理工具",
@@ -1379,7 +1379,7 @@
       }
     },
     {
-      "id": "66",
+      "id": "60",
       "name": "VirusTotal",
       "slug": "virustotal",
       "description": "檔案病毒檢測",
@@ -1401,7 +1401,7 @@
       }
     },
     {
-      "id": "67",
+      "id": "61",
       "name": "Hemingway Editor",
       "slug": "hemingway",
       "description": "寫作輔助工具",
@@ -1423,7 +1423,7 @@
       }
     },
     {
-      "id": "68",
+      "id": "62",
       "name": "微軟愛寫作",
       "slug": "aim-writing",
       "description": "英語寫作輔助",
@@ -1445,7 +1445,7 @@
       }
     },
     {
-      "id": "69",
+      "id": "63",
       "name": "YouTube",
       "slug": "youtube",
       "description": "影片分享平台",
@@ -1468,7 +1468,7 @@
       }
     },
     {
-      "id": "70",
+      "id": "64",
       "name": "Bilibili",
       "slug": "bilibili",
       "description": "影片分享平台",
@@ -1490,7 +1490,7 @@
       }
     },
     {
-      "id": "71",
+      "id": "65",
       "name": "Spotify",
       "slug": "spotify",
       "description": "音樂串流平台",
@@ -1513,7 +1513,7 @@
       }
     },
     {
-      "id": "72",
+      "id": "66",
       "name": "OBS Studio",
       "slug": "obs-studio",
       "description": "錄影直播工具",
@@ -1536,7 +1536,7 @@
       }
     },
     {
-      "id": "73",
+      "id": "67",
       "name": "Moises",
       "slug": "moises",
       "description": "AI 音樂工具",
@@ -1559,7 +1559,7 @@
       }
     },
     {
-      "id": "74",
+      "id": "68",
       "name": "GitHub",
       "slug": "github",
       "description": "程式碼托管",
@@ -1582,7 +1582,7 @@
       }
     },
     {
-      "id": "75",
+      "id": "69",
       "name": "GitLab",
       "slug": "gitlab",
       "description": "程式碼管理平台",
@@ -1605,7 +1605,7 @@
       }
     },
     {
-      "id": "76",
+      "id": "70",
       "name": "Docker",
       "slug": "docker",
       "description": "容器化平台",
@@ -1628,7 +1628,7 @@
       }
     },
     {
-      "id": "77",
+      "id": "71",
       "name": "Vercel",
       "slug": "vercel",
       "description": "部署平台",
@@ -1651,7 +1651,7 @@
       }
     },
     {
-      "id": "78",
+      "id": "72",
       "name": "Tailwind CSS",
       "slug": "tailwind-css",
       "description": "CSS 框架",
@@ -1674,7 +1674,7 @@
       }
     },
     {
-      "id": "79",
+      "id": "73",
       "name": "Next.js",
       "slug": "nextjs",
       "description": "React 框架",
@@ -1697,7 +1697,7 @@
       }
     },
     {
-      "id": "80",
+      "id": "74",
       "name": "VS Code",
       "slug": "vscode",
       "description": "程式碼編輯器",
@@ -1720,7 +1720,7 @@
       }
     },
     {
-      "id": "81",
+      "id": "75",
       "name": "Cursor",
       "slug": "cursor",
       "description": "AI 程式編輯器",
@@ -1743,7 +1743,7 @@
       }
     },
     {
-      "id": "82",
+      "id": "76",
       "name": "Claude",
       "slug": "claude",
       "description": "AI 編碼助手",
@@ -1766,7 +1766,7 @@
       }
     },
     {
-      "id": "83",
+      "id": "77",
       "name": "Gemini",
       "slug": "gemini",
       "description": "Google AI 助手",
@@ -1789,7 +1789,7 @@
       }
     },
     {
-      "id": "84",
+      "id": "78",
       "name": "Midjourney",
       "slug": "midjourney",
       "description": "AI 圖片生成",
@@ -1812,7 +1812,7 @@
       }
     },
     {
-      "id": "85",
+      "id": "79",
       "name": "Perplexity",
       "slug": "perplexity",
       "description": "AI 搜尋引擎",
@@ -1834,7 +1834,7 @@
       }
     },
     {
-      "id": "86",
+      "id": "80",
       "name": "Copilot",
       "slug": "copilot",
       "description": "Microsoft AI 助手",
@@ -1857,7 +1857,7 @@
       }
     },
     {
-      "id": "87",
+      "id": "81",
       "name": "Jira",
       "slug": "jira",
       "description": "專案追蹤工具",
@@ -1880,7 +1880,7 @@
       }
     },
     {
-      "id": "88",
+      "id": "82",
       "name": "AWS",
       "slug": "aws",
       "description": "雲端運算服務",
@@ -1903,7 +1903,7 @@
       }
     },
     {
-      "id": "89",
+      "id": "83",
       "name": "Coursera",
       "slug": "coursera",
       "description": "線上課程平台",
@@ -1926,7 +1926,7 @@
       }
     },
     {
-      "id": "90",
+      "id": "84",
       "name": "Duolingo",
       "slug": "duolingo",
       "description": "語言學習",
@@ -1949,7 +1949,7 @@
       }
     },
     {
-      "id": "91",
+      "id": "85",
       "name": "愛給網",
       "slug": "aigei",
       "description": "素材資源網",
@@ -1972,7 +1972,7 @@
       }
     },
     {
-      "id": "92",
+      "id": "86",
       "name": "Pixabay",
       "slug": "pixabay",
       "description": "免費圖庫",
@@ -1994,7 +1994,7 @@
       }
     },
     {
-      "id": "93",
+      "id": "87",
       "name": "Tinkercad",
       "slug": "tinkercad",
       "description": "3D 建模工具",
@@ -2016,7 +2016,7 @@
       }
     },
     {
-      "id": "94",
+      "id": "88",
       "name": "Tripo3D",
       "slug": "tripo3d",
       "description": "AI 3D 生成",
@@ -2038,7 +2038,7 @@
       }
     },
     {
-      "id": "95",
+      "id": "89",
       "name": "Pinterest",
       "slug": "pinterest",
       "description": "圖片收藏平台",
@@ -2060,7 +2060,7 @@
       }
     },
     {
-      "id": "96",
+      "id": "90",
       "name": "Ping.eu",
       "slug": "ping-eu",
       "description": "網路診斷工具",
@@ -2082,7 +2082,7 @@
       }
     },
     {
-      "id": "97",
+      "id": "91",
       "name": "Flutter",
       "slug": "flutter",
       "description": "跨平台框架",
@@ -2104,7 +2104,7 @@
       }
     },
     {
-      "id": "98",
+      "id": "92",
       "name": "React",
       "slug": "react",
       "description": "前端框架",
@@ -2126,7 +2126,7 @@
       }
     },
     {
-      "id": "99",
+      "id": "93",
       "name": "NotebookLM",
       "slug": "notebooklm",
       "description": "AI 學習工具",
@@ -2148,7 +2148,7 @@
       }
     },
     {
-      "id": "100",
+      "id": "94",
       "name": "Descript",
       "slug": "descript",
       "description": "影片編輯工具",
@@ -2170,7 +2170,7 @@
       }
     },
     {
-      "id": "134",
+      "id": "95",
       "name": "Railway",
       "slug": "railway",
       "description": "雲端部署平台",
@@ -2193,7 +2193,7 @@
       }
     },
     {
-      "id": "97",
+      "id": "96",
       "name": "Figma",
       "slug": "figma",
       "description": "協作設計工具",
