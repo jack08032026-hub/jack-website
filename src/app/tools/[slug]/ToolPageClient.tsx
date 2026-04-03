@@ -179,33 +179,7 @@ export function ToolPageClient({ tool, category, tutorial, jsonLd, allTools, all
           </div>
         )}
 
-        {/* Related Tools */}
-        <div className="mt-12">
-          <h2 className="mb-6 text-2xl font-bold text-zinc-900">
-            {t.relatedTools}
-          </h2>
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {allTools
-              .filter((t) => t.category === tool.category && t.id !== tool.id)
-              .slice(0, 3)
-              .map((relatedTool) => (
-                <Link
-                  key={relatedTool.id}
-                  href={`/jack-website/tools/${relatedTool.slug}/`}
-                  className="group flex flex-col rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg"
-                >
-                  <span className="mb-3 text-3xl">{relatedTool.icon}</span>
-                  <h3 className="mb-1 font-semibold text-zinc-900">
-                    {relatedTool.name}
-                  </h3>
-                  <p className="text-sm text-zinc-500">
-                          {language === "zh" ? relatedTool.description : (relatedTool.descriptionEn || relatedTool.description)}
-                        </p>
-                </Link>
-              ))}
-          </div>
-        </div>
-      </main>
+        </main>
 
       {/* Footer */}
       <footer className="border-t border-zinc-200 bg-white py-8">
