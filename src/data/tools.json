@@ -2212,6 +2212,29 @@
         "ogTitle": "Railway - 雲端部署平台",
         "ogDescription": "探索 Railway快速的雲端部署與托管服務。透過 Jack Website 發現更多開發工具。"
       }
+    },
+    {
+      "id": "97",
+      "name": "Figma",
+      "slug": "figma",
+      "description": "協作設計工具",
+      "shortDescription": "雲端協作 UI 設計工具",
+      "category": "design",
+      "url": "https://www.figma.com/",
+      "icon": "🎨",
+      "keywords": [
+        "Figma",
+        "設計",
+        "UI",
+        "UX",
+        "設計工具"
+      ],
+      "seo": {
+        "title": "Figma - 協作設計工具 | Jack Website",
+        "description": "探索 Figma，雲端協作 UI 設計工具。透過 Jack Website 發現更多設計工具。",
+        "ogTitle": "Figma - 協作設計工具",
+        "ogDescription": "探索 Figma，雲端協作 UI 設計工具。透過 Jack Website 發現更多設計工具。"
+      }
     }
   ]
 }
