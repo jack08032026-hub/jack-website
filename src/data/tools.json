@@ -28,6 +28,1195 @@
       }
     },
     {
+      "id": "31",
+      "name": "DeepL",
+      "slug": "deepl",
+      "description": "AI 翻譯工具",
+      "shortDescription": "全球最精準的翻譯服務",
+      "category": "ai",
+      "url": "https://www.deepl.com",
+      "icon": "🌍",
+      "keywords": ["翻譯", "AI", "translation", "DeepL"],
+      "seo": {
+        "title": "DeepL - AI 翻譯工具 | Jack Website",
+        "description": "探索 DeepL，全球最精準的翻譯服務。透過 Jack Website 發現更多 AI 工具。",
+        "ogTitle": "DeepL - AI 翻譯工具",
+        "ogDescription": "探索 DeepL，全球最精準的翻譯服務。透過 Jack Website 發現更多 AI 工具。"
+      }
+    },
+    {
+      "id": "32",
+      "name": "智譜AI",
+      "slug": "zhipuai",
+      "description": "國產 AI 大模型",
+      "shortDescription": "中國領先的 AI 對話助手",
+      "category": "ai",
+      "url": "https://www.zhipuai.cn/",
+      "icon": "🇨🇳",
+      "keywords": ["AI", "智譜", "中國", "大模型"],
+      "seo": {
+        "title": "智譜AI - 國產 AI 大模型 | Jack Website",
+        "description": "探索智譜AI，中国领先的 AI 對話助手。透過 Jack Website 發現更多 AI 工具。",
+        "ogTitle": "智譜AI - 國產 AI 大模型",
+        "ogDescription": "探索智譜AI，中国领先的 AI 對話助手。透過 Jack Website 發現更多 AI 工具。"
+      }
+    },
+    {
+      "id": "33",
+      "name": "Kimi",
+      "slug": "kimi",
+      "description": "AI 助手",
+      "shortDescription": "月之暗面推出的 AI 助手，支援長文本處理",
+      "category": "ai",
+      "url": "https://kimi.moonshot.cn/",
+      "icon": "🌙",
+      "keywords": ["AI", "Kimi", "長文本", "月之暗面"],
+      "seo": {
+        "title": "Kimi - AI 助手 | Jack Website",
+        "description": "探索 Kimi，月之暗面推出的 AI 助手。透過 Jack Website 發現更多 AI 工具。",
+        "ogTitle": "Kimi - AI 助手",
+        "ogDescription": "探索 Kimi，月之暗面推出的 AI 助手。透過 Jack Website 發現更多 AI 工具。"
+      }
+    },
+    {
+      "id": "34",
+      "name": "通義千問",
+      "slug": "tongyi",
+      "description": "阿里 AI 助手",
+      "shortDescription": "阿里巴巴推出的 AI 助手",
+      "category": "ai",
+      "url": "https://tongyi.aliyun.com/",
+      "icon": "🐜",
+      "keywords": ["AI", "阿里", "通義", "阿里巴巴"],
+      "seo": {
+        "title": "通義千問 - 阿里 AI 助手 | Jack Website",
+        "description": "探索通義千問，阿里巴巴推出的 AI 助手。透過 Jack Website 發現更多 AI 工具。",
+        "ogTitle": "通義千問 - 阿里 AI 助手",
+        "ogDescription": "探索通義千問，阿里巴巴推出的 AI 助手。透過 Jack Website 發現更多 AI 工具。"
+      }
+    },
+    {
+      "id": "35",
+      "name": "Mage",
+      "slug": "mage",
+      "description": "AI 圖片生成",
+      "shortDescription": "免費開源的 AI 圖片生成工具",
+      "category": "ai",
+      "url": "https://www.mage.space/",
+      "icon": "🧙",
+      "keywords": ["AI", "圖片生成", "Stable Diffusion", " Mage"],
+      "seo": {
+        "title": "Mage - AI 圖片生成 | Jack Website",
+        "description": "探索 Mage，免費開源的 AI 圖片生成工具。透過 Jack Website 發現更多 AI 工具。",
+        "ogTitle": "Mage - AI 圖片生成",
+        "ogDescription": "探索 Mage，免費開源的 AI 圖片生成工具。透過 Jack Website 發現更多 AI 工具。"
+      }
+    },
+    {
+      "id": "36",
+      "name": "Suno",
+      "slug": "suno",
+      "description": "AI 音樂生成",
+      "shortDescription": "AI 驅動的音樂創作平台",
+      "category": "ai",
+      "url": "https://suno.com/",
+      "icon": "🎵",
+      "keywords": ["AI", "音樂", "Suno", "AI Music"],
+      "seo": {
+        "title": "Suno - AI 音樂生成 | Jack Website",
+        "description": "探索 Suno，AI 驅動的音樂創作平台。透過 Jack Website 發現更多 AI 工具。",
+        "ogTitle": "Suno - AI 音樂生成",
+        "ogDescription": "探索 Suno，AI 驅動的音樂創作平台。透過 Jack Website 發現更多 AI 工具。"
+      }
+    },
+    {
+      "id": "37",
+      "name": "Bolt.new",
+      "slug": "bolt-new",
+      "description": "AI 網頁開發",
+      "shortDescription": "AI 驅動的全端網頁開發平台",
+      "category": "dev",
+      "url": "https://bolt.new/",
+      "icon": "⚡",
+      "keywords": ["AI", "開法", "網頁", "Bolt", "全端"],
+      "seo": {
+        "title": "Bolt.new - AI 網頁開發 | Jack Website",
+        "description": "探索 Bolt.new，AI 驅動的全端網頁開發平台。透過 Jack Website 發現更多開發工具。",
+        "ogTitle": "Bolt.new - AI 網頁開發",
+        "ogDescription": "探索 Bolt.new，AI 驅動的全端網頁開發平台。透過 Jack Website 發現更多開發工具。"
+      }
+    },
+    {
+      "id": "38",
+      "name": "v0",
+      "slug": "v0",
+      "description": "AI UI 生成",
+      "shortDescription": "Vercel 推出的 AI UI 生成工具",
+      "category": "dev",
+      "url": "https://v0.dev/",
+      "icon": "📦",
+      "keywords": ["AI", "UI", "Vercel", "生成式 UI"],
+      "seo": {
+        "title": "v0 - AI UI 生成 | Jack Website",
+        "description": "探索 v0，Vercel 推出的 AI UI 生成工具。透過 Jack Website 發現更多開發工具。",
+        "ogTitle": "v0 - AI UI 生成",
+        "ogDescription": "探索 v0，Vercel 推出的 AI UI 生成工具。透過 Jack Website 發現更多開發工具。"
+      }
+    },
+    {
+      "id": "39",
+      "name": "ngrok",
+      "slug": "ngrok",
+      "description": "內網穿透工具",
+      "shortDescription": "安全的內網穿透服務",
+      "category": "dev",
+      "url": "https://dashboard.ngrok.com/",
+      "icon": "🔗",
+      "keywords": ["ngrok", "內網穿透", "隧道", "開發"],
+      "seo": {
+        "title": "ngrok - 內網穿透工具 | Jack Website",
+        "description": "探索 ngrok，安全 的內網穿透服務。透過 Jack Website 發現更多開發工具。",
+        "ogTitle": "ngrok - 內網穿透工具",
+        "ogDescription": "探索 ngrok，安全 的內網穿透服務。透過 Jack Website 發現更多開發工具。"
+      }
+    },
+    {
+      "id": "40",
+      "name": "Stack Overflow",
+      "slug": "stackoverflow",
+      "description": "程式問答社區",
+      "shortDescription": "全球最大的程式開發問答平台",
+      "category": "dev",
+      "url": "https://stackoverflow.com/",
+      "icon": "📚",
+      "keywords": ["stackoverflow", "QA", "程式", "開發", "問答"],
+      "seo": {
+        "title": "Stack Overflow - 程式問答社區 | Jack Website",
+        "description": "探索 Stack Overflow，全球最大的程式開發問答平台。透過 Jack Website 發現更多開發工具。",
+        "ogTitle": "Stack Overflow - 程式問答社區",
+        "ogDescription": "探索 Stack Overflow，全球最大的程式開發問答平台。透過 Jack Website 發現更多開發工具。"
+      }
+    },
+    {
+      "id": "41",
+      "name": "Overleaf",
+      "slug": "overleaf",
+      "description": "線上 LaTeX 編輯器",
+      "shortDescription": "線上 LaTeX 論文寫作平台",
+      "category": "dev",
+      "url": "https://www.overleaf.com/latex/templates",
+      "icon": "📄",
+      "keywords": ["LaTeX", "論文", "Overleaf", "學術"],
+      "seo": {
+        "title": "Overleaf - 線上 LaTeX 編輯器 | Jack Website",
+        "description": "探索 Overleaf，線上 LaTeX 論文寫作平台。透過 Jack Website 發現更多開發工具。",
+        "ogTitle": "Overleaf - 線上 LaTeX 編輯器",
+        "ogDescription": "探索 Overleaf，線上 LaTeX 論文寫作平台。透過 Jack Website 發現更多開發工具。"
+      }
+    },
+    {
+      "id": "42",
+      "name": "Figma",
+      "slug": "figma",
+      "description": "協作設計工具",
+      "shortDescription": "雲端協作 UI 設計工具",
+      "category": "design",
+      "url": "https://figma.com",
+      "icon": "🎨",
+      "keywords": ["design", "UI", "UX", "figma", "設計"],
+      "seo": {
+        "title": "Figma - 協作設計工具 | Jack Website",
+        "description": "探索 Figma，雲端協作 UI 設計工具。透過 Jack Website 發現更多設計工具。",
+        "ogTitle": "Figma - 協作設計工具",
+        "ogDescription": "探索 Figma，雲端協作 UI 設計工具。透過 Jack Website 發現更多設計工具。"
+      }
+    },
+    {
+      "id": "43",
+      "name": "Canva",
+      "slug": "canva",
+      "description": "線上設計平台",
+      "shortDescription": "適合新手的線上設計工具",
+      "category": "design",
+      "url": "https://canva.com",
+      "icon": "✏️",
+      "keywords": ["design", "canva", "graphic", "海報", "簡報"],
+      "seo": {
+        "title": "Canva - 線上設計平台 | Jack Website",
+        "description": "探索 Canva，適合新手的線上設計工具。透過 Jack Website 發現更多設計工具。",
+        "ogTitle": "Canva - 線上設計平台",
+        "ogDescription": "探索 Canva，適合新手的線上設計工具。透過 Jack Website 發現更多設計工具。"
+      }
+    },
+    {
+      "id": "44",
+      "name": "Renderforest",
+      "slug": "renderforest",
+      "description": "線上影片製作",
+      "shortDescription": "線上影片和動畫製作平台",
+      "category": "design",
+      "url": "https://www.renderforest.com/",
+      "icon": "🎬",
+      "keywords": ["影片", "動畫", "設計", "Renderforest"],
+      "seo": {
+        "title": "Renderforest - 線上影片製作 | Jack Website",
+        "description": "探索 Renderforest，線上影片和動畫製作平台。透過 Jack Website 發現更多設計工具。",
+        "ogTitle": "Renderforest - 線上影片製作",
+        "ogDescription": "探索 Renderforest，線上影片和動畫製作平台。透過 Jack Website 發現更多設計工具。"
+      }
+    },
+    {
+      "id": "45",
+      "name": "Flaticon",
+      "slug": "flaticon",
+      "description": "免費圖標素材",
+      "shortDescription": "免費圖標和貼紙素材庫",
+      "category": "design",
+      "url": "https://www.flaticon.com/",
+      "icon": "🏷️",
+      "keywords": ["圖標", "icon", "素材", "免費", "設計"],
+      "seo": {
+        "title": "Flaticon - 免費圖標素材 | Jack Website",
+        "description": "探索 Flaticon，免費圖標和貼紙素材庫。透過 Jack Website 發現更多設計工具。",
+        "ogTitle": "Flaticon - 免費圖標素材",
+        "ogDescription": "探索 Flaticon，免費圖標和貼紙素材庫。透過 Jack Website 發現更多設計工具。"
+      }
+    },
+    {
+      "id": "46",
+      "name": "Google Fonts",
+      "slug": "google-fonts",
+      "description": "網頁字體庫",
+      "shortDescription": "Google 官方字體庫",
+      "category": "design",
+      "url": "https://fonts.google.com/",
+      "icon": "🔤",
+      "keywords": ["字體", "fonts", "Google", "網頁字體"],
+      "seo": {
+        "title": "Google Fonts - 網頁字體庫 | Jack Website",
+        "description": "探索 Google Fonts，Google 官方字體庫。透過 Jack Website 發現更多設計工具。",
+        "ogTitle": "Google Fonts - 網頁字體庫",
+        "ogDescription": "探索 Google Fonts，Google 官方字體庫。透過 Jack Website 發現更多設計工具。"
+      }
+    },
+    {
+      "id": "47",
+      "name": "Flat UI Colors",
+      "slug": "flat-ui-colors",
+      "description": "配色方案",
+      "shortDescription": "280 種精選配色方案",
+      "category": "design",
+      "url": "https://flatuicolors.com/",
+      "icon": "🎑",
+      "keywords": ["配色", "顏色", "color", "palette", "設計"],
+      "seo": {
+        "title": "Flat UI Colors - 配色方案 | Jack Website",
+        "description": "探索 Flat UI Colors，280 種精選配色方案。透過 Jack Website 發現更多設計工具。",
+        "ogTitle": "Flat UI Colors - 配色方案",
+        "ogDescription": "探索 Flat UI Colors，280 種精選配色方案。透過 Jack Website 發現更多設計工具。"
+      }
+    },
+    {
+      "id": "48",
+      "name": "iLoveIMG",
+      "slug": "iloveimg",
+      "description": "圖片處理工具",
+      "shortDescription": "線上圖片編輯和轉換工具",
+      "category": "design",
+      "url": "https://www.iloveimg.com/",
+      "icon": "🖼️",
+      "keywords": ["圖片", "編輯", "轉換", "iLoveIMG"],
+      "seo": {
+        "title": "iLoveIMG - 圖片處理工具 | Jack Website",
+        "description": "探索 iLoveIMG，線上圖片編輯和轉換工具。透過 Jack Website 發現更多設計工具。",
+        "ogTitle": "iLoveIMG - 圖片處理工具",
+        "ogDescription": "探索 iLoveIMG，線上圖片編輯和轉換工具。透過 Jack Website 發現更多設計工具。"
+      }
+    },
+    {
+      "id": "49",
+      "name": "iLovePDF",
+      "slug": "ilovepdf",
+      "description": "PDF 處理工具",
+      "shortDescription": "線上 PDF 編輯和轉換工具",
+      "category": "design",
+      "url": "https://www.ilovepdf.com/",
+      "icon": "📑",
+      "keywords": ["PDF", "轉換", "編輯", "iLovePDF"],
+      "seo": {
+        "title": "iLovePDF - PDF 處理工具 | Jack Website",
+        "description": "探索 iLovePDF，線上 PDF 編輯和轉換工具。透過 Jack Website 發現更多設計工具。",
+        "ogTitle": "iLovePDF - PDF 處理工具",
+        "ogDescription": "探索 iLovePDF，線上 PDF 編輯和轉換工具。透過 Jack Website 發現更多設計工具。"
+      }
+    },
+    {
+      "id": "50",
+      "name": "QRCode Monkey",
+      "slug": "qrcode-monkey",
+      "description": "QR 碼生成器",
+      "shortDescription": "免費自訂 QR 碼生成工具",
+      "category": "design",
+      "url": "https://www.qrcode-monkey.com/",
+      "icon": "🔳",
+      "keywords": ["QR", "QRCode", "二維碼", "生成"],
+      "seo": {
+        "title": "QRCode Monkey - QR 碼生成器 | Jack Website",
+        "description": "探索 QRCode Monkey，免費自訂 QR 碼生成工具。透過 Jack Website 發現更多設計工具。",
+        "ogTitle": "QRCode Monkey - QR 碼生成器",
+        "ogDescription": "探索 QRCode Monkey，免費自訂 QR 碼生成工具。透過 Jack Website 發現更多設計工具。"
+      }
+    },
+    {
+      "id": "51",
+      "name": "PicWish",
+      "slug": "picwish",
+      "description": "AI 圖片工具",
+      "shortDescription": "AI 去背和圖片增強工具",
+      "category": "design",
+      "url": "https://picwish.com/",
+      "icon": "✨",
+      "keywords": ["去背", "AI", "圖片", "增強", "PicWish"],
+      "seo": {
+        "title": "PicWish - AI 圖片工具 | Jack Website",
+        "description": "探索 PicWish，AI 去背和圖片增強工具。透過 Jack Website 發現更多設計工具。",
+        "ogTitle": "PicWish - AI 圖片工具",
+        "ogDescription": "探索 PicWish，AI 去背和圖片增強工具。透過 Jack Website 發現更多設計工具。"
+      }
+    },
+    {
+      "id": "52",
+      "name": "Pixiv",
+      "slug": "pixiv",
+      "description": "日本插畫社群",
+      "shortDescription": "日本同人插畫社群平台",
+      "category": "design",
+      "url": "https://www.pixiv.net/",
+      "icon": "🎭",
+      "keywords": ["插畫", "Pixiv", "日本", "同人"],
+      "seo": {
+        "title": "Pixiv - 日本插畫社群 | Jack Website",
+        "description": "探索 Pixiv，日本同人插畫社群平台。透過 Jack Website 發現更多設計工具。",
+        "ogTitle": "Pixiv - 日本插畫社群",
+        "ogDescription": "探索 Pixiv，日本同人插畫社群平台。透過 Jack Website 發現更多設計工具。"
+      }
+    },
+    {
+      "id": "53",
+      "name": "Notion",
+      "slug": "notion",
+      "description": "筆記與知識庫",
+      "shortDescription": "一站式筆記與知識管理",
+      "category": "productivity",
+      "url": "https://notion.so",
+      "icon": "📝",
+      "keywords": ["notes", "knowledge base", "notion", "筆記", "生產力"],
+      "seo": {
+        "title": "Notion - 筆記與知識庫 | Jack Website",
+        "description": "探索 Notion，一站式筆記與知識管理工具。透過 Jack Website 發現更多生產力工具。",
+        "ogTitle": "Notion - 筆記與知識庫",
+        "ogDescription": "探索 Notion，一站式筆記與知識管理工具。透過 Jack Website 發現更多生產力工具。"
+      }
+    },
+    {
+      "id": "54",
+      "name": "Mentimeter",
+      "slug": "mentimeter",
+      "description": "互動簡報工具",
+      "shortDescription": "互動式簡報和投票工具",
+      "category": "productivity",
+      "url": "https://www.mentimeter.com/",
+      "icon": "📊",
+      "keywords": ["簡報", "投票", "互動", "Mentimeter"],
+      "seo": {
+        "title": "Mentimeter - 互動簡報工具 | Jack Website",
+        "description": "探索 Mentimeter，互動式簡報和投票工具。透過 Jack Website 發現更多生產力工具。",
+        "ogTitle": "Mentimeter - 互動簡報工具",
+        "ogDescription": "探索 Mentimeter，互動式簡報和投票工具。透過 Jack Website 發現更多生產力工具。"
+      }
+    },
+    {
+      "id": "55",
+      "name": "Miro",
+      "slug": "miro",
+      "description": "線上白板",
+      "shortDescription": "協作式線上白板工具",
+      "category": "productivity",
+      "url": "https://miro.com/",
+      "icon": "📋",
+      "keywords": ["白板", "協作", "Miro", "心智圖"],
+      "seo": {
+        "title": "Miro - 線上白板 | Jack Website",
+        "description": "探索 Miro，協作式線上白板工具。透過 Jack Website 發現更多生產力工具。",
+        "ogTitle": "Miro - 線上白板",
+        "ogDescription": "探索 Miro，協作式線上白板工具。透過 Jack Website 發現更多生產力工具。"
+      }
+    },
+    {
+      "id": "56",
+      "name": "Whimsical",
+      "slug": "whimsical",
+      "description": "思維導圖工具",
+      "shortDescription": "結合心智圖、流程圖的協作工具",
+      "category": "productivity",
+      "url": "https://whimsical.com/",
+      "icon": "🌀",
+      "keywords": ["心智圖", "流程圖", "Whimsical", "協作"],
+      "seo": {
+        "title": "Whimsical - 思維導圖工具 | Jack Website",
+        "description": "探索 Whimsical，結合心智圖、流程圖的協作工具。透過 Jack Website 發現更多生產力工具。",
+        "ogTitle": "Whimsical - 思維導圖工具",
+        "ogDescription": "探索 Whimsical，結合心智圖、流程圖的協作工具。透過 Jack Website 發現更多生產力工具。"
+      }
+    },
+    {
+      "id": "57",
+      "name": "Napkin",
+      "slug": "napkin",
+      "description": "視覺化工具",
+      "shortDescription": "將文字轉換為視覺圖形的 AI 工具",
+      "category": "productivity",
+      "url": "https://app.napkin.ai/",
+      "icon": "📈",
+      "keywords": ["視覺化", "AI", "Napkin", "圖形"],
+      "seo": {
+        "title": "Napkin - 視覺化工具 | Jack Website",
+        "description": "探索 Napkin，將文字轉換為視覺圖形的 AI 工具。透過 Jack Website 發現更多生產力工具。",
+        "ogTitle": "Napkin - 視覺化工具",
+        "ogDescription": "探索 Napkin，將文字轉換為視覺圖形的 AI 工具。透過 Jack Website 發現更多生產力工具。"
+      }
+    },
+    {
+      "id": "58",
+      "name": "Slack",
+      "slug": "slack",
+      "description": "團隊溝通平台",
+      "shortDescription": "企業級團隊溝通工具",
+      "category": "productivity",
+      "url": "https://slack.com",
+      "icon": "💬",
+      "keywords": ["slack", "team", "communication", "協作", "溝通"],
+      "seo": {
+        "title": "Slack - 團隊溝通平台 | Jack Website",
+        "description": "探索 Slack，企業級團隊溝通工具。透過 Jack Website 發現更多生產力工具。",
+        "ogTitle": "Slack - 團隊溝通平台",
+        "ogDescription": "探索 Slack，企業級團隊溝通工具。透過 Jack Website 發現更多生產力工具。"
+      }
+    },
+    {
+      "id": "59",
+      "name": "Trello",
+      "slug": "trello",
+      "description": "專案管理工具",
+      "shortDescription": "看板式專案管理工具",
+      "category": "productivity",
+      "url": "https://trello.com",
+      "icon": "📋",
+      "keywords": ["trello", "project", "kanban", "管理", "看板"],
+      "seo": {
+        "title": "Trello - 專案管理工具 | Jack Website",
+        "description": "探索 Trello，看板式專案管理工具。透過 Jack Website 發現更多生產力工具。",
+        "ogTitle": "Trello - 專案管理工具",
+        "ogDescription": "探索 Trello，看板式專案管理工具。透過 Jack Website 發現更多生產力工具。"
+      }
+    },
+    {
+      "id": "60",
+      "name": "DeepL 翻譯",
+      "slug": "deepl-translator",
+      "description": "AI 翻譯",
+      "shortDescription": "最準確的 AI 翻譯工具",
+      "category": "ai",
+      "url": "https://www.deepl.com/en/translator",
+      "icon": "🌐",
+      "keywords": ["翻譯", "AI", "DeepL"],
+      "seo": {
+        "title": "DeepL 翻譯 - AI 翻譯 | Jack Website",
+        "description": "探索 DeepL，最準確的 AI 翻譯工具。透過 Jack Website 發現更多 AI 工具。"
+      }
+    },
+    {
+      "id": "61",
+      "name": "Firebase",
+      "slug": "firebase",
+      "description": "後端即服務",
+      "shortDescription": "Google 的後端開發平台",
+      "category": "cloud",
+      "url": "https://console.firebase.google.com/",
+      "icon": "🔥",
+      "keywords": ["Firebase", "後端", "BaaS", "Google"],
+      "seo": {
+        "title": "Firebase - 後端即服務 | Jack Website",
+        "description": "探索 Firebase，Google 的後端開發平台。透過 Jack Website 發現更多雲端服務。",
+        "ogTitle": "Firebase - 後端即服務",
+        "ogDescription": "探索 Firebase，Google 的後端開發平台。透過 Jack Website 發現更多雲端服務。"
+      }
+    },
+    {
+      "id": "62",
+      "name": "CPanel",
+      "slug": "cpolar",
+      "description": "內網穿透",
+      "shortDescription": "安全的內網穿透工具",
+      "category": "cloud",
+      "url": "https://www.cpolar.com/",
+      "icon": "🌍",
+      "keywords": ["內網穿透", "CPolar", "遠端"],
+      "seo": {
+        "title": "CPanel - 內網穿透 | Jack Website",
+        "description": "探索 CPanel，安全的內網穿透工具。透過 Jack Website 發現更多雲端服務。",
+        "ogTitle": "CPanel - 內網穿透",
+        "ogDescription": "探索 CPanel，安全的內網穿透工具。透過 Jack Website 發現更多雲端服務。"
+      }
+    },
+    {
+      "id": "63",
+      "name": "Cloudflare",
+      "slug": "cloudflare",
+      "description": "網路基礎設施",
+      "shortDescription": "CDN 與資安服務提供商",
+      "category": "cloud",
+      "url": "https://cloudflare.com",
+      "icon": "🌐",
+      "keywords": ["cloudflare", "CDN", "DNS", "安全", "效能"],
+      "seo": {
+        "title": "Cloudflare - 網路基礎設施 | Jack Website",
+        "description": "探索 Cloudflare，CDN 與資安服務提供商。透過 Jack Website 發現更多雲端服務。",
+        "ogTitle": "Cloudflare - 網路基礎設施",
+        "ogDescription": "探索 Cloudflare，CDN 與資安服務提供商。透過 Jack Website 發現更多雲端服務。"
+      }
+    },
+    {
+      "id": "64",
+      "name": "Google Drive",
+      "slug": "google-drive",
+      "description": "雲端儲存服務",
+      "shortDescription": "Google 雲端硬碟",
+      "category": "cloud",
+      "url": "https://drive.google.com",
+      "icon": "📁",
+      "keywords": ["google", "drive", "cloud", "storage", "雲端硬碟"],
+      "seo": {
+        "title": "Google Drive - 雲端儲存服務 | Jack Website",
+        "description": "探索 Google Drive，Google 雲端硬碟。透過 Jack Website 發現更多雲端服務。",
+        "ogTitle": "Google Drive - 雲端儲存服務",
+        "ogDescription": "探索 Google Drive，Google 雲端硬碟。透過 Jack Website 發現更多雲端服務。"
+      }
+    },
+    {
+      "id": "65",
+      "name": "1Password",
+      "slug": "1password",
+      "description": "密碼管理工具",
+      "shortDescription": "安全的密碼管理器",
+      "category": "security",
+      "url": "https://1password.com",
+      "icon": "🔐",
+      "keywords": ["password", "security", "1password", "密碼", "管理"],
+      "seo": {
+        "title": "1Password - 密碼管理工具 | Jack Website",
+        "description": "探索 1Password，安全 的密碼管理器。透過 Jack Website 發現更多資安工具。",
+        "ogTitle": "1Password - 密碼管理工具",
+        "ogDescription": "探索 1Password，安全 的密碼管理器。透過 Jack Website 發現更多資安工具。"
+      }
+    },
+    {
+      "id": "66",
+      "name": "VirusTotal",
+      "slug": "virustotal",
+      "description": "檔案病毒檢測",
+      "shortDescription": "線上病毒檢測服務",
+      "category": "security",
+      "url": "https://www.virustotal.com/gui/home/upload",
+      "icon": "🦠",
+      "keywords": ["病毒", "檢測", "資安", "VirusTotal"],
+      "seo": {
+        "title": "VirusTotal - 檔案病毒檢測 | Jack Website",
+        "description": "探索 VirusTotal，線上病毒檢測服務。透過 Jack Website 發現更多資安工具。",
+        "ogTitle": "VirusTotal - 檔案病毒檢測",
+        "ogDescription": "探索 VirusTotal，線上病毒檢測服務。透過 Jack Website 發現更多資安工具。"
+      }
+    },
+    {
+      "id": "67",
+      "name": "Hemingway Editor",
+      "slug": "hemingway",
+      "description": "寫作輔助工具",
+      "shortDescription": "幫助改善寫作風格的線上編輯器",
+      "category": "learning",
+      "url": "https://hemingwayapp.com/",
+      "icon": "✍️",
+      "keywords": ["寫作", "編輯", "輔助", "Hemingway"],
+      "seo": {
+        "title": "Hemingway Editor - 寫作輔助工具 | Jack Website",
+        "description": "探索 Hemingway Editor，幫助改善寫作風格的線上編輯器。透過 Jack Website 發現更多學習資源。",
+        "ogTitle": "Hemingway Editor - 寫作輔助工具",
+        "ogDescription": "探索 Hemingway Editor，幫助改善寫作風格的線上編輯器。透過 Jack Website 發現更多學習資源。"
+      }
+    },
+    {
+      "id": "68",
+      "name": "微軟愛寫作",
+      "slug": "aim-writing",
+      "description": "英語寫作輔助",
+      "shortDescription": "微軟推出的英語寫作輔助工具",
+      "category": "learning",
+      "url": "https://aimwriting.mtutor.engkoo.com/",
+      "icon": "📝",
+      "keywords": ["寫作", "英語", "微軟", "學習"],
+      "seo": {
+        "title": "微軟愛寫作 - 英語寫作輔助 | Jack Website",
+        "description": "探索微軟愛寫作，微軟推出的英語寫作輔助工具。透過 Jack Website 發現更多學習資源。",
+        "ogTitle": "微軟愛寫作 - 英語寫作輔助",
+        "ogDescription": "探索微軟愛寫作，微軟推出的英語寫作輔助工具。透過 Jack Website 發現更多學習資源。"
+      }
+    },
+    {
+      "id": "69",
+      "name": "YouTube",
+      "slug": "youtube",
+      "description": "影片分享平台",
+      "shortDescription": "全球最大影片平台",
+      "category": "media",
+      "url": "https://youtube.com",
+      "icon": "▶️",
+      "keywords": ["youtube", "video", "媒體", "教學", "娛樂"],
+      "seo": {
+        "title": "YouTube - 影片分享平台 | Jack Website",
+        "description": "探索 YouTube，全球最大影片平台。透過 Jack Website 發現更多媒體工具。",
+        "ogTitle": "YouTube - 影片分享平台",
+        "ogDescription": "探索 YouTube，全球最大影片平台。透過 Jack Website 發現更多媒體工具。"
+      }
+    },
+    {
+      "id": "70",
+      "name": "Bilibili",
+      "slug": "bilibili",
+      "description": "影片分享平台",
+      "shortDescription": "中國最大的動畫、遊戲影片平台",
+      "category": "media",
+      "url": "https://www.bilibili.com/",
+      "icon": "📺",
+      "keywords": ["Bilibili", "影片", "動畫", "遊戲"],
+      "seo": {
+        "title": "Bilibili - 影片分享平台 | Jack Website",
+        "description": "探索 Bilibili，中国最大的動畫、遊戲影片平台。透過 Jack Website 發現更多媒體工具。",
+        "ogTitle": "Bilibili - 影片分享平台",
+        "ogDescription": "探索 Bilibili，中国最大的動畫、遊戲影片平台。透過 Jack Website 發現更多媒體工具。"
+      }
+    },
+    {
+      "id": "71",
+      "name": "Spotify",
+      "slug": "spotify",
+      "description": "音樂串流平台",
+      "shortDescription": "全球最受歡迎的音樂串流服務",
+      "category": "media",
+      "url": "https://spotify.com",
+      "icon": "🎵",
+      "keywords": ["spotify", "music", "streaming", "音樂", "串流"],
+      "seo": {
+        "title": "Spotify - 音樂串流平台 | Jack Website",
+        "description": "探索 Spotify，全球最受歡迎的音樂串流服務。透過 Jack Website 發現更多媒體工具。",
+        "ogTitle": "Spotify - 音樂串流平台",
+        "ogDescription": "探索 Spotify，全球最受歡迎的音樂串流服務。透過 Jack Website 發現更多媒體工具。"
+      }
+    },
+    {
+      "id": "72",
+      "name": "OBS Studio",
+      "slug": "obs-studio",
+      "description": "錄影直播工具",
+      "shortDescription": "免費開源的錄影直播軟體",
+      "category": "media",
+      "url": "https://obsproject.com",
+      "icon": "🎥",
+      "keywords": ["streaming", "recording", "OBS", "live", "直播"],
+      "seo": {
+        "title": "OBS Studio - 錄影直播工具 | Jack Website",
+        "description": "探索 OBS Studio，免費開源的錄影直播軟體。透過 Jack Website 發現更多媒體工具。",
+        "ogTitle": "OBS Studio - 錄影直播工具",
+        "ogDescription": "探索 OBS Studio，免費開源的錄影直播軟體。透過 Jack Website 發現更多媒體工具。"
+      }
+    },
+    {
+      "id": "73",
+      "name": "Moises",
+      "slug": "moises",
+      "description": "AI 音樂工具",
+      "shortDescription": "AI 音樂分離和編輯平台",
+      "category": "media",
+      "url": "https://studio.moises.ai/library/",
+      "icon": "🎸",
+      "keywords": ["音樂", "AI", "分離", "編輯", "Moises"],
+      "seo": {
+        "title": "Moises - AI 音樂工具 | Jack Website",
+        "description": "探索 Moises，AI 音樂分離和編輯平台。透過 Jack Website 發現更多媒體工具。",
+        "ogTitle": "Moises - AI 音樂工具",
+        "ogDescription": "探索 Moises，AI 音樂分離和編輯平台。透過 Jack Website 發現更多媒體工具。"
+      }
+    },
+    {
+      "id": "74",
+      "name": "GitHub",
+      "slug": "github",
+      "description": "程式碼托管",
+      "shortDescription": "全球最大的程式碼托管平台",
+      "category": "dev",
+      "url": "https://github.com",
+      "icon": "🐙",
+      "keywords": ["git", "github", "repository", "程式碼", "版本控制"],
+      "seo": {
+        "title": "GitHub - 程式碼托管 | Jack Website",
+        "description": "探索 GitHub，全球最大的程式碼托管平台。透過 Jack Website 發現更多開發工具。",
+        "ogTitle": "GitHub - 程式碼托管",
+        "ogDescription": "探索 GitHub，全球最大的程式碼托管平台。透過 Jack Website 發現更多開發工具。"
+      }
+    },
+    {
+      "id": "75",
+      "name": "GitLab",
+      "slug": "gitlab",
+      "description": "程式碼管理平台",
+      "shortDescription": "開源的程式碼管理平台",
+      "category": "dev",
+      "url": "https://gitlab.com",
+      "icon": "🦊",
+      "keywords": ["git", "gitlab", "repository", "CI/CD", "DevOps"],
+      "seo": {
+        "title": "GitLab - 程式碼管理平台 | Jack Website",
+        "description": "探索 GitLab，開源的程式碼管理平台。透過 Jack Website 發現更多開發工具。",
+        "ogTitle": "GitLab - 程式碼管理平台",
+        "ogDescription": "探索 GitLab，開源的程式碼管理平台。透過 Jack Website 發現更多開發工具。"
+      }
+    },
+    {
+      "id": "76",
+      "name": "Docker",
+      "slug": "docker",
+      "description": "容器化平台",
+      "shortDescription": "應用程式容器化平台",
+      "category": "dev",
+      "url": "https://docker.com",
+      "icon": "🐳",
+      "keywords": ["docker", "container", "devops", "部署", "虛擬化"],
+      "seo": {
+        "title": "Docker - 容器化平台 | Jack Website",
+        "description": "探索 Docker，應用程式容器化平台。透過 Jack Website 發現更多開發工具。",
+        "ogTitle": "Docker - 容器化平台",
+        "ogDescription": "探索 Docker，應用程式容器化平台。透過 Jack Website 發現更多開發工具。"
+      }
+    },
+    {
+      "id": "77",
+      "name": "Vercel",
+      "slug": "vercel",
+      "description": "部署平台",
+      "shortDescription": "現代化網頁部署平台",
+      "category": "dev",
+      "url": "https://vercel.com",
+      "icon": "▲",
+      "keywords": ["deploy", "hosting", "Next.js", "vercel", "部署"],
+      "seo": {
+        "title": "Vercel - 部署平台 | Jack Website",
+        "description": "探索 Vercel，最現代化的網頁部署平台。透過 Jack Website 發現更多開發工具。",
+        "ogTitle": "Vercel - 部署平台",
+        "ogDescription": "探索 Vercel，最現代化的網頁部署平台。透過 Jack Website 發現更多開發工具。"
+      }
+    },
+    {
+      "id": "78",
+      "name": "Tailwind CSS",
+      "slug": "tailwind-css",
+      "description": "CSS 框架",
+      "shortDescription": "實用優先的 CSS 框架",
+      "category": "dev",
+      "url": "https://tailwindcss.com",
+      "icon": "🌐",
+      "keywords": ["CSS", "framework", "tailwind", "responsive", "樣式"],
+      "seo": {
+        "title": "Tailwind CSS - CSS 框架 | Jack Website",
+        "description": "探索 Tailwind CSS，實用優先的 CSS 框架。透過 Jack Website 發現更多開發工具。",
+        "ogTitle": "Tailwind CSS - CSS 框架",
+        "ogDescription": "探索 Tailwind CSS，實用優先的 CSS 框架。透過 Jack Website 發現更多開發工具。"
+      }
+    },
+    {
+      "id": "79",
+      "name": "Next.js",
+      "slug": "nextjs",
+      "description": "React 框架",
+      "shortDescription": "React 全端框架",
+      "category": "dev",
+      "url": "https://nextjs.org",
+      "icon": "⚛️",
+      "keywords": ["React", "Next.js", "framework", "SSR", "全端"],
+      "seo": {
+        "title": "Next.js - React 框架 | Jack Website",
+        "description": "探索 Next.js，React 全端框架。透過 Jack Website 發現更多開發工具。",
+        "ogTitle": "Next.js - React 框架",
+        "ogDescription": "探索 Next.js，React 全端框架。透過 Jack Website 發現更多開發工具。"
+      }
+    },
+    {
+      "id": "80",
+      "name": "VS Code",
+      "slug": "vscode",
+      "description": "程式碼編輯器",
+      "shortDescription": "免費開源的程式碼編輯器",
+      "category": "dev",
+      "url": "https://code.visualstudio.com",
+      "icon": "📝",
+      "keywords": ["IDE", "editor", "VSCode", "coding", "開發"],
+      "seo": {
+        "title": "VS Code - 程式碼編輯器 | Jack Website",
+        "description": "探索 VS Code，免費開源的程式碼編輯器。透過 Jack Website 發現更多開發工具。",
+        "ogTitle": "VS Code - 程式碼編輯器",
+        "ogDescription": "探索 VS Code，免費開源的程式碼編輯器。透過 Jack Website 發現更多開發工具。"
+      }
+    },
+    {
+      "id": "81",
+      "name": "Cursor",
+      "slug": "cursor",
+      "description": "AI 程式編輯器",
+      "shortDescription": "AI 驅動的程式碼編輯器",
+      "category": "dev",
+      "url": "https://cursor.sh",
+      "icon": "💻",
+      "keywords": ["IDE", "editor", "AI", "coding", "VSCode"],
+      "seo": {
+        "title": "Cursor - AI 程式編輯器 | Jack Website",
+        "description": "探索 Cursor，AI 驅動的程式碼編輯器。透過 Jack Website 發現更多開發工具。",
+        "ogTitle": "Cursor - AI 程式編輯器",
+        "ogDescription": "探索 Cursor，AI 驅動的程式碼編輯器。透過 Jack Website 發現更多開發工具。"
+      }
+    },
+    {
+      "id": "82",
+      "name": "Claude",
+      "slug": "claude",
+      "description": "AI 編碼助手",
+      "shortDescription": "Anthropic 推出的 AI 編碼助手",
+      "category": "ai",
+      "url": "https://claude.ai",
+      "icon": "🧠",
+      "keywords": ["AI", "coding", "Anthropic", "Claude", "程式開發"],
+      "seo": {
+        "title": "Claude - AI 編碼助手 | Jack Website",
+        "description": "探索 Claude，Anthropic 推出的 AI 編碼助手。透過 Jack Website 發現更多開發工具和 AI 資源。",
+        "ogTitle": "Claude - AI 編碼助手",
+        "ogDescription": "探索 Claude，Anthropic 推出的 AI 編碼助手。透過 Jack Website 發現更多開發工具。"
+      }
+    },
+    {
+      "id": "83",
+      "name": "Gemini",
+      "slug": "gemini",
+      "description": "Google AI 助手",
+      "shortDescription": "Google 推出的 AI 助手",
+      "category": "ai",
+      "url": "https://gemini.google.com",
+      "icon": "✨",
+      "keywords": ["AI", "Google", "Gemini", "chatbot", "人工智慧"],
+      "seo": {
+        "title": "Gemini - Google AI 助手 | Jack Website",
+        "description": "探索 Gemini，Google 推出的 AI 助手。透過 Jack Website 發現更多 AI 工具。",
+        "ogTitle": "Gemini - Google AI 助手",
+        "ogDescription": "探索 Gemini，Google 推出的 AI 助手。透過 Jack Website 發現更多 AI 工具。"
+      }
+    },
+    {
+      "id": "84",
+      "name": "Midjourney",
+      "slug": "midjourney",
+      "description": "AI 圖片生成",
+      "shortDescription": "強大的 AI 圖片生成工具",
+      "category": "ai",
+      "url": "https://midjourney.com",
+      "icon": "🖼️",
+      "keywords": ["AI", "image generation", "midjourney", "art", "圖片生成"],
+      "seo": {
+        "title": "Midjourney - AI 圖片生成 | Jack Website",
+        "description": "探索 Midjourney，強大的 AI 圖片生成工具。透過 Jack Website 發現更多 AI 工具。",
+        "ogTitle": "Midjourney - AI 圖片生成",
+        "ogDescription": "探索 Midjourney，強大的 AI 圖片生成工具。透過 Jack Website 發現更多 AI 工具。"
+      }
+    },
+    {
+      "id": "85",
+      "name": "Perplexity",
+      "slug": "perplexity",
+      "description": "AI 搜尋引擎",
+      "shortDescription": "AI 驅動的搜尋引擎",
+      "category": "ai",
+      "url": "https://perplexity.ai",
+      "icon": "🔍",
+      "keywords": ["AI", "search", "Perplexity", "資訊檢索"],
+      "seo": {
+        "title": "Perplexity - AI 搜尋引擎 | Jack Website",
+        "description": "探索 Perplexity，AI 驅動的搜尋引擎。透過 Jack Website 發現更多 AI 工具。",
+        "ogTitle": "Perplexity - AI 搜尋引擎",
+        "ogDescription": "探索 Perplexity，AI 驅動的搜尋引擎。透過 Jack Website 發現更多 AI 工具。"
+      }
+    },
+    {
+      "id": "86",
+      "name": "Copilot",
+      "slug": "copilot",
+      "description": "Microsoft AI 助手",
+      "shortDescription": "Microsoft 推出的 AI 程式助手",
+      "category": "ai",
+      "url": "https://copilot.microsoft.com",
+      "icon": "💡",
+      "keywords": ["AI", "Microsoft", "Copilot", "coding", "助手"],
+      "seo": {
+        "title": "Copilot - Microsoft AI 助手 | Jack Website",
+        "description": "探索 Copilot，Microsoft 推出的 AI 程式助手。透過 Jack Website 發現更多開發工具。",
+        "ogTitle": "Copilot - Microsoft AI 助手",
+        "ogDescription": "探索 Copilot，Microsoft 推出的 AI 程式助手。透過 Jack Website 發現更多開發工具。"
+      }
+    },
+    {
+      "id": "87",
+      "name": "Jira",
+      "slug": "jira",
+      "description": "專案追蹤工具",
+      "shortDescription": "Atlassian 專案追蹤工具",
+      "category": "productivity",
+      "url": "https://jira.atlassian.com",
+      "icon": "📊",
+      "keywords": ["jira", "project", "agile", "scrum", "追蹤"],
+      "seo": {
+        "title": "Jira - 專案追蹤工具 | Jack Website",
+        "description": "探索 Jira，Atlassian 專案追蹤工具。透過 Jack Website 發現更多生產力工具。",
+        "ogTitle": "Jira - 專案追蹤工具",
+        "ogDescription": "探索 Jira，Atlassian 專案追蹤工具。透過 Jack Website 發現更多生產力工具。"
+      }
+    },
+    {
+      "id": "88",
+      "name": "AWS",
+      "slug": "aws",
+      "description": "雲端運算服務",
+      "shortDescription": "Amazon 雲端運算平台",
+      "category": "cloud",
+      "url": "https://aws.amazon.com",
+      "icon": "☁️",
+      "keywords": ["aws", "cloud", "amazon", "serverless", "雲端"],
+      "seo": {
+        "title": "AWS - 雲端運算服務 | Jack Website",
+        "description": "探索 AWS，Amazon 雲端運算平台。透過 Jack Website 發現更多雲端服務。",
+        "ogTitle": "AWS - 雲端運算服務",
+        "ogDescription": "探索 AWS，Amazon 雲端運算平台。透過 Jack Website 發現更多雲端服務。"
+      }
+    },
+    {
+      "id": "89",
+      "name": "Coursera",
+      "slug": "coursera",
+      "description": "線上課程平台",
+      "shortDescription": "知名線上教育平台",
+      "category": "learning",
+      "url": "https://coursera.org",
+      "icon": "🎓",
+      "keywords": ["coursera", "course", "learning", "線上課程", "教育"],
+      "seo": {
+        "title": "Coursera - 線上課程平台 | Jack Website",
+        "description": "探索 Coursera，知 名線上教育平台。透過 Jack Website 發現更多學習資源。",
+        "ogTitle": "Coursera - 線上課程平台",
+        "ogDescription": "探索 Coursera，知 名線上教育平台。透過 Jack Website 發現更多學習資源。"
+      }
+    },
+    {
+      "id": "90",
+      "name": "Duolingo",
+      "slug": "duolingo",
+      "description": "語言學習",
+      "shortDescription": "遊戲化語言學習平台",
+      "category": "learning",
+      "url": "https://duolingo.com",
+      "icon": "🦉",
+      "keywords": ["language", "learning", "duolingo", "教育", "語言學習"],
+      "seo": {
+        "title": "Duolingo - 語言學習 | Jack Website",
+        "description": "探索 Duolingo，遊戲化語言學習平台。透過 Jack Website 發現更多學習資源。",
+        "ogTitle": "Duolingo - 語言學習",
+        "ogDescription": "探索 Duolingo，遊戲化語言學習平台。透過 Jack Website 發現更多學習資源。"
+      }
+    },
+    {
+      "id": "91",
+      "name": "愛給網",
+      "slug": "aigei",
+      "description": "素材資源網",
+      "shortDescription": "音效、配樂、素材免費下載",
+      "category": "media",
+      "url": "https://www.aigei.com/",
+      "icon": "🎁",
+      "keywords": ["素材", "音效", "配樂", "免費", "下載"],
+      "seo": {
+        "title": "愛給網 - 素材資源網 | Jack Website",
+        "description": "探索愛給網，音效、配樂、素材免費下載。透過 Jack Website 發現更多媒體工具。",
+        "ogTitle": "愛給網 - 素材資源網",
+        "ogDescription": "探索愛給網，音效、配樂、素材免費下載。透過 Jack Website 發現更多媒體工具。"
+      }
+    },
+    {
+      "id": "92",
+      "name": "Pixabay",
+      "slug": "pixabay",
+      "description": "免費圖庫",
+      "shortDescription": "免費正版高清圖片素材庫",
+      "category": "design",
+      "url": "https://pixabay.com/zh/",
+      "icon": "📷",
+      "keywords": ["圖庫", "免費", "圖片", "Pixabay"],
+      "seo": {
+        "title": "Pixabay - 免費圖庫 | Jack Website",
+        "description": "探索 Pixabay，免費正版高清圖片素材庫。透過 Jack Website 發現更多設計工具。",
+        "ogTitle": "Pixabay - 免費圖庫",
+        "ogDescription": "探索 Pixabay，免費正版高清圖片素材庫。透過 Jack Website 發現更多設計工具。"
+      }
+    },
+    {
+      "id": "93",
+      "name": "Tinkercad",
+      "slug": "tinkercad",
+      "description": "3D 建模工具",
+      "shortDescription": "Autodesk 免費線上 3D 設計工具",
+      "category": "design",
+      "url": "https://www.tinkercad.com/dashboard",
+      "icon": "🏗️",
+      "keywords": ["3D", "建模", "Tinkercad", "設計"],
+      "seo": {
+        "title": "Tinkercad - 3D 建模工具 | Jack Website",
+        "description": "探索 Tinkercad，Autodesk 免費線上 3D 設計工具。透過 Jack Website 發現更多設計工具。",
+        "ogTitle": "Tinkercad - 3D 建模工具",
+        "ogDescription": "探索 Tinkercad，Autodesk 免費線上 3D 設計工具。透過 Jack Website 發現更多設計工具。"
+      }
+    },
+    {
+      "id": "94",
+      "name": "Tripo3D",
+      "slug": "tripo3d",
+      "description": "AI 3D 生成",
+      "shortDescription": "AI 文字轉 3D 模型工具",
+      "category": "design",
+      "url": "https://www.tripo3d.ai/",
+      "icon": "🎲",
+      "keywords": ["3D", "AI", "生成", "模型"],
+      "seo": {
+        "title": "Tripo3D - AI 3D 生成 | Jack Website",
+        "description": "探索 Tripo3D，AI 文字轉 3D 模型工具。透過 Jack Website 發現更多設計工具。",
+        "ogTitle": "Tripo3D - AI 3D 生成",
+        "ogDescription": "探索 Tripo3D，AI 文字轉 3D 模型工具。透過 Jack Website 發現更多設計工具。"
+      }
+    },
+    {
+      "id": "95",
+      "name": "Pinterest",
+      "slug": "pinterest",
+      "description": "圖片收藏平台",
+      "shortDescription": "靈感收集和圖片分享平台",
+      "category": "design",
+      "url": "https://www.pinterest.com/",
+      "icon": "📌",
+      "keywords": ["Pinterest", "圖片", "靈感", "收藏"],
+      "seo": {
+        "title": "Pinterest - 圖片收藏平台 | Jack Website",
+        "description": "探索 Pinterest，靈感收集和圖片分享平台。透過 Jack Website 發現更多設計工具。",
+        "ogTitle": "Pinterest - 圖片收藏平台",
+        "ogDescription": "探索 Pinterest，靈感收集和圖片分享平台。透過 Jack Website 發現更多設計工具。"
+      }
+    },
+    {
+      "id": "96",
+      "name": "Ping.eu",
+      "slug": "ping-eu",
+      "description": "網路診斷工具",
+      "shortDescription": "線上網路工具集合",
+      "category": "dev",
+      "url": "https://ping.eu/",
+      "icon": "📡",
+      "keywords": ["網路", "診斷", "工具", "Ping"],
+      "seo": {
+        "title": "Ping.eu - 網路診斷工具 | Jack Website",
+        "description": "探索 Ping.eu，線上網路工具集合。透過 Jack Website 發現更多開發工具。",
+        "ogTitle": "Ping.eu - 網路診斷工具",
+        "ogDescription": "探索 Ping.eu，線上網路工具集合。透過 Jack Website 發現更多開發工具。"
+      }
+    },
+    {
+      "id": "97",
+      "name": "Flutter",
+      "slug": "flutter",
+      "description": "跨平台框架",
+      "shortDescription": "Google 跨平台 UI 框架",
+      "category": "dev",
+      "url": "https://flutter.dev",
+      "icon": "🦋",
+      "keywords": ["Flutter", "Google", "跨平台", "APP"],
+      "seo": {
+        "title": "Flutter - 跨平台框架 | Jack Website",
+        "description": "探索 Flutter，Google 跨平台 UI 框架。透過 Jack Website 發現更多開發工具。",
+        "ogTitle": "Flutter - 跨平台框架",
+        "ogDescription": "探索 Flutter，Google 跨平台 UI 框架。透過 Jack Website 發現更多開發工具。"
+      }
+    },
+    {
+      "id": "98",
+      "name": "React",
+      "slug": "react",
+      "description": "前端框架",
+      "shortDescription": "Facebook 開發的 UI 庫",
+      "category": "dev",
+      "url": "https://react.dev",
+      "icon": "⚛️",
+      "keywords": ["React", "前端", "框架", "UI"],
+      "seo": {
+        "title": "React - 前端框架 | Jack Website",
+        "description": "探索 React，Facebook 開發的 UI 庫。透過 Jack Website 發現更多開發工具。",
+        "ogTitle": "React - 前端框架",
+        "ogDescription": "探索 React，Facebook 開發的 UI 庫。透過 Jack Website 發現更多開發工具。"
+      }
+    },
+    {
+      "id": "99",
+      "name": "NotebookLM",
+      "slug": "notebooklm",
+      "description": "AI 學習工具",
+      "shortDescription": "Google 的 AI 筆記和學習工具",
+      "category": "learning",
+      "url": "https://notebooklm.google.com/",
+      "icon": "📓",
+      "keywords": ["AI", "筆記", "學習", "Google"],
+      "seo": {
+        "title": "NotebookLM - AI 學習工具 | Jack Website",
+        "description": "探索 NotebookLM，Google 的 AI 筆記和學習工具。透過 Jack Website 發現更多學習資源。",
+        "ogTitle": "NotebookLM - AI 學習工具",
+        "ogDescription": "探索 NotebookLM，Google 的 AI 筆記和學習工具。透過 Jack Website 發現更多學習資源。"
+      }
+    },
+    {
+      "id": "100",
+      "name": "Descript",
+      "slug": "descript",
+      "description": "影片編輯工具",
+      "shortDescription": "AI 驅動的影片和播客編輯平台",
+      "category": "media",
+      "url": "https://app.descript.com/",
+      "icon": "🎞️",
+      "keywords": ["影片", "編輯", "播客", "AI"],
+      "seo": {
+        "title": "Descript - 影片編輯工具 | Jack Website",
+        "description": "探索 Descript，AI 驅動的影片和播客編輯平台。透過 Jack Website 發現更多媒體工具。",
+        "ogTitle": "Descript - 影片編輯工具",
+        "ogDescription": "探索 Descript，AI 驅動的影片和播客編輯平台。透過 Jack Website 發現更多媒體工具。"
+      }
+    }
+  ]
+    {
       "id": "2",
       "name": "Claude",
       "slug": "claude",
