@@ -2261,6 +2261,29 @@
         "ogTitle": "Minimax - AI 內容生成平台",
         "ogDescription": "探索 Minimax，AI 驅動的文字、圖片和影片生成平台。透過 Jack Website 發現更多 AI 工具。"
       }
+    },
+    {
+      "id": "99",
+      "name": "WebSim",
+      "slug": "websim",
+      "description": "AI 網站生成工具",
+      "shortDescription": "AI 驅動的即時網站生成平台",
+      "category": "dev",
+      "url": "https://websim.com/",
+      "icon": "🌐",
+      "keywords": [
+        "WebSim",
+        "AI",
+        "網站生成",
+        "開法",
+        "即時"
+      ],
+      "seo": {
+        "title": "WebSim - AI 網站生成工具 | Jack Website",
+        "description": "探索 WebSim，AI 驅動的即時網站生成平台。透過 Jack Website 發現更多開發工具。",
+        "ogTitle": "WebSim - AI 網站生成工具",
+        "ogDescription": "探索 WebSim，AI 驅動的即時網站生成平台。透過 Jack Website 發現更多開發工具。"
+      }
     }
   ]
 }
