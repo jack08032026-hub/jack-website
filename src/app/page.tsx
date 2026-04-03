@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { useLanguage } from "@/i18n/LanguageProvider";
 import toolsData from "@/data/tools.json";
 import { Category, Tool } from "@/types";
@@ -13,17 +13,47 @@ export default function Home() {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
 
-  const filteredTools = tools.filter((tool) => {
-    const matchesSearch =
-      tool.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      tool.description.toLowerCase().includes(searchQuery.toLowerCase());
-    const matchesCategory = !selectedCategory || tool.category === selectedCategory;
-    return matchesSearch && matchesCategory;
-  });
+  // Use useMemo to ensure consistent filtering
+  const filteredTools = useMemo(() => {
+    const query = searchQuery.toLowerCase().trim();
+
+    return tools.filter((tool) => {
+      // Category filter
+      if (selectedCategory && tool.category !== selectedCategory) {
+        return false;
+      }
+
+      // Search filter - only search when query is not empty
+      if (query) {
+        const nameMatch = tool.name.toLowerCase().includes(query);
+        const descMatch = tool.description.toLowerCase().includes(query);
+        const keywordMatch = tool.keywords?.some((k) => k.toLowerCase().includes(query));
+        return nameMatch || descMatch || keywordMatch;
+      }
+
+      return true;
+    });
+  }, [searchQuery, selectedCategory]);
 
   const getCategoryName = (id: string) => {
     const cat = t.categoryNames[id as keyof typeof t.categoryNames];
     return cat || id;
+  };
+
+  // Reset search when category changes
+  const handleCategoryClick = (categoryId: string) => {
+    if (selectedCategory === categoryId) {
+      setSelectedCategory(null);
+    } else {
+      setSelectedCategory(categoryId);
+      setSearchQuery(""); // Reset search
+    }
+  };
+
+  // Clear category when searching
+  const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setSearchQuery(e.target.value);
+    setSelectedCategory(null); // Reset category when searching
   };
 
   return (
@@ -47,7 +77,7 @@ export default function Home() {
               type="text"
               placeholder={language === "zh" ? "搜尋工具..." : "Search tools..."}
               value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
+              onChange={handleSearchChange}
               className="w-full rounded-2xl border border-zinc-200 bg-white px-5 py-4 text-zinc-900 shadow-lg outline-none transition-shadow focus:border-zinc-400 focus:shadow-xl"
             />
             <svg
@@ -56,7 +86,7 @@ export default function Home() {
               stroke="currentColor"
               viewBox="0 0 24 24"
             >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              <path strokeLinecap="round" strokeName="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
             </svg>
           </div>
         </div>
@@ -81,7 +111,7 @@ export default function Home() {
             {categories.map((category) => (
               <button
                 key={category.id}
-                onClick={() => setSelectedCategory(selectedCategory === category.id ? null : category.id)}
+                onClick={() => handleCategoryClick(category.id)}
                 className={`group flex flex-col items-center rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-md ${
                   selectedCategory === category.id ? "ring-2 ring-purple-500" : ""
                 }`}
@@ -143,6 +173,19 @@ export default function Home() {
                 );
               })}
             </div>
+          )}
+
+          {/* Clear Filters */}
+          {(searchQuery || selectedCategory) && (
+            <button
+              onClick={() => {
+                setSearchQuery("");
+                setSelectedCategory(null);
+              }}
+              className="mt-6 text-sm text-purple-600 hover:text-purple-700"
+            >
+              清除篩選 / Clear Filters
+            </button>
           )}
         </div>
       </section>
