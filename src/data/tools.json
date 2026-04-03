@@ -1310,27 +1310,6 @@
       }
     },
     {
-      "id": "62",
-      "name": "CPanel",
-      "slug": "cpolar",
-      "description": "內網穿透",
-      "shortDescription": "安全的內網穿透工具",
-      "category": "cloud",
-      "url": "https://www.cpolar.com/",
-      "icon": "🌍",
-      "keywords": [
-        "內網穿透",
-        "CPolar",
-        "遠端"
-      ],
-      "seo": {
-        "title": "CPanel - 內網穿透 | Jack Website",
-        "description": "探索 CPanel，安全的內網穿透工具。透過 Jack Website 發現更多雲端服務。",
-        "ogTitle": "CPanel - 內網穿透",
-        "ogDescription": "探索 CPanel，安全的內網穿透工具。透過 Jack Website 發現更多雲端服務。"
-      }
-    },
-    {
       "id": "63",
       "name": "Cloudflare",
       "slug": "cloudflare",
