@@ -37,7 +37,7 @@ export function ToolPageClient({ tool, category, tutorial, jsonLd, allTools, all
     return cat || id;
   };
 
-  const backLink = tool.backLink || "/";
+  const backLink = tool.backLink || "/jack-website/";
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-zinc-50 to-zinc-100">
@@ -191,7 +191,7 @@ export function ToolPageClient({ tool, category, tutorial, jsonLd, allTools, all
               .map((relatedTool) => (
                 <Link
                   key={relatedTool.id}
-                  href={`/jack-website/tools/${relatedTool.slug}/`}
+                  href={`/tools/${relatedTool.slug}/`}
                   className="group flex flex-col rounded-2xl border border-zinc-200 bg-white p-6 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg"
                 >
                   <span className="mb-3 text-3xl">{relatedTool.icon}</span>
