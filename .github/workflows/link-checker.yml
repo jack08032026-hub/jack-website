@@ -25,7 +25,7 @@ jobs:
       - name: Check for broken links
         run: |
           echo "Checking links in tools.json..."
-          npx blc --filter-level 3 --recursive --host-relationshiptag parent https://jack08032026-hub.github.io/jack-website/ -v || true
+          npx blc --filter-level 3 --recursive --host-relationshiptag parent https://jack08032026-hub.github.io/jack-website/ || true
         continue-on-error: true
 
       - name: Extract URLs from JSON
@@ -40,26 +40,30 @@ jobs:
           echo "urls=$URLS" >> $GITHUB_OUTPUT
 
       - name: Check each tool URL
+        id: check
         run: |
-          IFS=$'\n' read -rd '' -a url_array <<< "${{ steps.extract.outputs.urls }}"
+          URLS="${{ steps.extract.outputs.urls }}"
+          BROKEN_COUNT=0
 
-          BROKEN_LINKS=""
-          for url in "\${url_array[@]}"; do
+          while IFS= read -r url; do
             echo "Checking: $url"
-            HTTP_CODE=\$(curl -s -o /dev/null -w "%{http_code}" --max-time 10 "\$url" || echo "000")
+            HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" --max-time 10 "$url" || echo "000")
 
-            if [ "\$HTTP_CODE" = "000" ]; then
+            if [ "$HTTP_CODE" = "000" ]; then
               echo "❌ $url - Connection failed"
-              BROKEN_LINKS+="❌ $url - Connection failed\n"
-            elif [ "\$HTTP_CODE" -ge 400 ]; then
-              echo "❌ $url - HTTP \$HTTP_CODE"
-              BROKEN_LINKS+="❌ $url - HTTP \$HTTP_CODE\n"
+              echo "❌ $url - Connection failed" >> broken_links.txt
+              BROKEN_COUNT=$((BROKEN_COUNT + 1))
+            elif [ "$HTTP_CODE" -ge 400 ]; then
+              echo "❌ $url - HTTP $HTTP_CODE"
+              echo "❌ $url - HTTP $HTTP_CODE" >> broken_links.txt
+              BROKEN_COUNT=$((BROKEN_COUNT + 1))
             else
               echo "✅ $url - OK"
             fi
-          done
+          done <<< "$URLS"
 
-          echo "\$BROKEN_LINKS" > broken_links.txt
+          # 輸出 broken count 供後續 step 使用
+          echo "broken=$BROKEN_COUNT" >> $GITHUB_OUTPUT
 
       - name: Create issue if broken links found
         if: success() && hashFiles('broken_links.txt') && steps.check.outputs.broken > 0
