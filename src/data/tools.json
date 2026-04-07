@@ -530,30 +530,6 @@
       }
     },
     {
-      "id": "101",
-      "name": "CivitAI",
-      "slug": "civitai",
-      "description": "AI 模型分享平台",
-      "shortDescription": "免費開源的 AI 生成模型庫",
-      "category": "ai",
-      "url": "https://civitai.com",
-      "icon": "🎨",
-      "keywords": [
-        "CivitAI",
-        "AI",
-        "模型",
-        "Stable Diffusion",
-        "生成模型",
-        "AI 模型"
-      ],
-      "seo": {
-        "title": "CivitAI - AI 模型分享平台 | Jack Website",
-        "description": "探索 CivitAI，免費開源的 AI 生成模型庫。透過 Jack Website 發現更多 AI 工具。",
-        "ogTitle": "CivitAI - AI 模型分享平台",
-        "ogDescription": "探索 CivitAI，免費開源的 AI 生成模型庫。透過 Jack Website 發現更多 AI 工具。"
-      }
-    },
-    {
       "id": "22",
       "name": "Outlook",
       "slug": "outlook",
