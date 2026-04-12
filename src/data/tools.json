@@ -2286,28 +2286,27 @@
       }
     },
     {
-      "id": "102",
-      "name": "Data Structure Visualization",
-      "slug": "data-structure-visualization",
-      "description": "資料結構與演算法視覺化工具",
-      "shortDescription": "互動式資料結構與演算法可視化學習平台",
+      "id": "103",
+      "name": "Scribbr",
+      "slug": "scribbr",
+      "description": "學術寫作與引用工具",
+      "shortDescription": "論文檢查、引用生成和學習輔助平台",
       "category": "learning",
-      "url": "https://www.cs.usfca.edu/~galles/visualization/",
-      "icon": "📊",
+      "url": "https://www.scribbr.com/",
+      "icon": "📖",
       "keywords": [
-        "資料結構",
-        "演算法",
-        "可視化",
-        "學習",
-        "Data Structure",
-        "Algorithm",
-        "Visualization"
+        "Scribbr",
+        "寫作",
+        "引用",
+        "論文",
+        "學術",
+        "學習"
       ],
       "seo": {
-        "title": "Data Structure Visualization - 資料結構視覺化 | Jack Website",
-        "description": "探索 Data Structure Visualization，互動式資料結構與演算法可視化學習平台。透過 Jack Website 發現更多學習資源。",
-        "ogTitle": "Data Structure Visualization - 資料結構視覺化",
-        "ogDescription": "探索 Data Structure Visualization，互動式資料結構與演算法可視化學習平台。透過 Jack Website 發現更多學習資源。"
+        "title": "Scribbr - 學術寫作與引用工具 | Jack Website",
+        "description": "探索 Scribbr，論文檢查、引用生成和學習輔助平台。透過 Jack Website 發現更多學習資源。",
+        "ogTitle": "Scribbr - 學術寫作與引用工具",
+        "ogDescription": "探索 Scribbr，論文檢查、引用生成和學習輔助平台。透過 Jack Website 發現更多學習資源。"
       }
     }
   ]
