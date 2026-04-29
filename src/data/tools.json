@@ -2308,6 +2308,32 @@
         "ogTitle": "Scribbr - 學術寫作與引用工具",
         "ogDescription": "探索 Scribbr，論文檢查、引用生成和學習輔助平台。透過 Jack Website 發現更多學習資源。"
       }
+    },
+    {
+      "id": "104",
+      "name": "AutoGLM",
+      "slug": "autoglm",
+      "description": "智譜AI推出的自主智能體，能模擬人類操作手機與瀏覽器，完成訂票、網購、資訊查詢等複雜任務，實現「一句話執行」的自動化助手。",
+      "shortDescription": "智譜AI自主智能體，一句話執行自動化任務",
+      "category": "ai",
+      "url": "https://autoglm.zhipuai.cn/",
+      "icon": "🤖",
+      "keywords": [
+        "AutoGLM",
+        "智譜",
+        "AI",
+        "agent",
+        "automation",
+        "browser",
+        "自動化",
+        "智能體"
+      ],
+      "seo": {
+        "title": "AutoGLM - 智譜AI自主智能體 | Jack Website",
+        "description": "探索 AutoGLM，智譜AI推出的自主智能體，能模擬人類操作手機與瀏覽器。透過 Jack Website 發現更多AI工具。",
+        "ogTitle": "AutoGLM - 智譜AI自主智能體",
+        "ogDescription": "探索 AutoGLM，智譜AI推出的自主智能體，一句話執行自動化任務。透過 Jack Website 發現更多AI工具。"
+      }
     }
   ]
 }
