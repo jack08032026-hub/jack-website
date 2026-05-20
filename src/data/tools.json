@@ -2334,6 +2334,78 @@
         "ogTitle": "AutoGLM - 智譜AI自主智能體",
         "ogDescription": "探索 AutoGLM，智譜AI推出的自主智能體，一句話執行自動化任務。透過 Jack Website 發現更多AI工具。"
       }
+    },
+    {
+      "id": "105",
+      "name": "ClickUp",
+      "slug": "clickup",
+      "description": "一站式專案管理平台，提供文件、行事曆、目標追蹤、AI 助手等功能，支援團隊協作與個人生产力管理。",
+      "shortDescription": "一站式專案管理與生產力平台",
+      "category": "productivity",
+      "url": "https://app.clickup.com/login",
+      "icon": "✅",
+      "keywords": [
+        "ClickUp",
+        "專案管理",
+        "任務管理",
+        "生產力",
+        "團隊",
+        "协作"
+      ],
+      "seo": {
+        "title": "ClickUp - 專案管理平台 | Jack Website",
+        "description": "探索 ClickUp，一站式專案管理平台。透過 Jack Website 發現更多生產力工具。",
+        "ogTitle": "ClickUp - 專案管理平台",
+        "ogDescription": "探索 ClickUp，一站式專案管理與生產力平台。透過 Jack Website 發現更多生產力工具。"
+      }
+    },
+    {
+      "id": "106",
+      "name": "Variant",
+      "slug": "variant",
+      "description": "AI 驅動的設計工具，幫助設計師快速生成設計變體和進行創意探索。",
+      "shortDescription": "AI 驅動的設計變體生成工具",
+      "category": "design",
+      "url": "https://variant.com/",
+      "icon": "🎨",
+      "keywords": [
+        "Variant",
+        "AI",
+        "設計",
+        "變體",
+        "創意",
+        "生成"
+      ],
+      "seo": {
+        "title": "Variant - AI 設計工具 | Jack Website",
+        "description": "探索 Variant，AI 驅動的設計工具。透過 Jack Website 發現更多設計工具。",
+        "ogTitle": "Variant - AI 設計工具",
+        "ogDescription": "探索 Variant，AI 驅動的設計變體生成工具。透過 Jack Website 發現更多設計工具。"
+      }
+    },
+    {
+      "id": "107",
+      "name": "Claude Plugins",
+      "slug": "claude-plugins",
+      "description": "Claude AI 助手的外掛程式集合，提供各種整合功能增強 Claude 的能力。",
+      "shortDescription": "Claude AI 助手外掛程式平台",
+      "category": "dev",
+      "url": "https://claude.com/plugins/design",
+      "icon": "🤖",
+      "keywords": [
+        "Claude",
+        "plugins",
+        "AI",
+        "外掛",
+        " Anthropic",
+        "擴展"
+      ],
+      "seo": {
+        "title": "Claude Plugins - AI 外掛程式 | Jack Website",
+        "description": "探索 Claude Plugins，Claude AI 助手的外掛程式集合。透過 Jack Website 發現更多開發工具。",
+        "ogTitle": "Claude Plugins - AI 外掛程式",
+        "ogDescription": "探索 Claude Plugins，Claude AI 助手的外掛程式平台。透過 Jack Website 發現更多開發工具。"
+      }
     }
   ]
 }
