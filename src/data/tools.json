@@ -2384,6 +2384,77 @@
       }
     },
     {
+      "id": "108",
+      "name": "Godly",
+      "slug": "godly",
+      "description": "網頁設計靈感網站",
+      "shortDescription": "探索精美網頁設計範例的靈感網站",
+      "category": "design",
+      "url": "https://godly.website/",
+      "icon": "✨",
+      "keywords": [
+        "godly",
+        "網頁設計",
+        "靈感",
+        "landing page",
+        "web design"
+      ],
+      "seo": {
+        "title": "Godly - 網頁設計靈感 | Jack Website",
+        "description": "探索 Godly，精美網頁設計範例靈感網站。透過 Jack Website 發現更多設計工具。",
+        "ogTitle": "Godly - 網頁設計靈感",
+        "ogDescription": "探索 Godly，精美網頁設計範例靈感網站。透過 Jack Website 發現更多設計工具。"
+      }
+    },
+    {
+      "id": "109",
+      "name": "Lapa",
+      "slug": "lapa",
+      "description": "登陸頁面設計靈感庫",
+      "shortDescription": "收錄全球精美登陸頁面的設計靈感網站",
+      "category": "design",
+      "url": "https://www.lapa.ninja/",
+      "icon": "🎨",
+      "keywords": [
+        "Lapa",
+        "登陸頁面",
+        "landing page",
+        "設計靈感",
+        "網頁設計"
+      ],
+      "seo": {
+        "title": "Lapa - 登陸頁面設計靈感 | Jack Website",
+        "description": "探索 Lapa，收錄全球精美登陸頁面的設計靈感網站。透過 Jack Website 發現更多設計工具。",
+        "ogTitle": "Lapa - 登陸頁面設計靈感",
+        "ogDescription": "探索 Lapa，收錄全球精美登陸頁面的設計靈感網站。透過 Jack Website 發現更多設計工具。"
+      }
+    },
+    {
+      "id": "110",
+      "name": "Mobbin",
+      "slug": "mobbin",
+      "description": "移動應用設計靈感庫",
+      "shortDescription": "收錄數千個精緻移動應用 UI 設計的靈感平台",
+      "category": "design",
+      "url": "https://mobbin.com/",
+      "icon": "📱",
+      "keywords": [
+        "Mobbin",
+        "移動應用",
+        "APP",
+        "UI",
+        "UX",
+        "設計靈感",
+        "移動設計"
+      ],
+      "seo": {
+        "title": "Mobbin - 移動應用設計靈感 | Jack Website",
+        "description": "探索 Mobbin，收錄數千個精緻移動應用 UI 設計的靈感平台。透過 Jack Website 發現更多設計工具。",
+        "ogTitle": "Mobbin - 移動應用設計靈感",
+        "ogDescription": "探索 Mobbin，收錄數千個精緻移動應用 UI 設計的靈感平台。透過 Jack Website 發現更多設計工具。"
+      }
+    },
+    {
       "id": "107",
       "name": "Claude Plugins",
       "slug": "claude-plugins",
