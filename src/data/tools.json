@@ -2477,6 +2477,53 @@
         "ogTitle": "Claude Plugins - AI 外掛程式",
         "ogDescription": "探索 Claude Plugins，Claude AI 助手的外掛程式平台。透過 Jack Website 發現更多開發工具。"
       }
+    },
+    {
+      "id": "111",
+      "name": "Resend",
+      "slug": "resend",
+      "description": "電子郵件 API 服務",
+      "shortDescription": "現代化的開發者郵件 API 平台",
+      "category": "dev",
+      "url": "https://resend.com",
+      "icon": "📧",
+      "keywords": [
+        "Resend",
+        "Email",
+        "API",
+        "郵件",
+        "開發者"
+      ],
+      "seo": {
+        "title": "Resend - 電子郵件 API | Jack Website",
+        "description": "探索 Resend，現代化的開發者郵件 API 平台。透過 Jack Website 發現更多開發工具。",
+        "ogTitle": "Resend - 電子郵件 API",
+        "ogDescription": "探索 Resend，現代化的開發者郵件 API 平台。透過 Jack Website 發現更多開發工具。"
+      }
+    },
+    {
+      "id": "112",
+      "name": "Supabase",
+      "slug": "supabase",
+      "description": "開源 Firebase 替代方案",
+      "shortDescription": "開源的後端即服務平台，提供資料庫、認證、存儲等功能",
+      "category": "dev",
+      "url": "https://supabase.com",
+      "icon": "🔥",
+      "keywords": [
+        "Supabase",
+        "Firebase",
+        "BaaS",
+        "後端",
+        "資料庫",
+        "開源"
+      ],
+      "seo": {
+        "title": "Supabase - 開源後端服務 | Jack Website",
+        "description": "探索 Supabase，開源的 Firebase 替代方案。透過 Jack Website 發現更多開發工具。",
+        "ogTitle": "Supabase - 開源後端服務",
+        "ogDescription": "探索 Supabase，開源後端即服務平台。透過 Jack Website 發現更多開發工具。"
+      }
     }
   ]
 }
