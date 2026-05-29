@@ -2524,6 +2524,76 @@
         "ogTitle": "Supabase - 開源後端服務",
         "ogDescription": "探索 Supabase，開源後端即服務平台。透過 Jack Website 發現更多開發工具。"
       }
+    },
+    {
+      "id": "113",
+      "name": "OpenSlide",
+      "slug": "openslide",
+      "description": "顯微鏡影像處理庫",
+      "shortDescription": "開源的 whole-slide 影像讀取庫，支援多種醫學影像格式",
+      "category": "dev",
+      "url": "https://open-slide.dev/docs",
+      "icon": "🔬",
+      "keywords": [
+        "OpenSlide",
+        "顯微鏡",
+        "醫學影像",
+        "whole-slide",
+        "病理學"
+      ],
+      "seo": {
+        "title": "OpenSlide - 顯微鏡影像處理庫 | Jack Website",
+        "description": "探索 OpenSlide，開源的 whole-slide 影像讀取庫。透過 Jack Website 發現更多開發工具。",
+        "ogTitle": "OpenSlide - 顯微鏡影像處理庫",
+        "ogDescription": "探索 OpenSlide，開源的 whole-slide 影像讀取庫。透過 Jack Website 發現更多開發工具。"
+      }
+    },
+    {
+      "id": "114",
+      "name": "Mermaid",
+      "slug": "mermaid",
+      "description": "圖表與流程圖工具",
+      "shortDescription": "透過文字描述生成流程圖、時序圖、甘特圖等的開源工具",
+      "category": "dev",
+      "url": "https://mermaid.js.org/",
+      "icon": "📊",
+      "keywords": [
+        "Mermaid",
+        "圖表",
+        "流程圖",
+        "時序圖",
+        "甘特圖",
+        "diagrams"
+      ],
+      "seo": {
+        "title": "Mermaid - 圖表與流程圖工具 | Jack Website",
+        "description": "探索 Mermaid，透過文字描述生成流程圖、時序圖、甘特圖等。透過 Jack Website 發現更多開發工具。",
+        "ogTitle": "Mermaid - 圖表與流程圖工具",
+        "ogDescription": "探索 Mermaid，透過文字描述生成流程圖、時序圖、甘特圖等。透過 Jack Website 發現更多開發工具。"
+      }
+    },
+    {
+      "id": "115",
+      "name": "MongoDB Shell",
+      "slug": "mongodb-shell",
+      "description": "MongoDB 命令列工具",
+      "shortDescription": "MongoDB 官方命令列介面，用於資料庫操作和管理",
+      "category": "dev",
+      "url": "https://www.mongodb.com/try/download/shell",
+      "icon": "🍃",
+      "keywords": [
+        "MongoDB",
+        "Shell",
+        "資料庫",
+        "NoSQL",
+        "命令行"
+      ],
+      "seo": {
+        "title": "MongoDB Shell - 命令列工具 | Jack Website",
+        "description": "探索 MongoDB Shell，MongoDB 官方命令列介面。透過 Jack Website 發現更多開發工具。",
+        "ogTitle": "MongoDB Shell - 命令列工具",
+        "ogDescription": "探索 MongoDB Shell，MongoDB 官方命令列介面。透過 Jack Website 發現更多開發工具。"
+      }
     }
   ]
 }
